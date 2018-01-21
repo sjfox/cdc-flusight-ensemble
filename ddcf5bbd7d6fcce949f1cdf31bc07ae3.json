@@ -1,0 +1,423 @@
+module.exports = {
+	"seasonId": "2017-2018",
+	"regions": [
+		{
+			"id": "nat",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.2380578209934485,
+							"absError": 0.36204513978419556
+						},
+						"2-ahead": {
+							"logScore": -1.5257114068990947,
+							"absError": 0.426258713520734
+						},
+						"3-ahead": {
+							"logScore": -2.0022174824456145,
+							"absError": 0.7747367454443368
+						},
+						"4-ahead": {
+							"logScore": -2.1662948963065425,
+							"absError": 0.9215339112144849
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -0.7969201356665354,
+							"absError": 0.6363636363636364
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs1",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.3574524338216563,
+							"absError": 0.24045529820783995
+						},
+						"2-ahead": {
+							"logScore": -2.93726495463444,
+							"absError": 0.364334450044733
+						},
+						"3-ahead": {
+							"logScore": -3.107265788487534,
+							"absError": 0.43946590763128224
+						},
+						"4-ahead": {
+							"logScore": -3.327546295397194,
+							"absError": 0.4632703414253299
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -0.9737208959349313,
+							"absError": 0.7272727272727273
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs2",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9944397569998795,
+							"absError": 0.3931992160286492
+						},
+						"2-ahead": {
+							"logScore": -3.2377787616353415,
+							"absError": 0.3417934453944319
+						},
+						"3-ahead": {
+							"logScore": -3.433213322693482,
+							"absError": 0.4368896250339112
+						},
+						"4-ahead": {
+							"logScore": -3.682792855336351,
+							"absError": 0.5460154094773324
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.4444359402458218,
+							"absError": 1.8181818181818181
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs3",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7212177188998985,
+							"absError": 0.31496639456978365
+						},
+						"2-ahead": {
+							"logScore": -3.1760929276958794,
+							"absError": 0.44636011507554796
+						},
+						"3-ahead": {
+							"logScore": -3.151649193463602,
+							"absError": 0.4417186205885367
+						},
+						"4-ahead": {
+							"logScore": -3.210471204628552,
+							"absError": 0.34786758038258003
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.2955728644117057,
+							"absError": 0.36363636363636365
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs4",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.458558929649811,
+							"absError": 0.5266507902607346
+						},
+						"2-ahead": {
+							"logScore": -3.5957409010560424,
+							"absError": 0.724561642307972
+						},
+						"3-ahead": {
+							"logScore": -3.681789489481547,
+							"absError": 1.0961346926204723
+						},
+						"4-ahead": {
+							"logScore": -4.097337888625779,
+							"absError": 1.2173740522899963
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -0.49312651350039544,
+							"absError": 0.45454545454545453
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs5",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6519669094073155,
+							"absError": 0.3539742315987309
+						},
+						"2-ahead": {
+							"logScore": -3.033181962481399,
+							"absError": 0.473629552360777
+						},
+						"3-ahead": {
+							"logScore": -3.4273791891982737,
+							"absError": 0.7657336241694555
+						},
+						"4-ahead": {
+							"logScore": -3.5363261214333317,
+							"absError": 0.8607637809248199
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.1883256701130005,
+							"absError": 0.7272727272727273
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs6",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.245331969780942,
+							"absError": 1.1841549360246357
+						},
+						"2-ahead": {
+							"logScore": -4.65297637689258,
+							"absError": 2.0045519049361937
+						},
+						"3-ahead": {
+							"logScore": -4.946310723037879,
+							"absError": 2.518295594640688
+						},
+						"4-ahead": {
+							"logScore": -5.5909113721863966,
+							"absError": 2.598239759147743
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.5350816163915346,
+							"absError": 0.8181818181818182
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs7",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.2096059636496164,
+							"absError": 0.587426816262679
+						},
+						"2-ahead": {
+							"logScore": -3.500825943884587,
+							"absError": 0.8043791799026019
+						},
+						"3-ahead": {
+							"logScore": -3.937549021050041,
+							"absError": 1.265287521491861
+						},
+						"4-ahead": {
+							"logScore": -4.0569428218144825,
+							"absError": 1.5009768493475546
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.477540453588717,
+							"absError": 0.8181818181818182
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs8",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.089464890789156,
+							"absError": 0.11571966887616143
+						},
+						"2-ahead": {
+							"logScore": -2.704948764939993,
+							"absError": 0.2430614569441088
+						},
+						"3-ahead": {
+							"logScore": -2.8007134869288577,
+							"absError": 0.2450929055785388
+						},
+						"4-ahead": {
+							"logScore": -2.916699702068859,
+							"absError": 0.3033956170195725
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.2760052629104157,
+							"absError": 1.0909090909090908
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs9",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.8553246814760755,
+							"absError": 0.6266827370508573
+						},
+						"2-ahead": {
+							"logScore": -3.6359585485032526,
+							"absError": 0.8920641334669458
+						},
+						"3-ahead": {
+							"logScore": -4.327168254177867,
+							"absError": 1.245193607101289
+						},
+						"4-ahead": {
+							"logScore": -4.677379500106348,
+							"absError": 1.6016724180305486
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.3666219352809466,
+							"absError": 0.8181818181818182
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs10",
+			"models": [
+				{
+					"id": "FSNetwork-TTW",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9461792654546914,
+							"absError": 0.47437332764552226
+						},
+						"2-ahead": {
+							"logScore": -3.41142460682973,
+							"absError": 0.6313026774811888
+						},
+						"3-ahead": {
+							"logScore": -4.627501154089679,
+							"absError": 0.7671416684732033
+						},
+						"4-ahead": {
+							"logScore": -3.8334955213460247,
+							"absError": 0.9282934543419974
+						},
+						"peak": {
+							"logScore": null,
+							"absError": null
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": null
+						},
+						"onset-wk": {
+							"logScore": -1.5027886369618881,
+							"absError": 0.36363636363636365
+						}
+					}
+				}
+			]
+		}
+	]
+};

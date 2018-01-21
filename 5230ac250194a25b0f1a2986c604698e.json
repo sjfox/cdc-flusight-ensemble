@@ -1,0 +1,7683 @@
+module.exports = {
+	"seasonId": "2014-2015",
+	"regions": [
+		{
+			"id": "nat",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.5613325344884867,
+							"absError": 0.41190235294117633
+						},
+						"2-ahead": {
+							"logScore": -1.954327521878893,
+							"absError": 0.42035852941176477
+						},
+						"3-ahead": {
+							"logScore": -2.013703061419273,
+							"absError": 0.5101197058823528
+						},
+						"4-ahead": {
+							"logScore": -2.2719142090541844,
+							"absError": 0.5679470294117647
+						},
+						"peak": {
+							"logScore": -3.626556056215265,
+							"absError": 0.7571270588235284
+						},
+						"peak-wk": {
+							"logScore": -0.49671988782324994,
+							"absError": 0.8823529411764706
+						},
+						"onset-wk": {
+							"logScore": -0.6067149935735872,
+							"absError": 0.7058823529411765
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9260166298994187,
+							"absError": 0.1615700000000001
+						},
+						"2-ahead": {
+							"logScore": -0.7502775913675914,
+							"absError": 0.2540291176470588
+						},
+						"3-ahead": {
+							"logScore": -1.10354942386554,
+							"absError": 0.4373344117647059
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.713642911764706
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3677899999999985
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": -0.3183275904088919,
+							"absError": 0.2647058823529412
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9260166298994187,
+							"absError": 0.1615700000000001
+						},
+						"2-ahead": {
+							"logScore": -0.7731075182328284,
+							"absError": 0.25795382352941176
+						},
+						"3-ahead": {
+							"logScore": -1.253531340372457,
+							"absError": 0.43154794117647066
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.6264799705882352
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5598147058823518
+						},
+						"peak-wk": {
+							"logScore": -1.104802694481607,
+							"absError": 0.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": -0.4061177358603875,
+							"absError": 0.3235294117647059
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9260166298994187,
+							"absError": 0.1615700000000001
+						},
+						"2-ahead": {
+							"logScore": -0.9725272555165754,
+							"absError": 0.37704499999999996
+						},
+						"3-ahead": {
+							"logScore": -1.19182682835371,
+							"absError": 0.6271397058823532
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.984904088235294
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.5413194117647047
+						},
+						"peak-wk": {
+							"logScore": -1.533664615118155,
+							"absError": 1.2058823529411764
+						},
+						"onset-wk": {
+							"logScore": -0.3140574990601485,
+							"absError": 0.29411764705882354
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9260166298994187,
+							"absError": 0.1615700000000001
+						},
+						"2-ahead": {
+							"logScore": -1.0213598406803788,
+							"absError": 0.39946264705882356
+						},
+						"3-ahead": {
+							"logScore": -1.2720638897794398,
+							"absError": 0.5175520588235296
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.6155905588235293
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.3705329411764704
+						},
+						"peak-wk": {
+							"logScore": -1.038174659817926,
+							"absError": 0.8823529411764706
+						},
+						"onset-wk": {
+							"logScore": -0.4127312337967309,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9260166298994187,
+							"absError": 0.1615700000000001
+						},
+						"2-ahead": {
+							"logScore": -0.9744231788374769,
+							"absError": 0.5478332352941179
+						},
+						"3-ahead": {
+							"logScore": -1.2898266078192173,
+							"absError": 0.9854344117647055
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.3937523235294114
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.8030841176470576
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.411764705882353
+						},
+						"onset-wk": {
+							"logScore": -0.37059721465284906,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9260166298994187,
+							"absError": 0.1615700000000001
+						},
+						"2-ahead": {
+							"logScore": -1.056882840273749,
+							"absError": 1.8203402941176468
+						},
+						"3-ahead": {
+							"logScore": -1.3678824800177387,
+							"absError": 1.1355820588235293
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.1724899705882346
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.7921676470588228
+						},
+						"peak-wk": {
+							"logScore": -1.135013817124001,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": -0.4839033590663591,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.4955545627264621,
+							"absError": 0.36578941176470614
+						},
+						"2-ahead": {
+							"logScore": -1.6444800949411222,
+							"absError": 0.4003791176470585
+						},
+						"3-ahead": {
+							"logScore": -1.7312734442707969,
+							"absError": 0.4852750000000001
+						},
+						"4-ahead": {
+							"logScore": -1.8078863917051873,
+							"absError": 0.522345911764706
+						},
+						"peak": {
+							"logScore": -2.635767365630308,
+							"absError": 0.8644799999999991
+						},
+						"peak-wk": {
+							"logScore": -1.6115267813065897,
+							"absError": 1.2352941176470589
+						},
+						"onset-wk": {
+							"logScore": -1.0700426285937228,
+							"absError": 0.08823529411764706
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.8025403702156632,
+							"absError": 0.2581547058823519
+						},
+						"2-ahead": {
+							"logScore": -1.1518838290443836,
+							"absError": 0.37354735294117664
+						},
+						"3-ahead": {
+							"logScore": -1.3046282102825035,
+							"absError": 0.4266308823529412
+						},
+						"4-ahead": {
+							"logScore": -1.394793502980267,
+							"absError": 0.49037879411765045
+						},
+						"peak": {
+							"logScore": -1.513920995776455,
+							"absError": 0.7188917647058816
+						},
+						"peak-wk": {
+							"logScore": -2.0179711180691706,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": -1.5577020331410747,
+							"absError": 0.17647058823529413
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.5052848388112579,
+							"absError": 0.2710270588235294
+						},
+						"2-ahead": {
+							"logScore": -1.5162368248138738,
+							"absError": 0.36608029411764803
+						},
+						"3-ahead": {
+							"logScore": -1.4202050534291124,
+							"absError": 0.47609794117646964
+						},
+						"4-ahead": {
+							"logScore": -1.653378522747836,
+							"absError": 0.5732393823529414
+						},
+						"peak": {
+							"logScore": -1.4417752832429178,
+							"absError": 0.6739258823529399
+						},
+						"peak-wk": {
+							"logScore": -1.776594434478823,
+							"absError": 1.2058823529411764
+						},
+						"onset-wk": {
+							"logScore": -1.565853825232416,
+							"absError": 0.47058823529411764
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.1579010372614356,
+							"absError": 0.3938882352941177
+						},
+						"2-ahead": {
+							"logScore": -2.6630361215602965,
+							"absError": 0.6032632352941176
+						},
+						"3-ahead": {
+							"logScore": -3.357682714799561,
+							"absError": 0.7582120588235294
+						},
+						"4-ahead": {
+							"logScore": -3.590042710675488,
+							"absError": 0.7808087941176468
+						},
+						"peak": {
+							"logScore": -2.5710250893614317,
+							"absError": 0.6064770588235284
+						},
+						"peak-wk": {
+							"logScore": -3.700138897369849,
+							"absError": 1.5
+						},
+						"onset-wk": {
+							"logScore": -1.4874049386881205,
+							"absError": 0.6176470588235294
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.322433583878049,
+							"absError": 0.4005511764705883
+						},
+						"2-ahead": {
+							"logScore": -3.8687103173695268,
+							"absError": 0.5118314705882354
+						},
+						"3-ahead": {
+							"logScore": -4.193980199128698,
+							"absError": 0.5395202941176472
+						},
+						"4-ahead": {
+							"logScore": -4.410532265991149,
+							"absError": 0.5629788529411766
+						},
+						"peak": {
+							"logScore": -3.0623014392559367,
+							"absError": 0.5140558823529401
+						},
+						"peak-wk": {
+							"logScore": -2.814215151895464,
+							"absError": 0.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -1.2775266748971998,
+							"absError": 0.20588235294117646
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.9885239264555168,
+							"absError": 0.6353400000000001
+						},
+						"2-ahead": {
+							"logScore": -1.9727523238228504,
+							"absError": 0.637054411764706
+						},
+						"3-ahead": {
+							"logScore": -1.9594281680040762,
+							"absError": 0.6392844117647061
+						},
+						"4-ahead": {
+							"logScore": -1.9419372491666573,
+							"absError": 0.636635323529412
+						},
+						"peak": {
+							"logScore": -1.770567950478685,
+							"absError": 0.4777152941176464
+						},
+						"peak-wk": {
+							"logScore": -2.2694552599987454,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -1.9958887201273805,
+							"absError": 0.7941176470588235
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.9885239264555168,
+							"absError": 0.6353400000000001
+						},
+						"2-ahead": {
+							"logScore": -1.9727523238228504,
+							"absError": 0.637054411764706
+						},
+						"3-ahead": {
+							"logScore": -1.9594281680040762,
+							"absError": 0.6392844117647061
+						},
+						"4-ahead": {
+							"logScore": -1.9419372491666573,
+							"absError": 0.636635323529412
+						},
+						"peak": {
+							"logScore": -2.66397399111311,
+							"absError": 1.3822100000000006
+						},
+						"peak-wk": {
+							"logScore": -3.083161282085839,
+							"absError": 6
+						},
+						"onset-wk": {
+							"logScore": -2.789817219154513,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9016387024055218,
+							"absError": 0.1998402229004463
+						},
+						"2-ahead": {
+							"logScore": -1.1847416672169486,
+							"absError": 0.3556204372321485
+						},
+						"3-ahead": {
+							"logScore": -1.2921514050019753,
+							"absError": 0.42508991650107325
+						},
+						"4-ahead": {
+							"logScore": -1.412216732533663,
+							"absError": 0.490550549994576
+						},
+						"peak": {
+							"logScore": -1.446105570691012,
+							"absError": 0.490670763616781
+						},
+						"peak-wk": {
+							"logScore": -1.5129654508201302,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": -1.2829238567160275,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 3.9833423529411762
+						},
+						"2-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 3.9875102941176466
+						},
+						"3-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 3.997045
+						},
+						"4-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 4.011458794117647
+						},
+						"peak": {
+							"logScore": -3.26575941076705,
+							"absError": 0.5677900000000008
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 10
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.2291268387039362,
+							"absError": 0.30303000000000013
+						},
+						"2-ahead": {
+							"logScore": -1.4530194451588347,
+							"absError": 0.4463638235294118
+						},
+						"3-ahead": {
+							"logScore": -1.6632677390117117,
+							"absError": 0.5927214705882353
+						},
+						"4-ahead": {
+							"logScore": -1.8002396873140403,
+							"absError": 0.6752176764705883
+						},
+						"peak": {
+							"logScore": -3.2102260883285756,
+							"absError": 0.5533376470588225
+						},
+						"peak-wk": {
+							"logScore": -0.6802007166152608,
+							"absError": 1.7058823529411764
+						},
+						"onset-wk": {
+							"logScore": -0.616211396170258,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.873787919460476,
+							"absError": 0.19970882352941177
+						},
+						"2-ahead": {
+							"logScore": -1.2249260645018547,
+							"absError": 0.2984597058823531
+						},
+						"3-ahead": {
+							"logScore": -1.3834559647390985,
+							"absError": 0.4067002941176472
+						},
+						"4-ahead": {
+							"logScore": -1.3824489774377717,
+							"absError": 0.4347211470588237
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.46405588235294104
+						},
+						"peak-wk": {
+							"logScore": -0.8996754387623925,
+							"absError": 1.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": -0.4521556443539679,
+							"absError": 0.38235294117647056
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.742160095502866,
+							"absError": 0.6024129411764708
+						},
+						"2-ahead": {
+							"logScore": -1.7552945976595458,
+							"absError": 0.6188332352941178
+						},
+						"3-ahead": {
+							"logScore": -1.7567258790751057,
+							"absError": 0.6151808823529414
+						},
+						"4-ahead": {
+							"logScore": -1.753432819548593,
+							"absError": 0.6057512058823531
+						},
+						"peak": {
+							"logScore": -2.5832451554924507,
+							"absError": 1.0969158823529412
+						},
+						"peak-wk": {
+							"logScore": -2.897229310534945,
+							"absError": 4.5
+						},
+						"onset-wk": {
+							"logScore": -2.8940683526411943,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.8988791441126658,
+							"absError": 0.20545941176470595
+						},
+						"2-ahead": {
+							"logScore": -1.2351583793976526,
+							"absError": 0.3557532352941178
+						},
+						"3-ahead": {
+							"logScore": -1.4528320224223032,
+							"absError": 0.4670249999999999
+						},
+						"4-ahead": {
+							"logScore": -1.6329552526788256,
+							"absError": 0.5161311470588237
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.9327494117647049
+						},
+						"peak-wk": {
+							"logScore": -0.6849892520689532,
+							"absError": 0.9117647058823529
+						},
+						"onset-wk": {
+							"logScore": -0.5568651057387467,
+							"absError": 0.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.8819559530535572,
+							"absError": 0.19878117647058827
+						},
+						"2-ahead": {
+							"logScore": -1.0555975647754852,
+							"absError": 0.18506382352941184
+						},
+						"3-ahead": {
+							"logScore": -1.1497926589444751,
+							"absError": 0.18591088235294115
+						},
+						"4-ahead": {
+							"logScore": -1.2449716032480953,
+							"absError": 0.23301644117647072
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.20144294117647052
+						},
+						"peak-wk": {
+							"logScore": -0.1442156177280125,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -0.29029063784359055,
+							"absError": 0.08823529411764706
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs1",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9355690503404466,
+							"absError": 0.3367729117647059
+						},
+						"2-ahead": {
+							"logScore": -3.3830544802226403,
+							"absError": 0.43995341176470576
+						},
+						"3-ahead": {
+							"logScore": -3.397200304359774,
+							"absError": 0.4918970294117648
+						},
+						"4-ahead": {
+							"logScore": -3.7543586497255945,
+							"absError": 0.536124205882353
+						},
+						"peak": {
+							"logScore": -4.131876088041294,
+							"absError": 0.5146517647058815
+						},
+						"peak-wk": {
+							"logScore": -2.8227032241140164,
+							"absError": 2.323529411764706
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1176470588235294
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.30238114705882363
+						},
+						"2-ahead": {
+							"logScore": -2.853004680443631,
+							"absError": 0.3398172941176471
+						},
+						"3-ahead": {
+							"logScore": -2.8251401831187746,
+							"absError": 0.611970088235294
+						},
+						"4-ahead": {
+							"logScore": -3.0057557858660653,
+							"absError": 0.9682817352941174
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6990617647058817
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2941176470588236
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.176470588235294
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.30238114705882363
+						},
+						"2-ahead": {
+							"logScore": -2.9038570090509856,
+							"absError": 0.46422929411764713
+						},
+						"3-ahead": {
+							"logScore": -2.8944451477819193,
+							"absError": 0.7350347941176473
+						},
+						"4-ahead": {
+							"logScore": -2.9846995783218,
+							"absError": 0.9969252647058824
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.0078852941176462
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2352941176470589
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.2058823529411766
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.30238114705882363
+						},
+						"2-ahead": {
+							"logScore": -2.7928560102218007,
+							"absError": 0.4767490588235295
+						},
+						"3-ahead": {
+							"logScore": -2.9684466766744517,
+							"absError": 0.8209974999999999
+						},
+						"4-ahead": {
+							"logScore": -3.137435980102038,
+							"absError": 1.2488116176470587
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.9063876470588226
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5588235294117647
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.176470588235294
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.30238114705882363
+						},
+						"2-ahead": {
+							"logScore": -2.7912186721236436,
+							"absError": 0.608506117647059
+						},
+						"3-ahead": {
+							"logScore": -2.9559522888973278,
+							"absError": 0.8633397352941176
+						},
+						"4-ahead": {
+							"logScore": -3.0778532778134755,
+							"absError": 1.1958704411764705
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.1005052941176465
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.2058823529411766
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.30238114705882363
+						},
+						"2-ahead": {
+							"logScore": -2.7286616256955787,
+							"absError": 1.4704185882352945
+						},
+						"3-ahead": {
+							"logScore": -2.938612260643937,
+							"absError": 1.8610458529411766
+						},
+						"4-ahead": {
+							"logScore": -3.139267747038358,
+							"absError": 2.0763575000000003
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.4240347058823524
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.0588235294117645
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.2058823529411766
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.30238114705882363
+						},
+						"2-ahead": {
+							"logScore": -2.8628376231904595,
+							"absError": 1.1614472941176468
+						},
+						"3-ahead": {
+							"logScore": -3.015437941021623,
+							"absError": 1.6627511470588237
+						},
+						"4-ahead": {
+							"logScore": -3.1879213629180674,
+							"absError": 1.6168898529411766
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.2586070588235285
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.2058823529411766
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.800669659545026,
+							"absError": 0.28152167647058834
+						},
+						"2-ahead": {
+							"logScore": -3.267891647188785,
+							"absError": 0.3643178823529412
+						},
+						"3-ahead": {
+							"logScore": -3.6743791709261777,
+							"absError": 0.4346430294117649
+						},
+						"4-ahead": {
+							"logScore": -3.917842782804871,
+							"absError": 0.48365520588235306
+						},
+						"peak": {
+							"logScore": -4.616412393505271,
+							"absError": 0.8992511764705876
+						},
+						"peak-wk": {
+							"logScore": -1.8165702457645796,
+							"absError": 0.5294117647058824
+						},
+						"onset-wk": {
+							"logScore": -5.03648205349234,
+							"absError": 2.0588235294117645
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.333291031212288,
+							"absError": 0.20684479411764814
+						},
+						"2-ahead": {
+							"logScore": -2.5588494920401703,
+							"absError": 0.2796621764705883
+						},
+						"3-ahead": {
+							"logScore": -2.8289025496401354,
+							"absError": 0.38343867647058827
+						},
+						"4-ahead": {
+							"logScore": -2.934712144567488,
+							"absError": 0.418553205882354
+						},
+						"peak": {
+							"logScore": -3.519684452721757,
+							"absError": 0.7742511764705876
+						},
+						"peak-wk": {
+							"logScore": -2.1098681016072334,
+							"absError": 0.35294117647058826
+						},
+						"onset-wk": {
+							"logScore": -6.438741531449672,
+							"absError": 1.6470588235294117
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.2523149105877676,
+							"absError": 0.27992891176470586
+						},
+						"2-ahead": {
+							"logScore": -3.033966731087008,
+							"absError": 0.3835617647058824
+						},
+						"3-ahead": {
+							"logScore": -3.5928589071883237,
+							"absError": 0.46694555882352945
+						},
+						"4-ahead": {
+							"logScore": -3.5067421799622545,
+							"absError": 0.5247016176470589
+						},
+						"peak": {
+							"logScore": -2.48858467167414,
+							"absError": 0.677192352941178
+						},
+						"peak-wk": {
+							"logScore": -2.551566410862722,
+							"absError": 1.088235294117647
+						},
+						"onset-wk": {
+							"logScore": -6.39825751902999,
+							"absError": 1.5
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7301140281902456,
+							"absError": 0.2444920882352942
+						},
+						"2-ahead": {
+							"logScore": -3.1405900106781846,
+							"absError": 0.3151237647058823
+						},
+						"3-ahead": {
+							"logScore": -3.9427077477087416,
+							"absError": 0.4159667941176471
+						},
+						"4-ahead": {
+							"logScore": -4.176159016823085,
+							"absError": 0.48053413152020896
+						},
+						"peak": {
+							"logScore": -4.965394196573993,
+							"absError": 0.6485023529411758
+						},
+						"peak-wk": {
+							"logScore": -2.0717134949898535,
+							"absError": 0.5294117647058824
+						},
+						"onset-wk": {
+							"logScore": -6.876475980400587,
+							"absError": 1.5294117647058822
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.51034005631901,
+							"absError": 0.3876936176470589
+						},
+						"2-ahead": {
+							"logScore": -5.024146615793043,
+							"absError": 0.44058770588235285
+						},
+						"3-ahead": {
+							"logScore": -4.928404937373578,
+							"absError": 0.46523950826687466
+						},
+						"4-ahead": {
+							"logScore": -5.5387639516296,
+							"absError": 0.4992135000000001
+						},
+						"peak": {
+							"logScore": -5.2227414173048325,
+							"absError": 0.5594911764705874
+						},
+						"peak-wk": {
+							"logScore": -1.7688677544391673,
+							"absError": 0.38235294117647056
+						},
+						"onset-wk": {
+							"logScore": -6.6663718246832095,
+							"absError": 1.5294117647058822
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5888209576032333,
+							"absError": 0.6257217941176472
+						},
+						"2-ahead": {
+							"logScore": -3.5775802215533052,
+							"absError": 0.6244942352941177
+						},
+						"3-ahead": {
+							"logScore": -3.557963793195224,
+							"absError": 0.6233235588235294
+						},
+						"4-ahead": {
+							"logScore": -3.5408152043339522,
+							"absError": 0.6250116764705883
+						},
+						"peak": {
+							"logScore": -3.3198976328043504,
+							"absError": 0.7448394117647053
+						},
+						"peak-wk": {
+							"logScore": -2.4304933070074433,
+							"absError": 0.9705882352941176
+						},
+						"onset-wk": {
+							"logScore": -2.6177357940804558,
+							"absError": 1.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5888209576032333,
+							"absError": 0.6257217941176472
+						},
+						"2-ahead": {
+							"logScore": -3.5775802215533052,
+							"absError": 0.6244942352941177
+						},
+						"3-ahead": {
+							"logScore": -3.557963793195224,
+							"absError": 0.6233235588235294
+						},
+						"4-ahead": {
+							"logScore": -3.5408152043339522,
+							"absError": 0.6250116764705883
+						},
+						"peak": {
+							"logScore": -4.305621190738008,
+							"absError": 1.5377300000000014
+						},
+						"peak-wk": {
+							"logScore": -2.9624854704660772,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -2.8904895766885086,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.327976437565864,
+							"absError": 0.2075182616963389
+						},
+						"2-ahead": {
+							"logScore": -2.5838917798455507,
+							"absError": 0.23752250454102022
+						},
+						"3-ahead": {
+							"logScore": -2.872252498274496,
+							"absError": 0.33785234038259976
+						},
+						"4-ahead": {
+							"logScore": -2.989114118710159,
+							"absError": 0.41291031753802504
+						},
+						"peak": {
+							"logScore": -2.721877256707313,
+							"absError": 0.505751795721272
+						},
+						"peak-wk": {
+							"logScore": -1.8504366020362215,
+							"absError": 0.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": -3.916995199666863,
+							"absError": 1.9411764705882353
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.906631147058825
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.91374105882353
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.9207940882352945
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.9279295
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.6122699999999996
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 7
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6931468555034512,
+							"absError": 0.2578048529411764
+						},
+						"2-ahead": {
+							"logScore": -2.837828443839232,
+							"absError": 0.33412511764705893
+						},
+						"3-ahead": {
+							"logScore": -2.9509504347405127,
+							"absError": 0.39799444117647065
+						},
+						"4-ahead": {
+							"logScore": -3.0485009781930805,
+							"absError": 0.4431175588235295
+						},
+						"peak": {
+							"logScore": -3.3795910442321366,
+							"absError": 0.5911223529411759
+						},
+						"peak-wk": {
+							"logScore": -1.9817449262445848,
+							"absError": 0.7647058823529411
+						},
+						"onset-wk": {
+							"logScore": -4.287268097244952,
+							"absError": 1.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.4531696539032652,
+							"absError": 0.18343714705882355
+						},
+						"2-ahead": {
+							"logScore": -2.6269585383434944,
+							"absError": 0.20549958823529413
+						},
+						"3-ahead": {
+							"logScore": -2.7300240731622716,
+							"absError": 0.26293891176470585
+						},
+						"4-ahead": {
+							"logScore": -2.8208334423005663,
+							"absError": 0.3244422647058824
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.28967882352941177
+						},
+						"peak-wk": {
+							"logScore": -1.2258885650878093,
+							"absError": 0.35294117647058826
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1176470588235294
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.464078014239142,
+							"absError": 0.611015911764706
+						},
+						"2-ahead": {
+							"logScore": -3.45366124393407,
+							"absError": 0.6097883529411766
+						},
+						"3-ahead": {
+							"logScore": -3.427327320590199,
+							"absError": 0.617441205882353
+						},
+						"4-ahead": {
+							"logScore": -3.4681203348355476,
+							"absError": 0.6132469705882354
+						},
+						"peak": {
+							"logScore": -4.257782623973044,
+							"absError": 0.5318476470588235
+						},
+						"peak-wk": {
+							"logScore": -2.5958487355056765,
+							"absError": 1.2352941176470589
+						},
+						"onset-wk": {
+							"logScore": -2.8549685144329575,
+							"absError": 3.0294117647058822
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6604244165520647,
+							"absError": 0.18391655882352942
+						},
+						"2-ahead": {
+							"logScore": -2.8635320789717404,
+							"absError": 0.2649868823529412
+						},
+						"3-ahead": {
+							"logScore": -3.0533860832615045,
+							"absError": 0.36390855882352946
+						},
+						"4-ahead": {
+							"logScore": -3.1971208123864265,
+							"absError": 0.460144794117647
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7485023529411757
+						},
+						"peak-wk": {
+							"logScore": -1.5857004551659302,
+							"absError": 0.47058823529411764
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1176470588235294
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7464716745153313,
+							"absError": 0.22817185294117642
+						},
+						"2-ahead": {
+							"logScore": -2.915514399486132,
+							"absError": 0.31030841176470597
+						},
+						"3-ahead": {
+							"logScore": -2.987303295816617,
+							"absError": 0.37657126470588237
+						},
+						"4-ahead": {
+							"logScore": -3.046875784230753,
+							"absError": 0.4098269705882351
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.22408882352941162
+						},
+						"peak-wk": {
+							"logScore": -1.3079324504471743,
+							"absError": 0.29411764705882354
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.8529411764705882
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs2",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.7609315426057766,
+							"absError": 0.5273491176470589
+						},
+						"2-ahead": {
+							"logScore": -4.132165966247202,
+							"absError": 0.5547635294117647
+						},
+						"3-ahead": {
+							"logScore": -4.201625859916188,
+							"absError": 0.6210749999999998
+						},
+						"4-ahead": {
+							"logScore": -4.366315364905349,
+							"absError": 0.5583758823529411
+						},
+						"peak": {
+							"logScore": -5.458020476021304,
+							"absError": 0.7296023529411761
+						},
+						"peak-wk": {
+							"logScore": -4.4718934804727795,
+							"absError": 4.823529411764706
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1470588235294117
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31392323529411764
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5200564705882351
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.705015
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.9926847058823526
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.1213505882352948
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.735294117647059
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.4411764705882353
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31392323529411764
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6431117647058823
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0683402941176472
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.367174705882353
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6184094117647063
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.264705882352941
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.47058823529411764
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31392323529411764
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5801799999999999
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.7695385294117646
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.0762229411764705
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.9889976470588242
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.8529411764705883
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.4117647058823529
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31392323529411764
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.784055882352941
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.2178338235294115
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5484994117647055
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.5860564705882354
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.5
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.38235294117647056
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31392323529411764
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.4127776470588234
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.5472755882352938
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.906615294117647
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.109585882352942
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.9411764705882355
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.3235294117647059
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31392323529411764
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 3.495312941176471
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.8060691176470582
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.4105029411764716
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.827232941176474
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.411764705882353
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.38235294117647056
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5515535218395313,
+							"absError": 0.5014579411764707
+						},
+						"2-ahead": {
+							"logScore": -3.901874167632175,
+							"absError": 0.6182694117647057
+						},
+						"3-ahead": {
+							"logScore": -4.145909883724316,
+							"absError": 0.6818355882352942
+						},
+						"4-ahead": {
+							"logScore": -4.408547109448044,
+							"absError": 0.8039352941176476
+						},
+						"peak": {
+							"logScore": -5.936526445162082,
+							"absError": 0.9248729411764703
+						},
+						"peak-wk": {
+							"logScore": -4.159927387877337,
+							"absError": 3.911764705882353
+						},
+						"onset-wk": {
+							"logScore": -1.3555113106476175,
+							"absError": 0.7647058823529411
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.021166303487556,
+							"absError": 0.35854382352941166
+						},
+						"2-ahead": {
+							"logScore": -3.2292989763447086,
+							"absError": 0.5255082352941187
+						},
+						"3-ahead": {
+							"logScore": -3.441826411534741,
+							"absError": 0.589424411764706
+						},
+						"4-ahead": {
+							"logScore": -3.619273198074868,
+							"absError": 0.6655970588235292
+						},
+						"peak": {
+							"logScore": -6.247582310271703,
+							"absError": 0.742520000000001
+						},
+						"peak-wk": {
+							"logScore": -4.889685550717267,
+							"absError": 3.823529411764706
+						},
+						"onset-wk": {
+							"logScore": -1.7254616309940451,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.667761302220092,
+							"absError": 0.49401088235294105
+						},
+						"2-ahead": {
+							"logScore": -4.368085458753316,
+							"absError": 0.6752941176470588
+						},
+						"3-ahead": {
+							"logScore": -4.296783252032621,
+							"absError": 0.805051470588235
+						},
+						"4-ahead": {
+							"logScore": -4.16035022419102,
+							"absError": 0.8483152941176482
+						},
+						"peak": {
+							"logScore": -5.8433827580942586,
+							"absError": 0.5499999999999998
+						},
+						"peak-wk": {
+							"logScore": -4.712213879198676,
+							"absError": 3.2941176470588234
+						},
+						"onset-wk": {
+							"logScore": -2.649048485214599,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.338570423309182,
+							"absError": 0.3718302941176471
+						},
+						"2-ahead": {
+							"logScore": -3.827494642009216,
+							"absError": 0.4757758823529411
+						},
+						"3-ahead": {
+							"logScore": -4.1240158391584885,
+							"absError": 0.5455255882352942
+						},
+						"4-ahead": {
+							"logScore": -4.6947511975638765,
+							"absError": 0.6206882352941177
+						},
+						"peak": {
+							"logScore": -8.421134311238129,
+							"absError": 0.9028141176470588
+						},
+						"peak-wk": {
+							"logScore": -5.093931528460256,
+							"absError": 3.4411764705882355
+						},
+						"onset-wk": {
+							"logScore": -1.5811251493103116,
+							"absError": 0.5294117647058824
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.349456223998765,
+							"absError": 0.6578342138658908
+						},
+						"2-ahead": {
+							"logScore": -4.791174977876854,
+							"absError": 0.7786388235294118
+						},
+						"3-ahead": {
+							"logScore": -5.3614475131370005,
+							"absError": 0.8848163261297329
+						},
+						"4-ahead": {
+							"logScore": -5.865911085645016,
+							"absError": 1.0068300000000001
+						},
+						"peak": {
+							"logScore": -7.885961381574564,
+							"absError": 0.7881082352941174
+						},
+						"peak-wk": {
+							"logScore": -4.7499174212174475,
+							"absError": 3.088235294117647
+						},
+						"onset-wk": {
+							"logScore": -1.660426737198205,
+							"absError": 0.23529411764705882
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9518625042664772,
+							"absError": 1.0989691176470593
+						},
+						"2-ahead": {
+							"logScore": -3.9561086672586705,
+							"absError": 1.0936970588235295
+						},
+						"3-ahead": {
+							"logScore": -3.945973653833257,
+							"absError": 1.0756626470588238
+						},
+						"4-ahead": {
+							"logScore": -3.934399534885003,
+							"absError": 1.0536452941176473
+						},
+						"peak": {
+							"logScore": -3.4518393675759875,
+							"absError": 0.5263435294117648
+						},
+						"peak-wk": {
+							"logScore": -3.045577015332656,
+							"absError": 2.823529411764706
+						},
+						"onset-wk": {
+							"logScore": -1.9703458713001196,
+							"absError": 0.8235294117647058
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9518625042664772,
+							"absError": 1.0989691176470593
+						},
+						"2-ahead": {
+							"logScore": -3.9561086672586705,
+							"absError": 1.0936970588235295
+						},
+						"3-ahead": {
+							"logScore": -3.945973653833257,
+							"absError": 1.0756626470588238
+						},
+						"4-ahead": {
+							"logScore": -3.934399534885003,
+							"absError": 1.0536452941176473
+						},
+						"peak": {
+							"logScore": -4.19787245066098,
+							"absError": 0.8489199999999997
+						},
+						"peak-wk": {
+							"logScore": -3.030254371998605,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -3.2258837115652317,
+							"absError": 4
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.895893937999631,
+							"absError": 0.3677774731046248
+						},
+						"2-ahead": {
+							"logScore": -3.175137865534106,
+							"absError": 0.5501213788901219
+						},
+						"3-ahead": {
+							"logScore": -3.348858502466192,
+							"absError": 0.6701040263141872
+						},
+						"4-ahead": {
+							"logScore": -3.50339074933356,
+							"absError": 0.7290146041340335
+						},
+						"peak": {
+							"logScore": -3.611786184741939,
+							"absError": 0.5422383134301283
+						},
+						"peak-wk": {
+							"logScore": -3.648190622357824,
+							"absError": 3.411764705882353
+						},
+						"onset-wk": {
+							"logScore": -1.556648953974511,
+							"absError": 0.8823529411764706
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.5445908823529413
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.546921764705883
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.567897352941177
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.6016794117647066
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 1.3010799999999996
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 12
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.343544513635598,
+							"absError": 0.36804852941176464
+						},
+						"2-ahead": {
+							"logScore": -3.424628754293545,
+							"absError": 0.4373917647058823
+						},
+						"3-ahead": {
+							"logScore": -3.473003279222539,
+							"absError": 0.5198744117647057
+						},
+						"4-ahead": {
+							"logScore": -3.5142590245204097,
+							"absError": 0.5357135294117648
+						},
+						"peak": {
+							"logScore": -3.7572210524739442,
+							"absError": 0.5033223529411762
+						},
+						"peak-wk": {
+							"logScore": -1.9785902035233225,
+							"absError": 3.911764705882353
+						},
+						"onset-wk": {
+							"logScore": -0.66991399853644,
+							"absError": 0.7058823529411765
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1655642992573396,
+							"absError": 0.3708349999999999
+						},
+						"2-ahead": {
+							"logScore": -3.4474810316378726,
+							"absError": 0.49255352941176467
+						},
+						"3-ahead": {
+							"logScore": -3.5574389121760346,
+							"absError": 0.5651938235294116
+						},
+						"4-ahead": {
+							"logScore": -3.676459846566339,
+							"absError": 0.6390447058823531
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.4381082352941175
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.823529411764706
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.994589941395305,
+							"absError": 1.0907032352941173
+						},
+						"2-ahead": {
+							"logScore": -4.019477564900373,
+							"absError": 1.097195882352941
+						},
+						"3-ahead": {
+							"logScore": -3.9654969725600817,
+							"absError": 1.082102647058823
+						},
+						"4-ahead": {
+							"logScore": -3.943354904152495,
+							"absError": 1.0600852941176466
+						},
+						"peak": {
+							"logScore": -4.181508432253321,
+							"absError": 0.45186117647058877
+						},
+						"peak-wk": {
+							"logScore": -2.9650883844072085,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -3.2938600479438085,
+							"absError": 6.970588235294118
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.2543155767712597,
+							"absError": 0.35649205882352936
+						},
+						"2-ahead": {
+							"logScore": -3.5066785104790945,
+							"absError": 0.5039729411764706
+						},
+						"3-ahead": {
+							"logScore": -3.633372852967914,
+							"absError": 0.6557391176470588
+						},
+						"4-ahead": {
+							"logScore": -3.74004253273705,
+							"absError": 0.7705470588235291
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5588235294117644
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 4.411764705882353
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.0294117647058822
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.255034133638224,
+							"absError": 0.3126167647058824
+						},
+						"2-ahead": {
+							"logScore": -3.53791269713599,
+							"absError": 0.4455294117647059
+						},
+						"3-ahead": {
+							"logScore": -3.6634447008443924,
+							"absError": 0.524159705882353
+						},
+						"4-ahead": {
+							"logScore": -3.7337606728620187,
+							"absError": 0.6184576470588234
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5081152941176468
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 4.323529411764706
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.9117647058823529
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs3",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5755609986774783,
+							"absError": 0.48363764705882345
+						},
+						"2-ahead": {
+							"logScore": -4.548685267622317,
+							"absError": 0.6047220588235294
+						},
+						"3-ahead": {
+							"logScore": -4.12093789621962,
+							"absError": 0.6260335294117646
+						},
+						"4-ahead": {
+							"logScore": -4.028289622354233,
+							"absError": 0.6618591176470588
+						},
+						"peak": {
+							"logScore": -4.454917917076351,
+							"absError": 1.3768658823529414
+						},
+						"peak-wk": {
+							"logScore": -0.744805881170576,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32479352941176487
+						},
+						"2-ahead": {
+							"logScore": -3.017540008076463,
+							"absError": 0.4730420588235294
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.8347141176470592
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.2271720588235298
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.0706870588235293
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6176470588235294
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32479352941176487
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5612773529411763
+						},
+						"3-ahead": {
+							"logScore": -3.4204556559812356,
+							"absError": 0.9051658823529415
+						},
+						"4-ahead": {
+							"logScore": -3.466011662328973,
+							"absError": 1.1417944117647059
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.4943152941176475
+						},
+						"peak-wk": {
+							"logScore": -1.2587535715333111,
+							"absError": 1.088235294117647
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32479352941176487
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6477555882352942
+						},
+						"3-ahead": {
+							"logScore": -3.402006605504976,
+							"absError": 1.064804705882353
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.4753691176470591
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.325074117647059
+						},
+						"peak-wk": {
+							"logScore": -1.7430001753008784,
+							"absError": 1.5588235294117647
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32479352941176487
+						},
+						"2-ahead": {
+							"logScore": -3.040537674724117,
+							"absError": 0.6889320588235294
+						},
+						"3-ahead": {
+							"logScore": -3.430807408046187,
+							"absError": 1.0952058823529414
+						},
+						"4-ahead": {
+							"logScore": -3.6458025832269847,
+							"absError": 1.3609673529411765
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5883835294117652
+						},
+						"peak-wk": {
+							"logScore": -1.2574762233385426,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32479352941176487
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7449079411764706
+						},
+						"3-ahead": {
+							"logScore": -3.3661539051152327,
+							"absError": 1.3449511764705882
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.7818391176470594
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.2677458823529413
+						},
+						"peak-wk": {
+							"logScore": -1.6887742831569559,
+							"absError": 1.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32479352941176487
+						},
+						"2-ahead": {
+							"logScore": -2.995464722616946,
+							"absError": 0.8594891176470589
+						},
+						"3-ahead": {
+							"logScore": -3.378342038365298,
+							"absError": 1.5074376470588238
+						},
+						"4-ahead": {
+							"logScore": -3.550360154009637,
+							"absError": 1.7471508823529416
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5677952941176476
+						},
+						"peak-wk": {
+							"logScore": -1.0141936092900632,
+							"absError": 1.1176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4477495044320294,
+							"absError": 0.5620794117647057
+						},
+						"2-ahead": {
+							"logScore": -3.5450091307978533,
+							"absError": 0.6350973529411763
+						},
+						"3-ahead": {
+							"logScore": -3.7776824721532734,
+							"absError": 0.6984100000000002
+						},
+						"4-ahead": {
+							"logScore": -3.818886442489233,
+							"absError": 0.7221914705882353
+						},
+						"peak": {
+							"logScore": -4.913493778912439,
+							"absError": 1.3915717647058825
+						},
+						"peak-wk": {
+							"logScore": -1.5751848620947602,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -1.1258400787419531,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.088683055812633,
+							"absError": 0.5124235294117648
+						},
+						"2-ahead": {
+							"logScore": -3.3939796933770556,
+							"absError": 0.6393779411764705
+						},
+						"3-ahead": {
+							"logScore": -3.362270734409732,
+							"absError": 0.6863629411764695
+						},
+						"4-ahead": {
+							"logScore": -3.4400321749698874,
+							"absError": 0.7413879411764716
+						},
+						"peak": {
+							"logScore": -4.993524417900022,
+							"absError": 1.1680423529411768
+						},
+						"peak-wk": {
+							"logScore": -2.1549520835961666,
+							"absError": 1.7058823529411764
+						},
+						"onset-wk": {
+							"logScore": -1.48709484446505,
+							"absError": 0.38235294117647056
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5267342681835006,
+							"absError": 0.36903941176470595
+						},
+						"2-ahead": {
+							"logScore": -3.7455239583454194,
+							"absError": 0.6117008823529414
+						},
+						"3-ahead": {
+							"logScore": -3.6828779046458044,
+							"absError": 0.7284117647058821
+						},
+						"4-ahead": {
+							"logScore": -3.704121821589086,
+							"absError": 0.8311414705882345
+						},
+						"peak": {
+							"logScore": -4.195657964277738,
+							"absError": 1.2327482352941177
+						},
+						"peak-wk": {
+							"logScore": -1.791681355657359,
+							"absError": 1.3529411764705883
+						},
+						"onset-wk": {
+							"logScore": -1.535320210686516,
+							"absError": 0.6470588235294118
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.170687613174572,
+							"absError": 0.5599358823529412
+						},
+						"2-ahead": {
+							"logScore": -4.307784739578158,
+							"absError": 0.751054411764706
+						},
+						"3-ahead": {
+							"logScore": -4.4169715624350046,
+							"absError": 0.9209935294117647
+						},
+						"4-ahead": {
+							"logScore": -4.2832294799176855,
+							"absError": 0.9629561764705881
+						},
+						"peak": {
+							"logScore": -6.17173067808153,
+							"absError": 1.5400764705882355
+						},
+						"peak-wk": {
+							"logScore": -2.6344257655711347,
+							"absError": 1.2941176470588236
+						},
+						"onset-wk": {
+							"logScore": -2.9035515211221594,
+							"absError": 1.5
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.68548341229636,
+							"absError": 0.6255582352941177
+						},
+						"2-ahead": {
+							"logScore": -4.061118661270735,
+							"absError": 0.8514432352941175
+						},
+						"3-ahead": {
+							"logScore": -4.443977860254868,
+							"absError": 0.9919041176470588
+						},
+						"4-ahead": {
+							"logScore": -4.547807559900653,
+							"absError": 0.9799591358399333
+						},
+						"peak": {
+							"logScore": -6.260035295335088,
+							"absError": 1.6444635294117653
+						},
+						"peak-wk": {
+							"logScore": -2.3287513338847003,
+							"absError": 0.6764705882352942
+						},
+						"onset-wk": {
+							"logScore": -2.934521934483451,
+							"absError": 0.6470588235294118
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.740600486729989,
+							"absError": 0.7040876470588237
+						},
+						"2-ahead": {
+							"logScore": -3.7150155499827595,
+							"absError": 0.7066473529411764
+						},
+						"3-ahead": {
+							"logScore": -3.7021321581583644,
+							"absError": 0.71187
+						},
+						"4-ahead": {
+							"logScore": -3.690725177259768,
+							"absError": 0.7199808823529412
+						},
+						"peak": {
+							"logScore": -3.5941109552616877,
+							"absError": 0.876865882352942
+						},
+						"peak-wk": {
+							"logScore": -2.2940134015786753,
+							"absError": 0.35294117647058826
+						},
+						"onset-wk": {
+							"logScore": -2.0381924432410976,
+							"absError": 0.20588235294117646
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.740600486729989,
+							"absError": 0.7040876470588237
+						},
+						"2-ahead": {
+							"logScore": -3.7150155499827595,
+							"absError": 0.7066473529411764
+						},
+						"3-ahead": {
+							"logScore": -3.7021321581583644,
+							"absError": 0.71187
+						},
+						"4-ahead": {
+							"logScore": -3.690725177259768,
+							"absError": 0.7199808823529412
+						},
+						"peak": {
+							"logScore": -4.601312754429632,
+							"absError": 2.0754200000000003
+						},
+						"peak-wk": {
+							"logScore": -3.015297268626214,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -2.9955711818983137,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.906995714265083,
+							"absError": 0.43968358449118206
+						},
+						"2-ahead": {
+							"logScore": -3.2487886433424564,
+							"absError": 0.6163658273295926
+						},
+						"3-ahead": {
+							"logScore": -3.300548594911872,
+							"absError": 0.6785324115969765
+						},
+						"4-ahead": {
+							"logScore": -3.358616379642575,
+							"absError": 0.7441426593428316
+						},
+						"peak": {
+							"logScore": -3.2114013471006664,
+							"absError": 1.0839289387902655
+						},
+						"peak-wk": {
+							"logScore": -1.5825363632850529,
+							"absError": 1.5
+						},
+						"onset-wk": {
+							"logScore": -1.3296388780860742,
+							"absError": 0.7647058823529411
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.135068823529412
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.138391470588235
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.1361099999999995
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.139763823529412
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 0.7254199999999997
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 9
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1864746486315525,
+							"absError": 0.5152964705882352
+						},
+						"2-ahead": {
+							"logScore": -3.4647466928350505,
+							"absError": 0.7453055882352939
+						},
+						"3-ahead": {
+							"logScore": -3.636901482539949,
+							"absError": 0.9260694117647054
+						},
+						"4-ahead": {
+							"logScore": -3.7287609076055994,
+							"absError": 1.0387814705882352
+						},
+						"peak": {
+							"logScore": -2.8626865646064545,
+							"absError": 1.0870858823529421
+						},
+						"peak-wk": {
+							"logScore": -1.0063685372020048,
+							"absError": 2.3823529411764706
+						},
+						"onset-wk": {
+							"logScore": -0.8771463419825277,
+							"absError": 0.8823529411764706
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7037567131248728,
+							"absError": 0.44457294117647056
+						},
+						"2-ahead": {
+							"logScore": -2.9750472071323215,
+							"absError": 0.5913108823529412
+						},
+						"3-ahead": {
+							"logScore": -3.033033587949625,
+							"absError": 0.665185294117647
+						},
+						"4-ahead": {
+							"logScore": -3.10286259635833,
+							"absError": 0.7438844117647061
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7915717647058832
+						},
+						"peak-wk": {
+							"logScore": -1.1370833031286556,
+							"absError": 1.8823529411764706
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5294117647058824
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.504746685283707,
+							"absError": 0.8189029411764706
+						},
+						"2-ahead": {
+							"logScore": -3.5123808566429813,
+							"absError": 0.813140882352941
+						},
+						"3-ahead": {
+							"logScore": -3.5167569828925016,
+							"absError": 0.8224188235294118
+						},
+						"4-ahead": {
+							"logScore": -3.521320422374128,
+							"absError": 0.8145426470588236
+						},
+						"peak": {
+							"logScore": -4.475331111235015,
+							"absError": 1.2783611764705882
+						},
+						"peak-wk": {
+							"logScore": -2.974013396605134,
+							"absError": 4.0588235294117645
+						},
+						"onset-wk": {
+							"logScore": -3.0214774403979767,
+							"absError": 4
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9524251849609,
+							"absError": 0.47986705882352954
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6467614705882353
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.7439317647058822
+						},
+						"4-ahead": {
+							"logScore": -3.6722535359895416,
+							"absError": 0.7989549999999999
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.454782352941177
+						},
+						"peak-wk": {
+							"logScore": -1.254565053925342,
+							"absError": 2.8529411764705883
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.4705882352941178
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.031712660458017,
+							"absError": 0.3636982352941176
+						},
+						"2-ahead": {
+							"logScore": -3.2194725510456004,
+							"absError": 0.46481911764705885
+						},
+						"3-ahead": {
+							"logScore": -3.3458473737270085,
+							"absError": 0.5107717647058824
+						},
+						"4-ahead": {
+							"logScore": -3.4262253298322944,
+							"absError": 0.5169549999999999
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5797576470588243
+						},
+						"peak-wk": {
+							"logScore": -0.7687733525755853,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.7647058823529411
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs4",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.626354460916311,
+							"absError": 0.5202011764705883
+						},
+						"2-ahead": {
+							"logScore": -4.1810684024400695,
+							"absError": 0.5106485882352941
+						},
+						"3-ahead": {
+							"logScore": -4.028361096806795,
+							"absError": 0.42418699999999987
+						},
+						"4-ahead": {
+							"logScore": -4.312963710777446,
+							"absError": 0.4694721764705881
+						},
+						"peak": {
+							"logScore": -3.547731374559092,
+							"absError": 1.1983435294117646
+						},
+						"peak-wk": {
+							"logScore": -0.6301436993730503,
+							"absError": 0.9117647058823529
+						},
+						"onset-wk": {
+							"logScore": -0.5213055869060058,
+							"absError": 0.6470588235294118
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31482723529411766
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5054537058823528
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.6372695294117646
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.8047663529411765
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7059964705882353
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -0.33830964290114485,
+							"absError": 0.20588235294117646
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31482723529411766
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.508373705882353
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.6327765882352939
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.7048398823529413
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6551682352941176
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.5882352941176471
+						},
+						"onset-wk": {
+							"logScore": -0.4154407563878184,
+							"absError": 0.17647058823529413
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31482723529411766
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5645855294117647
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.7171389411764705
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.8636304705882352
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6942317647058824
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -0.3418443106139309,
+							"absError": 0.20588235294117646
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31482723529411766
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5381784705882352
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.6217512941176466
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.6304674705882354
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6404623529411765
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.5294117647058824
+						},
+						"onset-wk": {
+							"logScore": -0.4327561385969651,
+							"absError": 0.20588235294117646
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31482723529411766
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.206209058823529
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4787295882352942
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.695435764705882
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3471158823529414
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2352941176470589
+						},
+						"onset-wk": {
+							"logScore": -0.4109306048032142,
+							"absError": 0.38235294117647056
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31482723529411766
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.043322058823529
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.6076666470588235
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.050076588235295
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7707023529411764
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": -0.44248315387327186,
+							"absError": 0.4411764705882353
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.3009790851459644,
+							"absError": 0.44898229411764734
+						},
+						"2-ahead": {
+							"logScore": -3.3852781030831443,
+							"absError": 0.46773911764705867
+						},
+						"3-ahead": {
+							"logScore": -3.491291555433145,
+							"absError": 0.45316100000000015
+						},
+						"4-ahead": {
+							"logScore": -3.5162510753263407,
+							"absError": 0.5013670000000005
+						},
+						"peak": {
+							"logScore": -3.8354196721394347,
+							"absError": 1.4718729411764708
+						},
+						"peak-wk": {
+							"logScore": -1.5894160324293514,
+							"absError": 0.8235294117647058
+						},
+						"onset-wk": {
+							"logScore": -1.0012074397323305,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.046838683871848,
+							"absError": 0.4032780588235283
+						},
+						"2-ahead": {
+							"logScore": -3.0697774075502497,
+							"absError": 0.48445388235294107
+						},
+						"3-ahead": {
+							"logScore": -3.040370021194981,
+							"absError": 0.5791829999999999
+						},
+						"4-ahead": {
+							"logScore": -3.0114590962153094,
+							"absError": 0.563426294117647
+						},
+						"peak": {
+							"logScore": -5.331062887960564,
+							"absError": 1.28952
+						},
+						"peak-wk": {
+							"logScore": -2.0657335781585004,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -1.5792379528146878,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7381607812649915,
+							"absError": 0.2793387058823529
+						},
+						"2-ahead": {
+							"logScore": -2.899964934674917,
+							"absError": 0.38138623529411764
+						},
+						"3-ahead": {
+							"logScore": -2.9404264619595364,
+							"absError": 0.38132294117647375
+						},
+						"4-ahead": {
+							"logScore": -2.8482027908393004,
+							"absError": 0.4425187058823551
+						},
+						"peak": {
+							"logScore": -3.864807803031843,
+							"absError": 1.0601082352941198
+						},
+						"peak-wk": {
+							"logScore": -1.7807456623357567,
+							"absError": 0.7058823529411765
+						},
+						"onset-wk": {
+							"logScore": -1.5465613547767938,
+							"absError": 0.2647058823529412
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.67089520890987,
+							"absError": 0.45155641176470585
+						},
+						"2-ahead": {
+							"logScore": -4.013290423536954,
+							"absError": 0.5803661764705882
+						},
+						"3-ahead": {
+							"logScore": -3.9630576133874733,
+							"absError": 0.5739894705882354
+						},
+						"4-ahead": {
+							"logScore": -4.6165412581364045,
+							"absError": 0.5742709411764705
+						},
+						"peak": {
+							"logScore": -5.052925070944172,
+							"absError": 0.9826382352941176
+						},
+						"peak-wk": {
+							"logScore": -2.626513000579252,
+							"absError": 0.8529411764705882
+						},
+						"onset-wk": {
+							"logScore": -2.02076852994367,
+							"absError": 0.9705882352941176
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.8461901135204792,
+							"absError": 0.4497121764705882
+						},
+						"2-ahead": {
+							"logScore": -3.848094624609188,
+							"absError": 0.4730966470588234
+						},
+						"3-ahead": {
+							"logScore": -4.134644081003135,
+							"absError": 0.4693814719817539
+						},
+						"4-ahead": {
+							"logScore": -4.247349810029481,
+							"absError": 0.5545992704272352
+						},
+						"peak": {
+							"logScore": -5.7641030901039745,
+							"absError": 1.1365788235294119
+						},
+						"peak-wk": {
+							"logScore": -3.349818724510427,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": -2.3173523150318815,
+							"absError": 1.2352941176470589
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.511176294742813,
+							"absError": 0.6927051176470589
+						},
+						"2-ahead": {
+							"logScore": -3.4897737874406665,
+							"absError": 0.6928953529411767
+						},
+						"3-ahead": {
+							"logScore": -3.4683243638524504,
+							"absError": 0.689240529411765
+						},
+						"4-ahead": {
+							"logScore": -3.441509526852125,
+							"absError": 0.6844731764705885
+						},
+						"peak": {
+							"logScore": -3.6541309908972233,
+							"absError": 1.0865788235294123
+						},
+						"peak-wk": {
+							"logScore": -2.2227033063928623,
+							"absError": 0.5
+						},
+						"onset-wk": {
+							"logScore": -2.067568925729221,
+							"absError": 0.20588235294117646
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.511176294742813,
+							"absError": 0.6927051176470589
+						},
+						"2-ahead": {
+							"logScore": -3.4897737874406665,
+							"absError": 0.6928953529411767
+						},
+						"3-ahead": {
+							"logScore": -3.4683243638524504,
+							"absError": 0.689240529411765
+						},
+						"4-ahead": {
+							"logScore": -3.441509526852125,
+							"absError": 0.6844731764705885
+						},
+						"peak": {
+							"logScore": -4.764322805234033,
+							"absError": 2.9169899999999997
+						},
+						"peak-wk": {
+							"logScore": -2.9514363355568456,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.0719611646295526,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.660266243667951,
+							"absError": 0.34341076631742323
+						},
+						"2-ahead": {
+							"logScore": -2.8204732024336714,
+							"absError": 0.43036748793011237
+						},
+						"3-ahead": {
+							"logScore": -2.9084980795245725,
+							"absError": 0.5334252310896856
+						},
+						"4-ahead": {
+							"logScore": -2.917099534095288,
+							"absError": 0.5420659915998702
+						},
+						"peak": {
+							"logScore": -2.9144663394412182,
+							"absError": 1.0375610944207514
+						},
+						"peak-wk": {
+							"logScore": -1.525126499003202,
+							"absError": 1.1176470588235294
+						},
+						"onset-wk": {
+							"logScore": -1.2907641314400269,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.328881470588237
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.34172817647059
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.354289235294118
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.373762470588236
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 0.9669899999999991
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 10
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.117541438387918,
+							"absError": 0.39613935294117647
+						},
+						"2-ahead": {
+							"logScore": -3.2756777394137635,
+							"absError": 0.559088411764706
+						},
+						"3-ahead": {
+							"logScore": -3.378875178354619,
+							"absError": 0.6843912352941178
+						},
+						"4-ahead": {
+							"logScore": -3.452867526951139,
+							"absError": 0.771752705882353
+						},
+						"peak": {
+							"logScore": -2.63153884837475,
+							"absError": 1.0061676470588237
+						},
+						"peak-wk": {
+							"logScore": -0.7253420200170407,
+							"absError": 1.2647058823529411
+						},
+						"onset-wk": {
+							"logScore": -0.6512656396170381,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3823381764705883
+						},
+						"2-ahead": {
+							"logScore": -3.2460236874625754,
+							"absError": 0.4405109411764705
+						},
+						"3-ahead": {
+							"logScore": -3.0747201546888374,
+							"absError": 0.5173230588235294
+						},
+						"4-ahead": {
+							"logScore": -3.127434792412661,
+							"absError": 0.5949433529411766
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.08952
+						},
+						"peak-wk": {
+							"logScore": -0.8326365269163377,
+							"absError": 0.9117647058823529
+						},
+						"onset-wk": {
+							"logScore": -0.4788158011177067,
+							"absError": 0.5
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4847777101704343,
+							"absError": 0.6854773529411765
+						},
+						"2-ahead": {
+							"logScore": -3.4450839820232795,
+							"absError": 0.678513
+						},
+						"3-ahead": {
+							"logScore": -3.4100063136262073,
+							"absError": 0.6806578235294118
+						},
+						"4-ahead": {
+							"logScore": -3.390188822506928,
+							"absError": 0.6729492941176473
+						},
+						"peak": {
+							"logScore": -5.025613311968379,
+							"absError": 3.0346370588235274
+						},
+						"peak-wk": {
+							"logScore": -2.529041191108109,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -2.954322142704173,
+							"absError": 5.4411764705882355
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6343404430139854,
+							"absError": 0.3703181764705881
+						},
+						"2-ahead": {
+							"logScore": -3.06978948499759,
+							"absError": 0.5952808235294116
+						},
+						"3-ahead": {
+							"logScore": -3.2695444463781693,
+							"absError": 0.7516838823529411
+						},
+						"4-ahead": {
+							"logScore": -3.399840425833494,
+							"absError": 0.8050322352941178
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.5277552941176469
+						},
+						"peak-wk": {
+							"logScore": -0.7620504642780581,
+							"absError": 0.35294117647058826
+						},
+						"onset-wk": {
+							"logScore": -0.6049728616413533,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.516031017620872,
+							"absError": 0.3051186470588235
+						},
+						"2-ahead": {
+							"logScore": -2.730995225346861,
+							"absError": 0.3676773529411764
+						},
+						"3-ahead": {
+							"logScore": -2.8214099347794077,
+							"absError": 0.34558735294117643
+						},
+						"4-ahead": {
+							"logScore": -2.9036327441119325,
+							"absError": 0.3358865882352941
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6444029411764706
+						},
+						"peak-wk": {
+							"logScore": -0.13251351437490863,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -0.2780236455997312,
+							"absError": 0
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs5",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.753311404095472,
+							"absError": 0.5711897058823531
+						},
+						"2-ahead": {
+							"logScore": -4.634593287297236,
+							"absError": 0.5845629705882355
+						},
+						"3-ahead": {
+							"logScore": -4.541659935099085,
+							"absError": 0.7367984999999999
+						},
+						"4-ahead": {
+							"logScore": -4.902295960458566,
+							"absError": 0.8262178235294119
+						},
+						"peak": {
+							"logScore": -3.096290207205953,
+							"absError": 1.0671105882352947
+						},
+						"peak-wk": {
+							"logScore": -0.6089442042858582,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": -0.7501131293896726,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2787008823529412
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.508057088235294
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9764784999999998
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5266778235294118
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.7788764705882356
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.7941176470588235
+						},
+						"onset-wk": {
+							"logScore": -0.3439807907036136,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2787008823529412
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6600712058823527
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1141473235294117
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.469027823529411
+						},
+						"peak": {
+							"logScore": -2.0672272629638084,
+							"absError": 0.7398388235294123
+						},
+						"peak-wk": {
+							"logScore": -0.8501165854497658,
+							"absError": 0.5294117647058824
+						},
+						"onset-wk": {
+							"logScore": -0.4740830194041615,
+							"absError": 0.5294117647058824
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2787008823529412
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6011506176470588
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0389102647058825
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5348119411764705
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.663101176470589
+						},
+						"peak-wk": {
+							"logScore": -1.215494737866139,
+							"absError": 0.7647058823529411
+						},
+						"onset-wk": {
+							"logScore": -0.35160222743581804,
+							"absError": 0.29411764705882354
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2787008823529412
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7602894411764703
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1084990882352939
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.4082572352941178
+						},
+						"peak": {
+							"logScore": -2.0781730632510986,
+							"absError": 0.8141705882352949
+						},
+						"peak-wk": {
+							"logScore": -0.9438033144300277,
+							"absError": 0.6764705882352942
+						},
+						"onset-wk": {
+							"logScore": -0.4195967832149753,
+							"absError": 0.5
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2787008823529412
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9246923235294117
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.3841596764705888
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8524589999999996
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.8582882352941184
+						},
+						"peak-wk": {
+							"logScore": -1.3720361734631867,
+							"absError": 0.9705882352941176
+						},
+						"onset-wk": {
+							"logScore": -0.40515942164402896,
+							"absError": 0.4117647058823529
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2787008823529412
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1082900294117648
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.7670884999999996
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.192466647058824
+						},
+						"peak": {
+							"logScore": -2.1053157733467236,
+							"absError": 1.0358282352941184
+						},
+						"peak-wk": {
+							"logScore": -0.9806731039448624,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": -0.5118896220529181,
+							"absError": 0.5294117647058824
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.2412524820872566,
+							"absError": 0.5036533529411765
+						},
+						"2-ahead": {
+							"logScore": -3.4595844659018398,
+							"absError": 0.5911816176470588
+						},
+						"3-ahead": {
+							"logScore": -3.5196089069913192,
+							"absError": 0.5979303823529412
+						},
+						"4-ahead": {
+							"logScore": -3.535429335031192,
+							"absError": 0.6151594117647057
+						},
+						"peak": {
+							"logScore": -3.8382206963320282,
+							"absError": 1.2284741176470595
+						},
+						"peak-wk": {
+							"logScore": -1.6852976865993616,
+							"absError": 1.4705882352941178
+						},
+						"onset-wk": {
+							"logScore": -1.1514106764040395,
+							"absError": 0.11764705882352941
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7257249363767735,
+							"absError": 0.2948911176470599
+						},
+						"2-ahead": {
+							"logScore": -2.9856322703008,
+							"absError": 0.48561420588235304
+						},
+						"3-ahead": {
+							"logScore": -3.1902399936101253,
+							"absError": 0.6178456176470588
+						},
+						"4-ahead": {
+							"logScore": -3.195534302588595,
+							"absError": 0.6653754705882344
+						},
+						"peak": {
+							"logScore": -3.6566465389369074,
+							"absError": 1.0446505882352946
+						},
+						"peak-wk": {
+							"logScore": -1.981956230909428,
+							"absError": 1.5588235294117647
+						},
+						"onset-wk": {
+							"logScore": -1.4619275089305679,
+							"absError": 0.4411764705882353
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.43008263214545,
+							"absError": 0.29027864705882456
+						},
+						"2-ahead": {
+							"logScore": -3.5960563250599713,
+							"absError": 0.4827736764705882
+						},
+						"3-ahead": {
+							"logScore": -3.8059036629575833,
+							"absError": 0.6578703823529415
+						},
+						"4-ahead": {
+							"logScore": -4.120289199460746,
+							"absError": 0.7877190588235294
+						},
+						"peak": {
+							"logScore": -2.6861621559213025,
+							"absError": 1.0314152941176487
+						},
+						"peak-wk": {
+							"logScore": -1.8296818089793951,
+							"absError": 1.3235294117647058
+						},
+						"onset-wk": {
+							"logScore": -1.6720181999301926,
+							"absError": 0.7647058823529411
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.548131345775325,
+							"absError": 0.47262452941176475
+						},
+						"2-ahead": {
+							"logScore": -5.0963963201175275,
+							"absError": 0.8364753235294119
+						},
+						"3-ahead": {
+							"logScore": -5.806723246832736,
+							"absError": 0.9297990882352941
+						},
+						"4-ahead": {
+							"logScore": -6.29295036535569,
+							"absError": 0.8157813529411766
+						},
+						"peak": {
+							"logScore": -3.705328859376132,
+							"absError": 1.021923529411765
+						},
+						"peak-wk": {
+							"logScore": -3.444363894924655,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -2.883419372527313,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.699230377027768,
+							"absError": 0.4864308823529411
+						},
+						"2-ahead": {
+							"logScore": -4.894802673054417,
+							"absError": 0.7843357352941176
+						},
+						"3-ahead": {
+							"logScore": -5.312303680187972,
+							"absError": 0.8199006764705882
+						},
+						"4-ahead": {
+							"logScore": -5.496683207388417,
+							"absError": 0.7070995882352941
+						},
+						"peak": {
+							"logScore": -4.953710106094716,
+							"absError": 1.1748647058823534
+						},
+						"peak-wk": {
+							"logScore": -2.157686086795624,
+							"absError": 0.8235294117647058
+						},
+						"onset-wk": {
+							"logScore": -2.2510089703055733,
+							"absError": 1.0588235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.651192421191975,
+							"absError": 0.6944736470588235
+						},
+						"2-ahead": {
+							"logScore": -3.6232747190630374,
+							"absError": 0.6913352058823529
+						},
+						"3-ahead": {
+							"logScore": -3.5981624717744527,
+							"absError": 0.6890978529411764
+						},
+						"4-ahead": {
+							"logScore": -3.570836793042534,
+							"absError": 0.6880054117647059
+						},
+						"peak": {
+							"logScore": -3.5838155990813734,
+							"absError": 1.0122976470588245
+						},
+						"peak-wk": {
+							"logScore": -2.314472950438617,
+							"absError": 2.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": -2.082717388948516,
+							"absError": 0.8823529411764706
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.651192421191975,
+							"absError": 0.6944736470588235
+						},
+						"2-ahead": {
+							"logScore": -3.6232747190630374,
+							"absError": 0.6913352058823529
+						},
+						"3-ahead": {
+							"logScore": -3.5981624717744527,
+							"absError": 0.6890978529411764
+						},
+						"4-ahead": {
+							"logScore": -3.570836793042534,
+							"absError": 0.6880054117647059
+						},
+						"peak": {
+							"logScore": -4.76273477897911,
+							"absError": 2.8181799999999995
+						},
+						"peak-wk": {
+							"logScore": -3.2237156327154217,
+							"absError": 7
+						},
+						"onset-wk": {
+							"logScore": -2.8559180806068936,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.48489982806746,
+							"absError": 0.29239891257085304
+						},
+						"2-ahead": {
+							"logScore": -2.813379234059898,
+							"absError": 0.47674184989117496
+						},
+						"3-ahead": {
+							"logScore": -3.100257594658754,
+							"absError": 0.6288456062118003
+						},
+						"4-ahead": {
+							"logScore": -3.157786903175959,
+							"absError": 0.6811319158664791
+						},
+						"peak": {
+							"logScore": -2.634657874730015,
+							"absError": 0.8467827919333359
+						},
+						"peak-wk": {
+							"logScore": -1.5223361742907267,
+							"absError": 1.5
+						},
+						"onset-wk": {
+							"logScore": -1.349536865929,
+							"absError": 0.9117647058823529
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.56033617647059
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.564081794117648
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.571099088235294
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.584712529411766
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 0.06817999999999902
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 9
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0586517875453243,
+							"absError": 0.45871852941176466
+						},
+						"2-ahead": {
+							"logScore": -3.444285951792889,
+							"absError": 0.6760335588235294
+						},
+						"3-ahead": {
+							"logScore": -3.784456487783142,
+							"absError": 0.8559703235294117
+						},
+						"4-ahead": {
+							"logScore": -3.9689389277557714,
+							"absError": 1.030366529411765
+						},
+						"peak": {
+							"logScore": -2.1870815342794936,
+							"absError": 0.7267364705882357
+						},
+						"peak-wk": {
+							"logScore": -0.8853841478532918,
+							"absError": 2.176470588235294
+						},
+						"onset-wk": {
+							"logScore": -0.7958681520780758,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.520950019311269,
+							"absError": 0.302931705882353
+						},
+						"2-ahead": {
+							"logScore": -2.8790206404622127,
+							"absError": 0.5153465588235294
+						},
+						"3-ahead": {
+							"logScore": -3.1121852362472318,
+							"absError": 0.6283062058823531
+						},
+						"4-ahead": {
+							"logScore": -3.268377162388777,
+							"absError": 0.6358013529411766
+						},
+						"peak": {
+							"logScore": -1.803387459009324,
+							"absError": 0.8681800000000006
+						},
+						"peak-wk": {
+							"logScore": -0.9722110417784504,
+							"absError": 1.5294117647058822
+						},
+						"onset-wk": {
+							"logScore": -0.5427664818963125,
+							"absError": 0.6176470588235294
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4989740132794895,
+							"absError": 0.7757490588235294
+						},
+						"2-ahead": {
+							"logScore": -3.494746940513135,
+							"absError": 0.7726106176470587
+						},
+						"3-ahead": {
+							"logScore": -3.494433290435081,
+							"absError": 0.7733144411764705
+						},
+						"4-ahead": {
+							"logScore": -3.4475129734020267,
+							"absError": 0.7810455294117646
+						},
+						"peak": {
+							"logScore": -4.8467843725580115,
+							"absError": 2.194650588235294
+						},
+						"peak-wk": {
+							"logScore": -3.1832150893592956,
+							"absError": 6
+						},
+						"onset-wk": {
+							"logScore": -3.0647581161285657,
+							"absError": 5
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.5325527814576385,
+							"absError": 0.32654458823529414
+						},
+						"2-ahead": {
+							"logScore": -2.9416837718357516,
+							"absError": 0.4921735588235292
+						},
+						"3-ahead": {
+							"logScore": -3.3051912217367043,
+							"absError": 0.6677215000000001
+						},
+						"4-ahead": {
+							"logScore": -3.4552107280432325,
+							"absError": 0.763699588235294
+						},
+						"peak": {
+							"logScore": -2.2093643168088026,
+							"absError": 1.2872976470588242
+						},
+						"peak-wk": {
+							"logScore": -0.8909489456213079,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -0.6907293957411353,
+							"absError": 0.9411764705882353
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.457630924346096,
+							"absError": 0.22862458823529413
+						},
+						"2-ahead": {
+							"logScore": -2.7086947174484335,
+							"absError": 0.3393170882352941
+						},
+						"3-ahead": {
+							"logScore": -2.931470844643531,
+							"absError": 0.44976208823529423
+						},
+						"4-ahead": {
+							"logScore": -3.027048909562777,
+							"absError": 0.5070325294117647
+						},
+						"peak": {
+							"logScore": -1.662563895689652,
+							"absError": 0.492511764705883
+						},
+						"peak-wk": {
+							"logScore": -0.23087514421629599,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -0.42322227102174403,
+							"absError": 0.23529411764705882
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs6",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.7542031508236473,
+							"absError": 1.1655285294117645
+						},
+						"2-ahead": {
+							"logScore": -3.946955742800089,
+							"absError": 1.1272294117647057
+						},
+						"3-ahead": {
+							"logScore": -4.391027020571066,
+							"absError": 1.3574435294117648
+						},
+						"4-ahead": {
+							"logScore": -4.59423929191399,
+							"absError": 1.595351176470588
+						},
+						"peak": {
+							"logScore": -7.587986709228424,
+							"absError": 2.3428000000000018
+						},
+						"peak-wk": {
+							"logScore": -1.6918059209492835,
+							"absError": 0.9411764705882353
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1470588235294117
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.5583267647058826
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6098970588235296
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.7719641176470586
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.1801011764705887
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.4996470588235284
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -0.31884289356032813,
+							"absError": 0.23529411764705882
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.5583267647058826
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7240870588235292
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9496764705882349
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.037144117647059
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.9515058823529399
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": -0.392200278435327,
+							"absError": 0.23529411764705882
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.5583267647058826
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7181529411764708
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.155865294117647
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8437747058823528
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.0761176470588256
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -0.39755067808812516,
+							"absError": 0.2647058823529412
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.5583267647058826
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.745999411764706
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.8729576470588235
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.0843311764705885
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3438823529411754
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": -0.39463614238523165,
+							"absError": 0.23529411764705882
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.5583267647058826
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.2484676470588234
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.252514705882353
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5145923529411762
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6707764705882342
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": -0.3492220770064866,
+							"absError": 0.3235294117647059
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.5583267647058826
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.2595752941176466
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.3394876470588235
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5535299999999996
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6020470588235283
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.8529411764705882
+						},
+						"onset-wk": {
+							"logScore": -0.4338521231971117,
+							"absError": 0.38235294117647056
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.641782150227512,
+							"absError": 0.7507020588235302
+						},
+						"2-ahead": {
+							"logScore": -3.842421526432736,
+							"absError": 0.971562352941177
+						},
+						"3-ahead": {
+							"logScore": -4.065397355041954,
+							"absError": 1.0727670588235296
+						},
+						"4-ahead": {
+							"logScore": -4.180118560033078,
+							"absError": 1.1772476470588238
+						},
+						"peak": {
+							"logScore": -8.026606379392472,
+							"absError": 1.9545647058823534
+						},
+						"peak-wk": {
+							"logScore": -1.738956575914779,
+							"absError": 1.4705882352941178
+						},
+						"onset-wk": {
+							"logScore": -1.141030517523802,
+							"absError": 0.08823529411764706
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5988847715089807,
+							"absError": 0.7476326470588235
+						},
+						"2-ahead": {
+							"logScore": -3.599507585893129,
+							"absError": 0.7882058823529409
+						},
+						"3-ahead": {
+							"logScore": -3.8078411712528304,
+							"absError": 1.0568394117647073
+						},
+						"4-ahead": {
+							"logScore": -3.7863261592791635,
+							"absError": 1.1545370588235295
+						},
+						"peak": {
+							"logScore": -9.304939573882805,
+							"absError": 1.6545647058823523
+						},
+						"peak-wk": {
+							"logScore": -1.8304657405482676,
+							"absError": 1.5588235294117647
+						},
+						"onset-wk": {
+							"logScore": -1.6108392126101394,
+							"absError": 0.23529411764705882
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.202378105320936,
+							"absError": 0.8740949999999997
+						},
+						"2-ahead": {
+							"logScore": -3.9404004937985397,
+							"absError": 0.9786329411764705
+						},
+						"3-ahead": {
+							"logScore": -3.9596034293344453,
+							"absError": 1.1516200000000012
+						},
+						"4-ahead": {
+							"logScore": -3.9864381420129775,
+							"absError": 1.260497647058823
+						},
+						"peak": {
+							"logScore": -8.60937817662004,
+							"absError": 1.4648588235294118
+						},
+						"peak-wk": {
+							"logScore": -1.5568029088898174,
+							"absError": 1.4705882352941178
+						},
+						"onset-wk": {
+							"logScore": -1.703094496219861,
+							"absError": 0.4117647058823529
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.531768261028136,
+							"absError": 0.702665588235294
+						},
+						"2-ahead": {
+							"logScore": -4.923681414293266,
+							"absError": 0.9719864705882351
+						},
+						"3-ahead": {
+							"logScore": -5.9551093427723325,
+							"absError": 1.2151405882352935
+						},
+						"4-ahead": {
+							"logScore": -5.8763635930917735,
+							"absError": 1.2816017647058824
+						},
+						"peak": {
+							"logScore": -10.613223785898642,
+							"absError": 1.5869176470588224
+						},
+						"peak-wk": {
+							"logScore": -2.598496757269147,
+							"absError": 1.7352941176470589
+						},
+						"onset-wk": {
+							"logScore": -1.7080837904096455,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -5.851086771599525,
+							"absError": 0.7980044117647057
+						},
+						"2-ahead": {
+							"logScore": -6.211456653127286,
+							"absError": 0.9556711764705881
+						},
+						"3-ahead": {
+							"logScore": -6.219972965872139,
+							"absError": 1.0400164039077477
+						},
+						"4-ahead": {
+							"logScore": -5.682455814315084,
+							"absError": 1.0889670588235294
+						},
+						"peak": {
+							"logScore": -10.02137264641488,
+							"absError": 1.5927999999999987
+						},
+						"peak-wk": {
+							"logScore": -2.0844263613704235,
+							"absError": 1.3235294117647058
+						},
+						"onset-wk": {
+							"logScore": -1.7798964489732103,
+							"absError": 1.1764705882352942
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.114337508645038,
+							"absError": 1.3353379411764705
+						},
+						"2-ahead": {
+							"logScore": -4.112351228868006,
+							"absError": 1.356621764705882
+						},
+						"3-ahead": {
+							"logScore": -4.088777531799584,
+							"absError": 1.3552805882352938
+						},
+						"4-ahead": {
+							"logScore": -4.064188959769403,
+							"absError": 1.358672352941176
+						},
+						"peak": {
+							"logScore": -3.893107607530219,
+							"absError": 1.210447058823528
+						},
+						"peak-wk": {
+							"logScore": -2.2468929015373513,
+							"absError": 1.5
+						},
+						"onset-wk": {
+							"logScore": -2.0352928732922133,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.114337508645038,
+							"absError": 1.3353379411764705
+						},
+						"2-ahead": {
+							"logScore": -4.112351228868006,
+							"absError": 1.356621764705882
+						},
+						"3-ahead": {
+							"logScore": -4.088777531799584,
+							"absError": 1.3552805882352938
+						},
+						"4-ahead": {
+							"logScore": -4.064188959769403,
+							"absError": 1.358672352941176
+						},
+						"peak": {
+							"logScore": -4.637830588121663,
+							"absError": 2.0204000000000013
+						},
+						"peak-wk": {
+							"logScore": -3.2008988959992863,
+							"absError": 6
+						},
+						"onset-wk": {
+							"logScore": -2.962669174749793,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4686124857672844,
+							"absError": 0.7076985026781553
+						},
+						"2-ahead": {
+							"logScore": -3.637342819245247,
+							"absError": 0.7448708219300688
+						},
+						"3-ahead": {
+							"logScore": -3.7703836074951163,
+							"absError": 0.9712972850035883
+						},
+						"4-ahead": {
+							"logScore": -3.768004186794409,
+							"absError": 1.0976776723017503
+						},
+						"peak": {
+							"logScore": -5.56378097889097,
+							"absError": 1.6256407078630304
+						},
+						"peak-wk": {
+							"logScore": -1.4837308378940304,
+							"absError": 1.6470588235294117
+						},
+						"onset-wk": {
+							"logScore": -1.361109648145545,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.0578726470588236
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.051127647058823
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.0661799999999997
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.083376470588235
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 4.070400000000003
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 6
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 10
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.682704120955661,
+							"absError": 0.8469908823529413
+						},
+						"2-ahead": {
+							"logScore": -3.852992181582771,
+							"absError": 1.0212952941176472
+						},
+						"3-ahead": {
+							"logScore": -3.97572928969647,
+							"absError": 1.2506323529411763
+						},
+						"4-ahead": {
+							"logScore": -4.016028936297376,
+							"absError": 1.3791223529411765
+						},
+						"peak": {
+							"logScore": -6.32622175272463,
+							"absError": 1.597482352941175
+						},
+						"peak-wk": {
+							"logScore": -0.9274735249917383,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -0.7387465619828415,
+							"absError": 0.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.409165857836772,
+							"absError": 0.6315355882352939
+						},
+						"2-ahead": {
+							"logScore": -3.545494591141405,
+							"absError": 0.7389023529411765
+						},
+						"3-ahead": {
+							"logScore": -3.6796007417861807,
+							"absError": 0.8609070588235294
+						},
+						"4-ahead": {
+							"logScore": -3.7401933511249386,
+							"absError": 1.003650588235294
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.2722117647058813
+						},
+						"peak-wk": {
+							"logScore": -0.9222806832373158,
+							"absError": 1.5588235294117647
+						},
+						"onset-wk": {
+							"logScore": -0.4994846699581637,
+							"absError": 0.29411764705882354
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.459687700864101,
+							"absError": 1.714156764705882
+						},
+						"2-ahead": {
+							"logScore": -4.444158276309004,
+							"absError": 1.7297252941176466
+						},
+						"3-ahead": {
+							"logScore": -4.446480616268013,
+							"absError": 1.7205552941176467
+						},
+						"4-ahead": {
+							"logScore": -4.446373837560743,
+							"absError": 1.7092411764705882
+						},
+						"peak": {
+							"logScore": -4.540980938985339,
+							"absError": 2.0380470588235298
+						},
+						"peak-wk": {
+							"logScore": -2.7885026111135556,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -3.180478814187575,
+							"absError": 5
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.6925073702872595,
+							"absError": 0.7063338235294118
+						},
+						"2-ahead": {
+							"logScore": -3.990559127686807,
+							"absError": 0.8378717647058821
+						},
+						"3-ahead": {
+							"logScore": -4.183857890651741,
+							"absError": 1.1091135294117647
+						},
+						"4-ahead": {
+							"logScore": -4.288515779989863,
+							"absError": 1.3195547058823531
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.681035294117646
+						},
+						"peak-wk": {
+							"logScore": -1.2244742832964342,
+							"absError": 2.2058823529411766
+						},
+						"onset-wk": {
+							"logScore": -0.6478053386503141,
+							"absError": 0.6176470588235294
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.658261636507816,
+							"absError": 0.6971261764705882
+						},
+						"2-ahead": {
+							"logScore": -3.9146713621534133,
+							"absError": 0.6710752941176469
+						},
+						"3-ahead": {
+							"logScore": -4.036715256050311,
+							"absError": 0.7125464705882353
+						},
+						"4-ahead": {
+							"logScore": -4.07407190661484,
+							"absError": 0.8226570588235297
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6768941176470579
+						},
+						"peak-wk": {
+							"logScore": -0.9667808380346782,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -0.4715748462316558,
+							"absError": 0.2647058823529412
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs7",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.126008327855374,
+							"absError": 0.6492687941176469
+						},
+						"2-ahead": {
+							"logScore": -4.635656655818682,
+							"absError": 0.8318627352941173
+						},
+						"3-ahead": {
+							"logScore": -4.7507023818857945,
+							"absError": 0.8273806764705881
+						},
+						"4-ahead": {
+							"logScore": -4.85969880348059,
+							"absError": 0.883481882352941
+						},
+						"peak": {
+							"logScore": -4.443070876858633,
+							"absError": 1.2367952941176479
+						},
+						"peak-wk": {
+							"logScore": -0.8193999375063583,
+							"absError": 1.411764705882353
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.9705882352941176
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.49206067647058815
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7074360294117649
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1446539705882353
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.64827505882353
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6120964705882361
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.1176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.49206067647058815
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6186490882352942
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9917698529411766
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.2700315294117648
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.834395294117647
+						},
+						"peak-wk": {
+							"logScore": -0.8751790986776322,
+							"absError": 0.6470588235294118
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.47058823529411764
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.49206067647058815
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.8207348529411764
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4123010294117646
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.93043505882353
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.9343952941176488
+						},
+						"peak-wk": {
+							"logScore": -1.4199047479731355,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.49206067647058815
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.8312689705882356
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1828892647058822
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.395731529411765
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.8696894117647055
+						},
+						"peak-wk": {
+							"logScore": -0.9551586486688292,
+							"absError": 0.7647058823529411
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.47058823529411764
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.49206067647058815
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1015536764705882
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.7446539705882353
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.092693294117647
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.8150376470588245
+						},
+						"peak-wk": {
+							"logScore": -1.3442924545048927,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5294117647058824
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.49206067647058815
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1653460294117648
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.8691886764705883
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.205023294117648
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.5150376470588243
+						},
+						"peak-wk": {
+							"logScore": -0.97987109369517,
+							"absError": 1.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.521287054478069,
+							"absError": 0.609628676470588
+						},
+						"2-ahead": {
+							"logScore": -3.470690884627922,
+							"absError": 0.6788549705882353
+						},
+						"3-ahead": {
+							"logScore": -3.5501434013610336,
+							"absError": 0.742739382352941
+						},
+						"4-ahead": {
+							"logScore": -3.658218558716486,
+							"absError": 0.7648764705882354
+						},
+						"peak": {
+							"logScore": -4.501930257630555,
+							"absError": 1.160324705882354
+						},
+						"peak-wk": {
+							"logScore": -1.7526632206400927,
+							"absError": 1.4705882352941178
+						},
+						"onset-wk": {
+							"logScore": -1.2039695886787793,
+							"absError": 0.29411764705882354
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1372886898231047,
+							"absError": 0.4194934411764705
+						},
+						"2-ahead": {
+							"logScore": -3.2027395595279406,
+							"absError": 0.5994396764705883
+						},
+						"3-ahead": {
+							"logScore": -3.341556994273444,
+							"absError": 0.7156680882352942
+						},
+						"4-ahead": {
+							"logScore": -3.332488666894236,
+							"absError": 0.7052363529411766
+						},
+						"peak": {
+							"logScore": -5.306281256220774,
+							"absError": 0.9515011764705894
+						},
+						"peak-wk": {
+							"logScore": -2.0849173176083395,
+							"absError": 1.3235294117647058
+						},
+						"onset-wk": {
+							"logScore": -1.5160701010126205,
+							"absError": 0.4117647058823529
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.750831116850238,
+							"absError": 0.5211653235294119
+						},
+						"2-ahead": {
+							"logScore": -3.917791253423176,
+							"absError": 0.6452874411764709
+						},
+						"3-ahead": {
+							"logScore": -3.7395342229318254,
+							"absError": 0.8010786176470589
+						},
+						"4-ahead": {
+							"logScore": -3.932834195225117,
+							"absError": 0.903353411764707
+						},
+						"peak": {
+							"logScore": -4.901911213544385,
+							"absError": 0.9233199999999997
+						},
+						"peak-wk": {
+							"logScore": -1.9256132677327225,
+							"absError": 1.3823529411764706
+						},
+						"onset-wk": {
+							"logScore": -1.6396005889682546,
+							"absError": 0.6176470588235294
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.048360272064182,
+							"absError": 0.49811308823529404
+						},
+						"2-ahead": {
+							"logScore": -5.180251038621065,
+							"absError": 0.6998159705882351
+						},
+						"3-ahead": {
+							"logScore": -5.511523948797173,
+							"absError": 0.8500662647058826
+						},
+						"4-ahead": {
+							"logScore": -5.4586342062919675,
+							"absError": 0.9488598823529413
+						},
+						"peak": {
+							"logScore": -5.59115715172507,
+							"absError": 0.9085640703826676
+						},
+						"peak-wk": {
+							"logScore": -2.9632134949568463,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": -2.330667295402349,
+							"absError": 0.8529411764705882
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.653346939374575,
+							"absError": 0.911661920299641
+						},
+						"2-ahead": {
+							"logScore": -5.0277922519975915,
+							"absError": 1.0208187941176468
+						},
+						"3-ahead": {
+							"logScore": -5.036321579412906,
+							"absError": 1.1088215588235297
+						},
+						"4-ahead": {
+							"logScore": -5.197981087811544,
+							"absError": 1.1372916470588237
+						},
+						"peak": {
+							"logScore": -5.117967977435077,
+							"absError": 0.5394610321238024
+						},
+						"peak-wk": {
+							"logScore": -3.686247719432164,
+							"absError": 1.8823529411764706
+						},
+						"onset-wk": {
+							"logScore": -3.4097469659434125,
+							"absError": 1.7058823529411764
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.796985809800025,
+							"absError": 0.9351860882352945
+						},
+						"2-ahead": {
+							"logScore": -3.7568553652461256,
+							"absError": 0.9349706764705886
+						},
+						"3-ahead": {
+							"logScore": -3.733657042471749,
+							"absError": 0.9274250882352947
+						},
+						"4-ahead": {
+							"logScore": -3.6906188150629413,
+							"absError": 0.925205647058824
+						},
+						"peak": {
+							"logScore": -3.526675707514648,
+							"absError": 0.672089411764706
+						},
+						"peak-wk": {
+							"logScore": -2.324703851470971,
+							"absError": 1.911764705882353
+						},
+						"onset-wk": {
+							"logScore": -2.126899046810265,
+							"absError": 0.8823529411764706
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.796985809800025,
+							"absError": 0.9351860882352945
+						},
+						"2-ahead": {
+							"logScore": -3.7568553652461256,
+							"absError": 0.9349706764705886
+						},
+						"3-ahead": {
+							"logScore": -3.733657042471749,
+							"absError": 0.9274250882352947
+						},
+						"4-ahead": {
+							"logScore": -3.6906188150629413,
+							"absError": 0.925205647058824
+						},
+						"peak": {
+							"logScore": -4.692418509558791,
+							"absError": 1.6790799999999992
+						},
+						"peak-wk": {
+							"logScore": -3.208415512214274,
+							"absError": 6
+						},
+						"onset-wk": {
+							"logScore": -3.0788243640627244,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.8409153965446947,
+							"absError": 0.4103861169225774
+						},
+						"2-ahead": {
+							"logScore": -3.192953307071521,
+							"absError": 0.5853269464136772
+						},
+						"3-ahead": {
+							"logScore": -3.28924137117746,
+							"absError": 0.7010811790055271
+						},
+						"4-ahead": {
+							"logScore": -3.2987509083880617,
+							"absError": 0.6986817804145549
+						},
+						"peak": {
+							"logScore": -3.1167113051430397,
+							"absError": 0.7235454949714042
+						},
+						"peak-wk": {
+							"logScore": -1.6130658968624427,
+							"absError": 1.5
+						},
+						"onset-wk": {
+							"logScore": -1.3826991177090289,
+							"absError": 0.8529411764705882
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.325489970588236
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.3432456764705885
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.365497147058824
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.385363647058823
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 0.17092000000000063
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 9
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.3517714745555853,
+							"absError": 0.5897753823529409
+						},
+						"2-ahead": {
+							"logScore": -3.4994432287008856,
+							"absError": 0.8075889705882352
+						},
+						"3-ahead": {
+							"logScore": -3.6168858909198396,
+							"absError": 0.9905393235294118
+						},
+						"4-ahead": {
+							"logScore": -3.7125512133994087,
+							"absError": 1.1214094117647058
+						},
+						"peak": {
+							"logScore": -2.753234562148949,
+							"absError": 0.7755105882352944
+						},
+						"peak-wk": {
+							"logScore": -0.9759134341003298,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -0.8387344606290378,
+							"absError": 0.8235294117647058
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.019042977130337,
+							"absError": 0.3706629705882353
+						},
+						"2-ahead": {
+							"logScore": -3.2110212090021615,
+							"absError": 0.5219206176470589
+						},
+						"3-ahead": {
+							"logScore": -3.5265577732718474,
+							"absError": 0.6654439117647062
+						},
+						"4-ahead": {
+							"logScore": -3.503770512270048,
+							"absError": 0.7473269411764702
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5720894117647056
+						},
+						"peak-wk": {
+							"logScore": -0.9015172959230463,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": -0.605317506180748,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.674433848435604,
+							"absError": 0.8967319705882354
+						},
+						"2-ahead": {
+							"logScore": -3.6489884242770003,
+							"absError": 0.8935753823529412
+						},
+						"3-ahead": {
+							"logScore": -3.603444176482918,
+							"absError": 0.8970440294117648
+						},
+						"4-ahead": {
+							"logScore": -3.595476683968031,
+							"absError": 0.8960594117647059
+						},
+						"peak": {
+							"logScore": -4.647684246635337,
+							"absError": 1.3290800000000007
+						},
+						"peak-wk": {
+							"logScore": -3.1286759932968273,
+							"absError": 5
+						},
+						"onset-wk": {
+							"logScore": -3.1867292351347096,
+							"absError": 6
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.154348572849562,
+							"absError": 0.38547226470588236
+						},
+						"2-ahead": {
+							"logScore": -3.4213254515033267,
+							"absError": 0.5625661470588234
+						},
+						"3-ahead": {
+							"logScore": -3.640697385500696,
+							"absError": 0.7084400294117646
+						},
+						"4-ahead": {
+							"logScore": -3.7315893088545162,
+							"absError": 0.7700689411764706
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.195618823529413
+						},
+						"peak-wk": {
+							"logScore": -1.054574765172649,
+							"absError": 1.3529411764705883
+						},
+						"onset-wk": {
+							"logScore": -0.7760192620531795,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1531601464042227,
+							"absError": 0.4175482647058824
+						},
+						"2-ahead": {
+							"logScore": -3.1888463433691654,
+							"absError": 0.4851497941176471
+						},
+						"3-ahead": {
+							"logScore": -3.2459166738397136,
+							"absError": 0.4744482647058823
+						},
+						"4-ahead": {
+							"logScore": -3.290689034583494,
+							"absError": 0.4911571764705882
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7062141176470585
+						},
+						"peak-wk": {
+							"logScore": -0.519946464920784,
+							"absError": 0.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": -0.6253591192968404,
+							"absError": 0.3235294117647059
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs8",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5336145704547013,
+							"absError": 0.43433002941176474
+						},
+						"2-ahead": {
+							"logScore": -3.5419276440522363,
+							"absError": 0.5345428823529411
+						},
+						"3-ahead": {
+							"logScore": -3.7777358448209317,
+							"absError": 0.6101306470588235
+						},
+						"4-ahead": {
+							"logScore": -4.108356167482257,
+							"absError": 0.6421159705882351
+						},
+						"peak": {
+							"logScore": -7.032959005888814,
+							"absError": 0.6734735294117652
+						},
+						"peak-wk": {
+							"logScore": -2.4324092177963026,
+							"absError": 2.2941176470588234
+						},
+						"onset-wk": {
+							"logScore": -0.755678190053633,
+							"absError": 0.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2488855588235295
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6119223529411765
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1484418823529419
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5821207352941173
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6068688235294128
+						},
+						"peak-wk": {
+							"logScore": -1.3632874178721626,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": -0.5171466298272576,
+							"absError": 0.4411764705882353
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2488855588235295
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6460517647058824
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0158677647058827
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.3116019117647058
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.956868823529413
+						},
+						"peak-wk": {
+							"logScore": -1.0516366556428738,
+							"absError": 0.9411764705882353
+						},
+						"onset-wk": {
+							"logScore": -0.6038226219907973,
+							"absError": 0.6470588235294118
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2488855588235295
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7060399999999997
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.2513830588235297
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.7076466176470588
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.6156923529411777
+						},
+						"peak-wk": {
+							"logScore": -1.5314508374902673,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -0.5224541193087301,
+							"absError": 0.4117647058823529
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2488855588235295
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7089811764705882
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.071750117647059
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.3233042647058824
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.0009864705882363
+						},
+						"peak-wk": {
+							"logScore": -1.143327948431923,
+							"absError": 1.0588235294117647
+						},
+						"onset-wk": {
+							"logScore": -0.5725557151752687,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2488855588235295
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7520661764705883
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4219712941176468
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8791795588235294
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.783339411764707
+						},
+						"peak-wk": {
+							"logScore": -1.4133897606731252,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": -0.5833856106199341,
+							"absError": 0.5
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2488855588235295
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6187482352941178
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0531595294117648
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.3389466176470586
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.8656923529411773
+						},
+						"peak-wk": {
+							"logScore": -1.1478008098825039,
+							"absError": 1.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": -0.6174680831670545,
+							"absError": 0.6470588235294118
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0908803600992596,
+							"absError": 0.4129781470588236
+						},
+						"2-ahead": {
+							"logScore": -3.2493752120457002,
+							"absError": 0.4747395882352942
+						},
+						"3-ahead": {
+							"logScore": -3.446827478848885,
+							"absError": 0.5216621764705884
+						},
+						"4-ahead": {
+							"logScore": -3.4993548558252088,
+							"absError": 0.5352869117647063
+						},
+						"peak": {
+							"logScore": -3.9699222040008637,
+							"absError": 0.8434847058823535
+						},
+						"peak-wk": {
+							"logScore": -1.7557291765729117,
+							"absError": 1.2352941176470589
+						},
+						"onset-wk": {
+							"logScore": -1.2688077731354277,
+							"absError": 0.35294117647058826
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.3622718942911023,
+							"absError": 0.2213692647058824
+						},
+						"2-ahead": {
+							"logScore": -2.503618246737764,
+							"absError": 0.3085294117647057
+						},
+						"3-ahead": {
+							"logScore": -2.7619088345835925,
+							"absError": 0.3930959411764716
+						},
+						"4-ahead": {
+							"logScore": -2.8485269246038043,
+							"absError": 0.4365863823529411
+						},
+						"peak": {
+							"logScore": -3.53152610353933,
+							"absError": 0.6699552941176474
+						},
+						"peak-wk": {
+							"logScore": -1.8113583044252473,
+							"absError": 1.2058823529411764
+						},
+						"onset-wk": {
+							"logScore": -1.6633754503293288,
+							"absError": 0.29411764705882354
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.07268184031611,
+							"absError": 0.27879279411764807
+						},
+						"2-ahead": {
+							"logScore": -2.645586011260345,
+							"absError": 0.3710588235294117
+						},
+						"3-ahead": {
+							"logScore": -2.981618116938659,
+							"absError": 0.48535911764705875
+						},
+						"4-ahead": {
+							"logScore": -3.089660708609167,
+							"absError": 0.5577035588235295
+						},
+						"peak": {
+							"logScore": -3.2923471679819336,
+							"absError": 0.7287788235294121
+						},
+						"peak-wk": {
+							"logScore": -1.9667438750795068,
+							"absError": 1.4411764705882353
+						},
+						"onset-wk": {
+							"logScore": -1.7179677713014692,
+							"absError": 0.5882352941176471
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.238497958325764,
+							"absError": 0.19929713782069372
+						},
+						"2-ahead": {
+							"logScore": -2.677113308573837,
+							"absError": 0.29069247058823533
+						},
+						"3-ahead": {
+							"logScore": -2.8001367266863353,
+							"absError": 0.3609642352941176
+						},
+						"4-ahead": {
+							"logScore": -3.1980214034765932,
+							"absError": 0.4462376176470588
+						},
+						"peak": {
+							"logScore": -3.58383897474759,
+							"absError": 0.5376023529411771
+						},
+						"peak-wk": {
+							"logScore": -1.9315577474042323,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": -1.5409390157164784,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7440104835315378,
+							"absError": 0.27239844117647055
+						},
+						"2-ahead": {
+							"logScore": -3.1496798859425175,
+							"absError": 0.30302770588235295
+						},
+						"3-ahead": {
+							"logScore": -3.304066327975078,
+							"absError": 0.34593311764705886
+						},
+						"4-ahead": {
+							"logScore": -3.234835331226626,
+							"absError": 0.35722072992985654
+						},
+						"peak": {
+							"logScore": -4.379176099417586,
+							"absError": 0.6170141176470592
+						},
+						"peak-wk": {
+							"logScore": -1.746539743320659,
+							"absError": 0.8823529411764706
+						},
+						"onset-wk": {
+							"logScore": -1.5934309077888116,
+							"absError": 0.5294117647058824
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.401774218557367,
+							"absError": 0.6265193823529414
+						},
+						"2-ahead": {
+							"logScore": -3.377073272337521,
+							"absError": 0.6292454117647062
+						},
+						"3-ahead": {
+							"logScore": -3.346916064836339,
+							"absError": 0.6307652352941178
+						},
+						"4-ahead": {
+							"logScore": -3.3221650928504225,
+							"absError": 0.6333393235294119
+						},
+						"peak": {
+							"logScore": -3.1996160044806885,
+							"absError": 0.4817200000000007
+						},
+						"peak-wk": {
+							"logScore": -2.3420774289443167,
+							"absError": 1.6470588235294117
+						},
+						"onset-wk": {
+							"logScore": -2.1987937976852927,
+							"absError": 1.088235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.401774218557367,
+							"absError": 0.6265193823529414
+						},
+						"2-ahead": {
+							"logScore": -3.377073272337521,
+							"absError": 0.6292454117647062
+						},
+						"3-ahead": {
+							"logScore": -3.346916064836339,
+							"absError": 0.6307652352941178
+						},
+						"4-ahead": {
+							"logScore": -3.3221650928504225,
+							"absError": 0.6333393235294119
+						},
+						"peak": {
+							"logScore": -4.304535458732997,
+							"absError": 0.79019
+						},
+						"peak-wk": {
+							"logScore": -3.2023567900778396,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.058341585177318,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.382343332143656,
+							"absError": 0.22093569841702787
+						},
+						"2-ahead": {
+							"logScore": -2.514623018984774,
+							"absError": 0.31792921931108437
+						},
+						"3-ahead": {
+							"logScore": -2.73052410584351,
+							"absError": 0.4021140819727663
+						},
+						"4-ahead": {
+							"logScore": -2.8195562390229716,
+							"absError": 0.449397437546546
+						},
+						"peak": {
+							"logScore": -2.5292428281879924,
+							"absError": 0.4530199648384094
+						},
+						"peak-wk": {
+							"logScore": -1.6920819556896995,
+							"absError": 1.3529411764705883
+						},
+						"onset-wk": {
+							"logScore": -1.394562880317399,
+							"absError": 0.6764705882352942
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.943590794117648
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.946995294117649
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.954103058823531
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.964480735294119
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.1598100000000016
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 8
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9258710525221914,
+							"absError": 0.36103379411764713
+						},
+						"2-ahead": {
+							"logScore": -3.087423231588923,
+							"absError": 0.483431
+						},
+						"3-ahead": {
+							"logScore": -3.2255718376556004,
+							"absError": 0.5933878823529413
+						},
+						"4-ahead": {
+							"logScore": -3.2940164571332886,
+							"absError": 0.6499784411764703
+						},
+						"peak": {
+							"logScore": -3.8546237452383165,
+							"absError": 0.4534623529411771
+						},
+						"peak-wk": {
+							"logScore": -1.5902655683593174,
+							"absError": 2.323529411764706
+						},
+						"onset-wk": {
+							"logScore": -0.8716384794243582,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.613068213377197,
+							"absError": 0.22701161764705882
+						},
+						"2-ahead": {
+							"logScore": -2.7947719966329925,
+							"absError": 0.31272017647058814
+						},
+						"3-ahead": {
+							"logScore": -2.908551072028157,
+							"absError": 0.3886841764705882
+						},
+						"4-ahead": {
+							"logScore": -2.9837459759255216,
+							"absError": 0.45122761764705865
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5199552941176476
+						},
+						"peak-wk": {
+							"logScore": -1.022198198789157,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -0.6868200838075319,
+							"absError": 0.47058823529411764
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.359889794969826,
+							"absError": 0.544278088235294
+						},
+						"2-ahead": {
+							"logScore": -3.3541397208066233,
+							"absError": 0.5526382941176471
+						},
+						"3-ahead": {
+							"logScore": -3.311503749961506,
+							"absError": 0.5543540588235293
+						},
+						"4-ahead": {
+							"logScore": -3.300389122472659,
+							"absError": 0.5527999117647059
+						},
+						"peak": {
+							"logScore": -3.985870408065178,
+							"absError": 0.7343076470588228
+						},
+						"peak-wk": {
+							"logScore": -2.9339136287967533,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -2.6457029703505346,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6982749502237713,
+							"absError": 0.22845767647058823
+						},
+						"2-ahead": {
+							"logScore": -2.938981168838262,
+							"absError": 0.3199359411764706
+						},
+						"3-ahead": {
+							"logScore": -3.0800811942381623,
+							"absError": 0.41022164705882347
+						},
+						"4-ahead": {
+							"logScore": -3.2452162342574864,
+							"absError": 0.5212500294117647
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6367088235294125
+						},
+						"peak-wk": {
+							"logScore": -1.1554973117525729,
+							"absError": 0.9705882352941176
+						},
+						"onset-wk": {
+							"logScore": -0.7919176299786508,
+							"absError": 0.6470588235294118
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.737819411320011,
+							"absError": 0.15687508823529414
+						},
+						"2-ahead": {
+							"logScore": -2.8621923631644632,
+							"absError": 0.1636541764705882
+						},
+						"3-ahead": {
+							"logScore": -2.935014856469662,
+							"absError": 0.19476988235294115
+						},
+						"4-ahead": {
+							"logScore": -3.0047749113488376,
+							"absError": 0.21135244117647053
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.4848100000000008
+						},
+						"peak-wk": {
+							"logScore": -0.9329323797244494,
+							"absError": 0.47058823529411764
+						},
+						"onset-wk": {
+							"logScore": -0.42110481484149465,
+							"absError": 0.058823529411764705
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs9",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.090603205796353,
+							"absError": 0.5010723529411765
+						},
+						"2-ahead": {
+							"logScore": -4.132692219872868,
+							"absError": 0.47524117647058817
+						},
+						"3-ahead": {
+							"logScore": -4.209702942622724,
+							"absError": 0.5428864705882352
+						},
+						"4-ahead": {
+							"logScore": -4.509650999824092,
+							"absError": 0.5856376470588235
+						},
+						"peak": {
+							"logScore": -5.987845057608301,
+							"absError": 0.609567647058823
+						},
+						"peak-wk": {
+							"logScore": -2.1176542476964566,
+							"absError": 1.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.7941176470588235
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.26959588235294113
+						},
+						"2-ahead": {
+							"logScore": -2.9868529448522505,
+							"absError": 0.34826411764705884
+						},
+						"3-ahead": {
+							"logScore": -3.216146474505502,
+							"absError": 0.5433829411764706
+						},
+						"4-ahead": {
+							"logScore": -3.519485082296785,
+							"absError": 0.8392729411764707
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3597070588235283
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2058823529411764
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.3235294117647058
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.26959588235294113
+						},
+						"2-ahead": {
+							"logScore": -2.909432969749071,
+							"absError": 0.49801764705882356
+						},
+						"3-ahead": {
+							"logScore": -3.072494893091764,
+							"absError": 0.7662611764705883
+						},
+						"4-ahead": {
+							"logScore": -3.2519788674200676,
+							"absError": 1.075474117647059
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6497094117647054
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.588235294117647
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.5294117647058822
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.26959588235294113
+						},
+						"2-ahead": {
+							"logScore": -2.7472232167971335,
+							"absError": 0.40521352941176475
+						},
+						"3-ahead": {
+							"logScore": -2.919732206040329,
+							"absError": 0.6559882352941175
+						},
+						"4-ahead": {
+							"logScore": -3.2176002500888505,
+							"absError": 0.9922135294117644
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.5416182352941163
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.411764705882353
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.26959588235294113
+						},
+						"2-ahead": {
+							"logScore": -2.695877993640482,
+							"absError": 0.40087647058823533
+						},
+						"3-ahead": {
+							"logScore": -2.844089901252805,
+							"absError": 0.6324370588235295
+						},
+						"4-ahead": {
+							"logScore": -3.13222233947383,
+							"absError": 0.899554117647059
+						},
+						"peak": {
+							"logScore": -3.8599848044338927,
+							"absError": 0.6925017647058818
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2941176470588236
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.5
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.26959588235294113
+						},
+						"2-ahead": {
+							"logScore": -2.8954248344661515,
+							"absError": 0.5172158823529412
+						},
+						"3-ahead": {
+							"logScore": -3.040536178309882,
+							"absError": 0.9331747058823529
+						},
+						"4-ahead": {
+							"logScore": -3.3887804335607035,
+							"absError": 1.398095882352941
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.9033829411764709
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.588235294117647
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.26959588235294113
+						},
+						"2-ahead": {
+							"logScore": -2.760526690083645,
+							"absError": 0.6793364705882352
+						},
+						"3-ahead": {
+							"logScore": -3.027159612529624,
+							"absError": 1.0753305882352941
+						},
+						"4-ahead": {
+							"logScore": -3.195123207701736,
+							"absError": 1.3319841176470586
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.0710299999999986
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.8529411764705883
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.6470588235294117
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.196435826052898,
+							"absError": 0.3994670588235295
+						},
+						"2-ahead": {
+							"logScore": -3.2802317824682428,
+							"absError": 0.43932235294117683
+						},
+						"3-ahead": {
+							"logScore": -3.315592912845108,
+							"absError": 0.48381235294117647
+						},
+						"4-ahead": {
+							"logScore": -3.367740765809477,
+							"absError": 0.5027064705882351
+						},
+						"peak": {
+							"logScore": -4.651811074056693,
+							"absError": 0.46486294117647053
+						},
+						"peak-wk": {
+							"logScore": -1.8385709793223053,
+							"absError": 1.2941176470588236
+						},
+						"onset-wk": {
+							"logScore": -1.2983545159318792,
+							"absError": 1.0294117647058822
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1236837995359465,
+							"absError": 0.42274470588235197
+						},
+						"2-ahead": {
+							"logScore": -3.2900284274819263,
+							"absError": 0.4798605882352952
+						},
+						"3-ahead": {
+							"logScore": -3.3065138154764533,
+							"absError": 0.5167982352941178
+						},
+						"4-ahead": {
+							"logScore": -3.3461339032512742,
+							"absError": 0.5514370588235282
+						},
+						"peak": {
+							"logScore": -4.307957347574909,
+							"absError": 0.3339805882352941
+						},
+						"peak-wk": {
+							"logScore": -2.1632335625294776,
+							"absError": 0.7058823529411765
+						},
+						"onset-wk": {
+							"logScore": -1.3841506298463329,
+							"absError": 0.9117647058823529
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.791925742854499,
+							"absError": 0.41484764705882354
+						},
+						"2-ahead": {
+							"logScore": -3.280825579697396,
+							"absError": 0.4420047058823519
+						},
+						"3-ahead": {
+							"logScore": -3.1984737644825447,
+							"absError": 0.4748735294117636
+						},
+						"4-ahead": {
+							"logScore": -3.21257475733493,
+							"absError": 0.5013535294117647
+						},
+						"peak": {
+							"logScore": -4.110635031609645,
+							"absError": 0.1300047058823549
+						},
+						"peak-wk": {
+							"logScore": -2.1446675212196653,
+							"absError": 1.5588235294117647
+						},
+						"onset-wk": {
+							"logScore": -1.2033753000381715,
+							"absError": 0.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.737301998055998,
+							"absError": 0.46735058823529413
+						},
+						"2-ahead": {
+							"logScore": -3.5742985927417177,
+							"absError": 0.53296
+						},
+						"3-ahead": {
+							"logScore": -3.7145151436469948,
+							"absError": 0.5560482352941177
+						},
+						"4-ahead": {
+							"logScore": -3.5550501340144955,
+							"absError": 0.49898750959976657
+						},
+						"peak": {
+							"logScore": -4.5383404512789065,
+							"absError": 0.2367983229593802
+						},
+						"peak-wk": {
+							"logScore": -2.9181223739165394,
+							"absError": 1.588235294117647
+						},
+						"onset-wk": {
+							"logScore": -1.1986144084301904,
+							"absError": 0.7058823529411765
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.106665192588389,
+							"absError": 0.3285876470588236
+						},
+						"2-ahead": {
+							"logScore": -4.213162824238413,
+							"absError": 0.32164529411764703
+						},
+						"3-ahead": {
+							"logScore": -4.471623611593628,
+							"absError": 0.36670470588235293
+						},
+						"4-ahead": {
+							"logScore": -4.541469140347775,
+							"absError": 0.4183682352941176
+						},
+						"peak": {
+							"logScore": -6.198045958864824,
+							"absError": 0.35694274643353957
+						},
+						"peak-wk": {
+							"logScore": -4.227836622809555,
+							"absError": 2.264705882352941
+						},
+						"onset-wk": {
+							"logScore": -1.261182894612222,
+							"absError": 0.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.645781888903576,
+							"absError": 0.4431052941176472
+						},
+						"2-ahead": {
+							"logScore": -3.6339364383276713,
+							"absError": 0.4435335294117648
+						},
+						"3-ahead": {
+							"logScore": -3.622581933736802,
+							"absError": 0.4420858823529412
+						},
+						"4-ahead": {
+							"logScore": -3.614507354668728,
+							"absError": 0.44194294117647065
+						},
+						"peak": {
+							"logScore": -3.2903363257940215,
+							"absError": 0.14559411764705865
+						},
+						"peak-wk": {
+							"logScore": -2.533646507430399,
+							"absError": 0.7352941176470589
+						},
+						"onset-wk": {
+							"logScore": -2.070888300058845,
+							"absError": 0.3235294117647059
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.645781888903576,
+							"absError": 0.4431052941176472
+						},
+						"2-ahead": {
+							"logScore": -3.6339364383276713,
+							"absError": 0.4435335294117648
+						},
+						"3-ahead": {
+							"logScore": -3.622581933736802,
+							"absError": 0.4420858823529412
+						},
+						"4-ahead": {
+							"logScore": -3.614507354668728,
+							"absError": 0.44194294117647065
+						},
+						"peak": {
+							"logScore": -4.067998736219267,
+							"absError": 0.2924900000000001
+						},
+						"peak-wk": {
+							"logScore": -2.982303547891234,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -2.531526160087594,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0363469927040594,
+							"absError": 0.39595603029328846
+						},
+						"2-ahead": {
+							"logScore": -3.209502478023268,
+							"absError": 0.4518242650303781
+						},
+						"3-ahead": {
+							"logScore": -3.219939630446709,
+							"absError": 0.4925174232533409
+						},
+						"4-ahead": {
+							"logScore": -3.283809927948853,
+							"absError": 0.5289415995980333
+						},
+						"peak": {
+							"logScore": -3.2362519057887353,
+							"absError": 0.15792257244005267
+						},
+						"peak-wk": {
+							"logScore": -1.7982351160101082,
+							"absError": 1.2352941176470589
+						},
+						"onset-wk": {
+							"logScore": -1.3580345861723577,
+							"absError": 0.7058823529411765
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.7273570588235305
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.723987647058825
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.7254352941176485
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.7285194117647076
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 1.5424900000000008
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 6
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.326621892291924,
+							"absError": 0.35832882352941176
+						},
+						"2-ahead": {
+							"logScore": -3.371584476505376,
+							"absError": 0.4379488235294117
+						},
+						"3-ahead": {
+							"logScore": -3.4577573757974163,
+							"absError": 0.4921523529411765
+						},
+						"4-ahead": {
+							"logScore": -3.503787819926229,
+							"absError": 0.541214705882353
+						},
+						"peak": {
+							"logScore": -3.1387825261066027,
+							"absError": 0.4305858823529412
+						},
+						"peak-wk": {
+							"logScore": -1.5609631326458606,
+							"absError": 0.5294117647058824
+						},
+						"onset-wk": {
+							"logScore": -1.054586166379936,
+							"absError": 0.5
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9489885618574667,
+							"absError": 0.35515882352941175
+						},
+						"2-ahead": {
+							"logScore": -3.066970258660781,
+							"absError": 0.3963170588235294
+						},
+						"3-ahead": {
+							"logScore": -3.09279878280988,
+							"absError": 0.39973823529411756
+						},
+						"4-ahead": {
+							"logScore": -3.182486129812253,
+							"absError": 0.4178835294117646
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.33117882352941175
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.6470588235294118
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.9411764705882353
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.6556576472408735,
+							"absError": 0.3852135294117648
+						},
+						"2-ahead": {
+							"logScore": -3.661935976408538,
+							"absError": 0.3923176470588235
+						},
+						"3-ahead": {
+							"logScore": -3.678534349586002,
+							"absError": 0.4061870588235294
+						},
+						"4-ahead": {
+							"logScore": -3.639290045916054,
+							"absError": 0.4068376470588235
+						},
+						"peak": {
+							"logScore": -3.914433458884954,
+							"absError": 1.0954311764705873
+						},
+						"peak-wk": {
+							"logScore": -2.675087368870811,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -2.7099422473430335,
+							"absError": 2
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.15061096957601,
+							"absError": 0.4021152941176471
+						},
+						"2-ahead": {
+							"logScore": -3.3342177325628124,
+							"absError": 0.4882370588235294
+						},
+						"3-ahead": {
+							"logScore": -3.48223074314795,
+							"absError": 0.5601729411764707
+						},
+						"4-ahead": {
+							"logScore": -3.5697475180771754,
+							"absError": 0.6071635294117647
+						},
+						"peak": {
+							"logScore": -3.6850114729455496,
+							"absError": 0.3661823529411763
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.6176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.0294117647058822
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1694878584713417,
+							"absError": 0.3044835294117647
+						},
+						"2-ahead": {
+							"logScore": -3.3296595536649787,
+							"absError": 0.3479858823529412
+						},
+						"3-ahead": {
+							"logScore": -3.4091089388683344,
+							"absError": 0.30477647058823537
+						},
+						"4-ahead": {
+							"logScore": -3.4767207404523846,
+							"absError": 0.3244494117647059
+						},
+						"peak": {
+							"logScore": -3.783153919493064,
+							"absError": 0.9760288235294103
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.5294117647058824
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6470588235294118
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs10",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5262388886750053,
+							"absError": 0.3995967647058824
+						},
+						"2-ahead": {
+							"logScore": -3.31866641861054,
+							"absError": 0.4903301176470589
+						},
+						"3-ahead": {
+							"logScore": -3.443054742959215,
+							"absError": 0.5126861470588234
+						},
+						"4-ahead": {
+							"logScore": -3.372644344904473,
+							"absError": 0.6109905294117645
+						},
+						"peak": {
+							"logScore": -1.5831632072646915,
+							"absError": 0.43962941176470594
+						},
+						"peak-wk": {
+							"logScore": -2.9089744893211353,
+							"absError": 2.4411764705882355
+						},
+						"onset-wk": {
+							"logScore": -0.5336805447393614,
+							"absError": 0.2647058823529412
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.22434888235294123
+						},
+						"2-ahead": {
+							"logScore": -2.795835146352016,
+							"absError": 0.3025532941176471
+						},
+						"3-ahead": {
+							"logScore": -3.2183829623587656,
+							"absError": 0.4578672647058824
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.7240132352941175
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.8961611764705874
+						},
+						"peak-wk": {
+							"logScore": -1.6862961141939357,
+							"absError": 1.1176470588235294
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.411764705882353
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.22434888235294123
+						},
+						"2-ahead": {
+							"logScore": -2.8326916280990257,
+							"absError": 0.38469141176470584
+						},
+						"3-ahead": {
+							"logScore": -3.233576222259767,
+							"absError": 0.6481645588235294
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.8993000588235294
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.45408705882352934
+						},
+						"peak-wk": {
+							"logScore": -1.190271487618117,
+							"absError": 1.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.5294117647058822
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.22434888235294123
+						},
+						"2-ahead": {
+							"logScore": -2.616994322687774,
+							"absError": 0.3738174705882353
+						},
+						"3-ahead": {
+							"logScore": -2.8840857071207626,
+							"absError": 0.5792890882352942
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.8210720588235294
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.0332505882352936
+						},
+						"peak-wk": {
+							"logScore": -1.5458722269344125,
+							"absError": 1.2647058823529411
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.411764705882353
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.22434888235294123
+						},
+						"2-ahead": {
+							"logScore": -2.6489704450033713,
+							"absError": 0.4938592941176468
+						},
+						"3-ahead": {
+							"logScore": -2.923300412216953,
+							"absError": 0.7675416176470587
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.9692835294117643
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6479564705882344
+						},
+						"peak-wk": {
+							"logScore": -1.272145671042399,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.5588235294117647
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.22434888235294123
+						},
+						"2-ahead": {
+							"logScore": -2.817129462392061,
+							"absError": 0.4511957058823529
+						},
+						"3-ahead": {
+							"logScore": -3.2184754703324976,
+							"absError": 0.8375374411764706
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.4147297058823527
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.8445664705882352
+						},
+						"peak-wk": {
+							"logScore": -1.4612462310624519,
+							"absError": 1.1764705882352942
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.4705882352941178
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.22434888235294123
+						},
+						"2-ahead": {
+							"logScore": -2.9970169674291602,
+							"absError": 0.9902825882352942
+						},
+						"3-ahead": {
+							"logScore": -3.3600990197647214,
+							"absError": 1.9323627941176482
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.639871764705883
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.8572288235294117
+						},
+						"peak-wk": {
+							"logScore": -1.4648243370697225,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.6470588235294117
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.30184252951371,
+							"absError": 0.453499
+						},
+						"2-ahead": {
+							"logScore": -3.531025488558412,
+							"absError": 0.5158222941176469
+						},
+						"3-ahead": {
+							"logScore": -3.588480753486707,
+							"absError": 0.5571404411764705
+						},
+						"4-ahead": {
+							"logScore": -3.629429477569429,
+							"absError": 0.5867082352941176
+						},
+						"peak": {
+							"logScore": -2.1546567602461337,
+							"absError": 0.30944411764705904
+						},
+						"peak-wk": {
+							"logScore": -1.5364409877336298,
+							"absError": 0.9705882352941176
+						},
+						"onset-wk": {
+							"logScore": -6.445560321435918,
+							"absError": 1.9411764705882353
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.465897481626939,
+							"absError": 0.22914564705882354
+						},
+						"2-ahead": {
+							"logScore": -2.6847544414281956,
+							"absError": 0.3079696470588235
+						},
+						"3-ahead": {
+							"logScore": -2.8555609156199804,
+							"absError": 0.38469744117647064
+						},
+						"4-ahead": {
+							"logScore": -2.959417261996027,
+							"absError": 0.4500660588235284
+						},
+						"peak": {
+							"logScore": -2.364496637490641,
+							"absError": 0.14852941176470474
+						},
+						"peak-wk": {
+							"logScore": -1.993116308286578,
+							"absError": 1.7647058823529411
+						},
+						"onset-wk": {
+							"logScore": -7.405357357591974,
+							"absError": 1.5
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6114232826899397,
+							"absError": 0.24395105882352847
+						},
+						"2-ahead": {
+							"logScore": -2.8759766287537527,
+							"absError": 0.38885964705882353
+						},
+						"3-ahead": {
+							"logScore": -3.047731755305652,
+							"absError": 0.5447179117647059
+						},
+						"4-ahead": {
+							"logScore": -3.1340783399256935,
+							"absError": 0.6802831176470577
+						},
+						"peak": {
+							"logScore": -2.5791355726240837,
+							"absError": 0.3081741176470589
+						},
+						"peak-wk": {
+							"logScore": -2.1819735560462354,
+							"absError": 1.2941176470588236
+						},
+						"onset-wk": {
+							"logScore": -7.224315377326122,
+							"absError": 1.088235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.2318054400463403,
+							"absError": 0.16825252941176472
+						},
+						"2-ahead": {
+							"logScore": -2.5343685760840025,
+							"absError": 0.23887700000000003
+						},
+						"3-ahead": {
+							"logScore": -2.5804785456416415,
+							"absError": 0.28277634190425266
+						},
+						"4-ahead": {
+							"logScore": -2.6492058187187393,
+							"absError": 0.2978718823529412
+						},
+						"peak": {
+							"logScore": -2.7936290917239943,
+							"absError": 0.34915
+						},
+						"peak-wk": {
+							"logScore": -2.1637668839119506,
+							"absError": 2.1470588235294117
+						},
+						"onset-wk": {
+							"logScore": -7.352639403902868,
+							"absError": 1.1176470588235294
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.918429956438086,
+							"absError": 0.2853482352941177
+						},
+						"2-ahead": {
+							"logScore": -2.8377264218550904,
+							"absError": 0.31467323529411767
+						},
+						"3-ahead": {
+							"logScore": -2.9133210543643013,
+							"absError": 0.32906779411764703
+						},
+						"4-ahead": {
+							"logScore": -3.0875702689169913,
+							"absError": 0.33657176470588235
+						},
+						"peak": {
+							"logScore": -2.9429013966911635,
+							"absError": 0.3373852941176471
+						},
+						"peak-wk": {
+							"logScore": -2.2373059470721635,
+							"absError": 2.0294117647058822
+						},
+						"onset-wk": {
+							"logScore": -6.98348716437168,
+							"absError": 1.2058823529411764
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.659934166228872,
+							"absError": 0.455050411764706
+						},
+						"2-ahead": {
+							"logScore": -3.651149893376404,
+							"absError": 0.4543995882352942
+						},
+						"3-ahead": {
+							"logScore": -3.6351918891691586,
+							"absError": 0.4517697352941177
+						},
+						"4-ahead": {
+							"logScore": -3.619390675531617,
+							"absError": 0.45339635294117653
+						},
+						"peak": {
+							"logScore": -3.565624708727689,
+							"absError": 0.25044882352941167
+						},
+						"peak-wk": {
+							"logScore": -2.681071279608115,
+							"absError": 1.6764705882352942
+						},
+						"onset-wk": {
+							"logScore": -2.271017248171046,
+							"absError": 1.0588235294117647
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.659934166228872,
+							"absError": 0.455050411764706
+						},
+						"2-ahead": {
+							"logScore": -3.651149893376404,
+							"absError": 0.4543995882352942
+						},
+						"3-ahead": {
+							"logScore": -3.6351918891691586,
+							"absError": 0.4517697352941177
+						},
+						"4-ahead": {
+							"logScore": -3.619390675531617,
+							"absError": 0.45339635294117653
+						},
+						"peak": {
+							"logScore": -4.339250216735546,
+							"absError": 1.0576299999999992
+						},
+						"peak-wk": {
+							"logScore": -3.1258342415907197,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -2.8005641837723645,
+							"absError": 2
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.491146524764573,
+							"absError": 0.2243440400192267
+						},
+						"2-ahead": {
+							"logScore": -2.724383621119257,
+							"absError": 0.32382027403625857
+						},
+						"3-ahead": {
+							"logScore": -2.881343736128509,
+							"absError": 0.4047244674024634
+						},
+						"4-ahead": {
+							"logScore": -2.975262007050713,
+							"absError": 0.45834879260406935
+						},
+						"peak": {
+							"logScore": -2.349568983988765,
+							"absError": 0.20130317752342133
+						},
+						"peak-wk": {
+							"logScore": -1.8059387381609424,
+							"absError": 1.7352941176470589
+						},
+						"onset-wk": {
+							"logScore": -4.1710269108513245,
+							"absError": 1.7352941176470589
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.137549941176472
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.152639705882354
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.16177455882353
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.1722247058823525
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.907629999999999
+						},
+						"peak-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.555348061489412,
+							"absError": 8
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9489968322854265,
+							"absError": 0.3212111176470589
+						},
+						"2-ahead": {
+							"logScore": -3.0787566382497684,
+							"absError": 0.41761911764705895
+						},
+						"3-ahead": {
+							"logScore": -3.194190565771939,
+							"absError": 0.507632205882353
+						},
+						"4-ahead": {
+							"logScore": -3.2418629270346027,
+							"absError": 0.5982170588235295
+						},
+						"peak": {
+							"logScore": -2.27203399468867,
+							"absError": 0.5336994117647054
+						},
+						"peak-wk": {
+							"logScore": -1.663441269793104,
+							"absError": 1.7647058823529411
+						},
+						"onset-wk": {
+							"logScore": -1.886650426579157,
+							"absError": 0.9411764705882353
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6324659159728436,
+							"absError": 0.24445058823529411
+						},
+						"2-ahead": {
+							"logScore": -2.7534209918306565,
+							"absError": 0.34215152941176474
+						},
+						"3-ahead": {
+							"logScore": -2.8462419210052596,
+							"absError": 0.40156138235294125
+						},
+						"4-ahead": {
+							"logScore": -2.918590648352772,
+							"absError": 0.473161
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.48075823529411715
+						},
+						"peak-wk": {
+							"logScore": -1.4273617044642744,
+							"absError": 1.8235294117647058
+						},
+						"onset-wk": {
+							"logScore": -0.6077672513448095,
+							"absError": 0.4411764705882353
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.197618436288891,
+							"absError": 0.5274699411764707
+						},
+						"2-ahead": {
+							"logScore": -3.1733218977339064,
+							"absError": 0.5179955882352941
+						},
+						"3-ahead": {
+							"logScore": -3.156224413589467,
+							"absError": 0.5183069117647059
+						},
+						"4-ahead": {
+							"logScore": -3.14260050769457,
+							"absError": 0.5081688235294118
+						},
+						"peak": {
+							"logScore": -4.126433361661493,
+							"absError": 2.1811594117647055
+						},
+						"peak-wk": {
+							"logScore": -2.8700513558827248,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -3.1704040461838785,
+							"absError": 4
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6408275597166257,
+							"absError": 0.2420731764705882
+						},
+						"2-ahead": {
+							"logScore": -2.811936096645768,
+							"absError": 0.33234094117647056
+						},
+						"3-ahead": {
+							"logScore": -2.9682314724351406,
+							"absError": 0.45758850000000006
+						},
+						"4-ahead": {
+							"logScore": -3.076067059653558,
+							"absError": 0.5134046470588235
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.3640564705882352
+						},
+						"peak-wk": {
+							"logScore": -1.468566142592572,
+							"absError": 1.3235294117647058
+						},
+						"onset-wk": {
+							"logScore": -0.7550160518861244,
+							"absError": 0.2647058823529412
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7023482959424587,
+							"absError": 0.273571294117647
+						},
+						"2-ahead": {
+							"logScore": -2.8842909881161174,
+							"absError": 0.29361741176470596
+						},
+						"3-ahead": {
+							"logScore": -2.9737827294919352,
+							"absError": 0.3233326764705882
+						},
+						"4-ahead": {
+							"logScore": -3.010721094369783,
+							"absError": 0.3095304705882353
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7563311764705875
+						},
+						"peak-wk": {
+							"logScore": -1.056846301744297,
+							"absError": 0.47058823529411764
+						},
+						"onset-wk": {
+							"logScore": -0.6233356464106342,
+							"absError": 0.20588235294117646
+						}
+					}
+				}
+			]
+		}
+	]
+};

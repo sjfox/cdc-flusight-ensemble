@@ -1,0 +1,7683 @@
+module.exports = {
+	"seasonId": "2010-2011",
+	"regions": [
+		{
+			"id": "nat",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.6900236093316339,
+							"absError": 0.7222318181818181
+						},
+						"2-ahead": {
+							"logScore": -1.9305596280482664,
+							"absError": 0.6944572727272728
+						},
+						"3-ahead": {
+							"logScore": -2.153658542209039,
+							"absError": 0.7439992424242424
+						},
+						"4-ahead": {
+							"logScore": -2.1365602925506852,
+							"absError": 0.7640991515151516
+						},
+						"peak": {
+							"logScore": -1.5569298780454568,
+							"absError": 0.6889603030303032
+						},
+						"peak-wk": {
+							"logScore": -5.536730278021158,
+							"absError": 2.090909090909091
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9669710019081058,
+							"absError": 0.23745606060606056
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.0026166666666665
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.276919242424242
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 3.0525488484848484
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.381936060606062
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.393939393939394
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9669710019081058,
+							"absError": 0.23745606060606056
+						},
+						"2-ahead": {
+							"logScore": -1.3782063263642503,
+							"absError": 1.7147378787878786
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.2057210606060593
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.0584615757575753
+						},
+						"peak": {
+							"logScore": -1.8177761332594236,
+							"absError": 1.857693636363635
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.8181818181818181
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9669710019081058,
+							"absError": 0.23745606060606056
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9997639393939394
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.376504696969697
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 3.243763393939394
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.418396060606063
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5151515151515151
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9669710019081058,
+							"absError": 0.23745606060606056
+						},
+						"2-ahead": {
+							"logScore": -1.278374370254078,
+							"absError": 0.9867312121212122
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.5092428787878784
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.823485818181818
+						},
+						"peak": {
+							"logScore": -1.817829661834235,
+							"absError": 1.3696221212121198
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.8181818181818181
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.3333333333333333
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9669710019081058,
+							"absError": 0.23745606060606056
+						},
+						"2-ahead": {
+							"logScore": -1.6346165684482146,
+							"absError": 2.125796666666666
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 3.583499848484848
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 4.191728242424244
+						},
+						"peak": {
+							"logScore": -2.3247383861975663,
+							"absError": 4.163657878787873
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.272727272727273
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.2727272727272727
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9669710019081058,
+							"absError": 0.23745606060606056
+						},
+						"2-ahead": {
+							"logScore": -1.291456790769523,
+							"absError": 3.3474518181818174
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.215303484848485
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.07448096969697
+						},
+						"peak": {
+							"logScore": -1.8600696448463112,
+							"absError": 3.2122390909090925
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.4242424242424243
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.4242424242424243
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.2720978860399186,
+							"absError": 0.2913796969696971
+						},
+						"2-ahead": {
+							"logScore": -1.423556250557703,
+							"absError": 0.34753848484848493
+						},
+						"3-ahead": {
+							"logScore": -1.5308868195885443,
+							"absError": 0.40011803030303045
+						},
+						"4-ahead": {
+							"logScore": -1.5994951163338267,
+							"absError": 0.4234464242424244
+						},
+						"peak": {
+							"logScore": -2.5790869113335173,
+							"absError": 0.6424724242424248
+						},
+						"peak-wk": {
+							"logScore": -3.5715280394057958,
+							"absError": 1.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": -1.5747178750378787,
+							"absError": 0.5757575757575758
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9909852589719175,
+							"absError": 0.23563787878787876
+						},
+						"2-ahead": {
+							"logScore": -1.213675223800177,
+							"absError": 0.29794818181818183
+						},
+						"3-ahead": {
+							"logScore": -1.3049395217261597,
+							"absError": 0.3195886363636353
+						},
+						"4-ahead": {
+							"logScore": -1.2499840011731764,
+							"absError": 0.3288153939393939
+						},
+						"peak": {
+							"logScore": -1.1836541845840052,
+							"absError": 0.43338151515151646
+						},
+						"peak-wk": {
+							"logScore": -4.514495890023548,
+							"absError": 1.0606060606060606
+						},
+						"onset-wk": {
+							"logScore": -2.1052438132873816,
+							"absError": 0.5757575757575758
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.2858974205776554,
+							"absError": 0.25387303030303027
+						},
+						"2-ahead": {
+							"logScore": -1.3890513725051257,
+							"absError": 0.3443027272727283
+						},
+						"3-ahead": {
+							"logScore": -1.4310055381358673,
+							"absError": 0.4323116666666667
+						},
+						"4-ahead": {
+							"logScore": -1.3427169317119305,
+							"absError": 0.46869054545454536
+						},
+						"peak": {
+							"logScore": -1.7138677857711637,
+							"absError": 0.674097878787879
+						},
+						"peak-wk": {
+							"logScore": -4.622372260799871,
+							"absError": 1.9090909090909092
+						},
+						"onset-wk": {
+							"logScore": -2.2074628674774024,
+							"absError": 1.0909090909090908
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.252304057953582,
+							"absError": 0.2184172727272727
+						},
+						"2-ahead": {
+							"logScore": -2.1530087834672127,
+							"absError": 0.23892757575757573
+						},
+						"3-ahead": {
+							"logScore": -2.347851646545234,
+							"absError": 0.2983674242424243
+						},
+						"4-ahead": {
+							"logScore": -2.0100027998420016,
+							"absError": 0.30459131191656774
+						},
+						"peak": {
+							"logScore": -2.2338884788926032,
+							"absError": 0.545957878787879
+						},
+						"peak-wk": {
+							"logScore": -4.431673031970634,
+							"absError": 1.4848484848484849
+						},
+						"onset-wk": {
+							"logScore": -2.177406606522858,
+							"absError": 0.8181818181818182
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.245886228444485,
+							"absError": 0.24408939393939388
+						},
+						"2-ahead": {
+							"logScore": -2.3456068144459534,
+							"absError": 0.2868427272727273
+						},
+						"3-ahead": {
+							"logScore": -2.5296100283788663,
+							"absError": 0.31512106060606065
+						},
+						"4-ahead": {
+							"logScore": -2.0996340005977245,
+							"absError": 0.2931585454545455
+						},
+						"peak": {
+							"logScore": -4.046687916256403,
+							"absError": 0.6067566666666669
+						},
+						"peak-wk": {
+							"logScore": -5.034448111862802,
+							"absError": 1.5757575757575757
+						},
+						"onset-wk": {
+							"logScore": -2.300854148535594,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.267018593955494,
+							"absError": 0.36449181818181825
+						},
+						"2-ahead": {
+							"logScore": -2.25312375799692,
+							"absError": 0.3647530303030304
+						},
+						"3-ahead": {
+							"logScore": -2.2381503249652153,
+							"absError": 0.3656086363636365
+						},
+						"4-ahead": {
+							"logScore": -2.223047105710174,
+							"absError": 0.367185090909091
+						},
+						"peak": {
+							"logScore": -2.130194578359394,
+							"absError": 0.48896030303030313
+						},
+						"peak-wk": {
+							"logScore": -2.7199710142941433,
+							"absError": 1.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": -2.5746719365209203,
+							"absError": 1.2121212121212122
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.267018593955494,
+							"absError": 0.36449181818181825
+						},
+						"2-ahead": {
+							"logScore": -2.25312375799692,
+							"absError": 0.3647530303030304
+						},
+						"3-ahead": {
+							"logScore": -2.2381503249652153,
+							"absError": 0.3656086363636365
+						},
+						"4-ahead": {
+							"logScore": -2.223047105710174,
+							"absError": 0.367185090909091
+						},
+						"peak": {
+							"logScore": -2.7528064139809345,
+							"absError": 0.8484100000000009
+						},
+						"peak-wk": {
+							"logScore": -2.977818764855415,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.016489380868796,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.0003522451963882,
+							"absError": 0.21677676142316837
+						},
+						"2-ahead": {
+							"logScore": -1.2292490039252075,
+							"absError": 0.24996533483397543
+						},
+						"3-ahead": {
+							"logScore": -1.2911255579198815,
+							"absError": 0.2831371432226346
+						},
+						"4-ahead": {
+							"logScore": -1.2607452495718072,
+							"absError": 0.3153521486245355
+						},
+						"peak": {
+							"logScore": -1.5488104822430186,
+							"absError": 0.25086988376014574
+						},
+						"peak-wk": {
+							"logScore": -3.4180796883132105,
+							"absError": 0.9696969696969697
+						},
+						"onset-wk": {
+							"logScore": -1.6447321391487828,
+							"absError": 0.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 4.250117272727273
+						},
+						"2-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 4.252886363636364
+						},
+						"3-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 4.261561666666666
+						},
+						"4-ahead": {
+							"logScore": -3.26575941076705,
+							"absError": 4.272551272727274
+						},
+						"peak": {
+							"logScore": -3.26575941076705,
+							"absError": 1.99841
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 5
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -0.9797716113261867,
+							"absError": 0.18535242424242424
+						},
+						"2-ahead": {
+							"logScore": -1.1131579228411568,
+							"absError": 0.2179087878787879
+						},
+						"3-ahead": {
+							"logScore": -1.2156022314676465,
+							"absError": 0.23972924242424243
+						},
+						"4-ahead": {
+							"logScore": -1.261224895666871,
+							"absError": 0.263806303030303
+						},
+						"peak": {
+							"logScore": -1.148907569483603,
+							"absError": 0.24369848484848478
+						},
+						"peak-wk": {
+							"logScore": -1.5731677394892618,
+							"absError": 0.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": -0.7044089936396116,
+							"absError": 0.6060606060606061
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.1397389755586589,
+							"absError": 0.2474475757575758
+						},
+						"2-ahead": {
+							"logScore": -1.3166398423060177,
+							"absError": 0.3278421212121212
+						},
+						"3-ahead": {
+							"logScore": -1.3347249357363107,
+							"absError": 0.3306292424242424
+						},
+						"4-ahead": {
+							"logScore": -1.318812640075645,
+							"absError": 0.3286226666666667
+						},
+						"peak": {
+							"logScore": -1.3300902209751453,
+							"absError": 0.29747303030303035
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.1818181818181819
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.45454545454545453
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.5608677071583381,
+							"absError": 0.3389560606060607
+						},
+						"2-ahead": {
+							"logScore": -1.5621661712191313,
+							"absError": 0.3327572727272728
+						},
+						"3-ahead": {
+							"logScore": -1.5592559433805258,
+							"absError": 0.3339898484848485
+						},
+						"4-ahead": {
+							"logScore": -1.5417159876547484,
+							"absError": 0.3291287272727273
+						},
+						"peak": {
+							"logScore": -2.610393167705241,
+							"absError": 0.545379696969697
+						},
+						"peak-wk": {
+							"logScore": -2.3947371691346047,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -1.531842342478243,
+							"absError": 0.8787878787878788
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.0095835000058395,
+							"absError": 0.2629360606060607
+						},
+						"2-ahead": {
+							"logScore": -1.3665527190797204,
+							"absError": 0.38730333333333317
+						},
+						"3-ahead": {
+							"logScore": -1.6013996364757952,
+							"absError": 0.48870681818181827
+						},
+						"4-ahead": {
+							"logScore": -1.6837353017962262,
+							"absError": 0.6069279393939396
+						},
+						"peak": {
+							"logScore": -1.6594334959443897,
+							"absError": 0.8894421212121213
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.8484848484848484
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.1269524377592848,
+							"absError": 0.2867718181818182
+						},
+						"2-ahead": {
+							"logScore": -1.3622967772045016,
+							"absError": 0.3661966666666666
+						},
+						"3-ahead": {
+							"logScore": -1.510424469844994,
+							"absError": 0.4445783333333333
+						},
+						"4-ahead": {
+							"logScore": -1.599145135971931,
+							"absError": 0.5127518787878789
+						},
+						"peak": {
+							"logScore": -1.4307168449087309,
+							"absError": 0.6862190909090911
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5757575757575757
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.212121212121212
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs1",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7304731404234226,
+							"absError": 0.623583
+						},
+						"2-ahead": {
+							"logScore": -2.8614976392043214,
+							"absError": 0.6303536060606061
+						},
+						"3-ahead": {
+							"logScore": -2.777089647202084,
+							"absError": 0.6505536060606061
+						},
+						"4-ahead": {
+							"logScore": -3.0893770119765476,
+							"absError": 0.6674973333333333
+						},
+						"peak": {
+							"logScore": -2.566741549612578,
+							"absError": 0.58008
+						},
+						"peak-wk": {
+							"logScore": -1.2287132824725198,
+							"absError": 1.3636363636363635
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.13979330303030305
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.3534257878787879
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.741518090909091
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.2265458181818178
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.52689696969697
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.272727272727273
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.606060606060606
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.13979330303030305
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5340061515151517
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9877880303030304
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.4437886060606058
+						},
+						"peak": {
+							"logScore": -3.1560111513047935,
+							"absError": 1.869626666666667
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.121212121212121
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.13979330303030305
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.3541349393939394
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.7527868181818183
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.220485212121212
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.6134133333333343
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.393939393939394
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.515151515151515
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.13979330303030305
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6553022121212121
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.06490803030303
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.4841215757575752
+						},
+						"peak": {
+							"logScore": -3.1490174896581817,
+							"absError": 2.0787175757575764
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.9393939393939394
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.8484848484848486
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.13979330303030305
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1452739090909088
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.922483787878788
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.0298060000000007
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.563260606060607
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.696969696969697
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.5454545454545454
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.13979330303030305
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.199492212121212
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4406656060606058
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.593212484848484
+						},
+						"peak": {
+							"logScore": -3.1213320101035857,
+							"absError": 2.2211418181818186
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.212121212121212
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.2962098440947902,
+							"absError": 0.25184081818181814
+						},
+						"2-ahead": {
+							"logScore": -2.3752476444304094,
+							"absError": 0.29455148484848487
+						},
+						"3-ahead": {
+							"logScore": -2.471015088825188,
+							"absError": 0.3246420909090906
+						},
+						"4-ahead": {
+							"logScore": -2.5343639742708803,
+							"absError": 0.3388403636363633
+						},
+						"peak": {
+							"logScore": -2.2640671102818803,
+							"absError": 0.18172363636363634
+						},
+						"peak-wk": {
+							"logScore": -2.2387948274297216,
+							"absError": 1.9090909090909092
+						},
+						"onset-wk": {
+							"logScore": -2.0157753059493477,
+							"absError": 2.727272727272727
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -1.9492373186332959,
+							"absError": 0.1267239696969697
+						},
+						"2-ahead": {
+							"logScore": -2.257886215713917,
+							"absError": 0.15699857575757575
+						},
+						"3-ahead": {
+							"logScore": -2.3628956174772298,
+							"absError": 0.17797839393939396
+						},
+						"4-ahead": {
+							"logScore": -2.4507950819411106,
+							"absError": 0.18660854545454544
+						},
+						"peak": {
+							"logScore": -2.484646751541652,
+							"absError": 0.10946666666666678
+						},
+						"peak-wk": {
+							"logScore": -2.09994447654875,
+							"absError": 1.393939393939394
+						},
+						"onset-wk": {
+							"logScore": -1.9953282698707218,
+							"absError": 1.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.1643309777752004,
+							"absError": 0.14506312121212114
+						},
+						"2-ahead": {
+							"logScore": -2.254003436338246,
+							"absError": 0.1717414848484849
+						},
+						"3-ahead": {
+							"logScore": -2.3298681732746798,
+							"absError": 0.16673724242424243
+						},
+						"4-ahead": {
+							"logScore": -2.41692468828238,
+							"absError": 0.19531533333333337
+						},
+						"peak": {
+							"logScore": -2.890653500011636,
+							"absError": 0.18824242424242532
+						},
+						"peak-wk": {
+							"logScore": -2.3326238643476085,
+							"absError": 1.303030303030303
+						},
+						"onset-wk": {
+							"logScore": -1.750221420325629,
+							"absError": 0.3333333333333333
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.090826241643592,
+							"absError": 0.14139748484848486
+						},
+						"2-ahead": {
+							"logScore": -2.5844369242816208,
+							"absError": 0.21563523804499599
+						},
+						"3-ahead": {
+							"logScore": -2.6159873233771904,
+							"absError": 0.26169378787878794
+						},
+						"4-ahead": {
+							"logScore": -2.684010534001913,
+							"absError": 0.2795715151515152
+						},
+						"peak": {
+							"logScore": -2.8438182131851266,
+							"absError": 0.3024896969696969
+						},
+						"peak-wk": {
+							"logScore": -2.1353764898878254,
+							"absError": 1.5757575757575757
+						},
+						"onset-wk": {
+							"logScore": -2.2040336643633527,
+							"absError": 1.6363636363636365
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6888236316734644,
+							"absError": 0.20443384916893
+						},
+						"2-ahead": {
+							"logScore": -3.225819104383189,
+							"absError": 0.2544335454545455
+						},
+						"3-ahead": {
+							"logScore": -3.421131251897462,
+							"absError": 0.2841556666666667
+						},
+						"4-ahead": {
+							"logScore": -3.0788318521526588,
+							"absError": 0.2727607272727274
+						},
+						"peak": {
+							"logScore": -4.1827338407212915,
+							"absError": 0.49809696969697026
+						},
+						"peak-wk": {
+							"logScore": -1.6393488723757133,
+							"absError": 0.9696969696969697
+						},
+						"onset-wk": {
+							"logScore": -1.8459717861289546,
+							"absError": 0.8787878787878788
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.7318856068526096,
+							"absError": 0.1870100909090909
+						},
+						"2-ahead": {
+							"logScore": -3.7252690641936956,
+							"absError": 0.1918419696969697
+						},
+						"3-ahead": {
+							"logScore": -3.7155315483514664,
+							"absError": 0.19465984848484846
+						},
+						"4-ahead": {
+							"logScore": -3.7006004641735872,
+							"absError": 0.19666212121212118
+						},
+						"peak": {
+							"logScore": -3.8433443356984114,
+							"absError": 0.33840727272727256
+						},
+						"peak-wk": {
+							"logScore": -2.7899153192592374,
+							"absError": 0.9696969696969697
+						},
+						"onset-wk": {
+							"logScore": -2.7018086725310497,
+							"absError": 0.06060606060606061
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.7318856068526096,
+							"absError": 0.1870100909090909
+						},
+						"2-ahead": {
+							"logScore": -3.7252690641936956,
+							"absError": 0.1918419696969697
+						},
+						"3-ahead": {
+							"logScore": -3.7155315483514664,
+							"absError": 0.19465984848484846
+						},
+						"4-ahead": {
+							"logScore": -3.7006004641735872,
+							"absError": 0.19666212121212118
+						},
+						"peak": {
+							"logScore": -4.442538412504835,
+							"absError": 1.5775199999999998
+						},
+						"peak-wk": {
+							"logScore": -3.051498917903673,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -2.9804972957583407,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.0381758594866093,
+							"absError": 0.12397733939789485
+						},
+						"2-ahead": {
+							"logScore": -2.3076909663247664,
+							"absError": 0.14773497727649895
+						},
+						"3-ahead": {
+							"logScore": -2.4118031612115858,
+							"absError": 0.16296298113627464
+						},
+						"4-ahead": {
+							"logScore": -2.47295355008894,
+							"absError": 0.18375933734066563
+						},
+						"peak": {
+							"logScore": -2.501170226658187,
+							"absError": 0.3578087304602534
+						},
+						"peak-wk": {
+							"logScore": -2.221473207722968,
+							"absError": 1.8181818181818181
+						},
+						"onset-wk": {
+							"logScore": -1.699173360207606,
+							"absError": 1.5757575757575757
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.507705303030304
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.508036454545455
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.510515303030304
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.512909454545455
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 4.227519999999999
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.3857642486883766,
+							"absError": 0.09903809090909091
+						},
+						"2-ahead": {
+							"logScore": -2.4935725983531807,
+							"absError": 0.1570538484848485
+						},
+						"3-ahead": {
+							"logScore": -2.5600919204521864,
+							"absError": 0.17501209090909095
+						},
+						"4-ahead": {
+							"logScore": -2.621584065471544,
+							"absError": 0.2128306666666667
+						},
+						"peak": {
+							"logScore": -2.2223361589466855,
+							"absError": 0.32083636363636353
+						},
+						"peak-wk": {
+							"logScore": -1.5487249504997216,
+							"absError": 1.121212121212121
+						},
+						"onset-wk": {
+							"logScore": -1.4873050161159609,
+							"absError": 1.3636363636363635
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.1442007446241678,
+							"absError": 0.12438530303030304
+						},
+						"2-ahead": {
+							"logScore": -2.32952774606022,
+							"absError": 0.16923015151515156
+						},
+						"3-ahead": {
+							"logScore": -2.372267018099295,
+							"absError": 0.1612542121212122
+						},
+						"4-ahead": {
+							"logScore": -2.3842805120378543,
+							"absError": 0.14080090909090914
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.576744242424243
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.6363636363636365
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.8298445502350638,
+							"absError": 0.22837675757575754
+						},
+						"2-ahead": {
+							"logScore": -2.8431973924230594,
+							"absError": 0.24016681818181818
+						},
+						"3-ahead": {
+							"logScore": -2.8519149340458285,
+							"absError": 0.24601499999999993
+						},
+						"4-ahead": {
+							"logScore": -2.847079972525218,
+							"absError": 0.2423845454545454
+						},
+						"peak": {
+							"logScore": -3.744132730035497,
+							"absError": 1.6684290909090913
+						},
+						"peak-wk": {
+							"logScore": -2.541746796261655,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -2.6861108369601765,
+							"absError": 2.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.3006047776422758,
+							"absError": 0.15422784848484852
+						},
+						"2-ahead": {
+							"logScore": -2.599318202771311,
+							"absError": 0.20864033333333332
+						},
+						"3-ahead": {
+							"logScore": -2.766970832018951,
+							"absError": 0.2722277878787879
+						},
+						"4-ahead": {
+							"logScore": -2.8797789080860134,
+							"absError": 0.32063381818181813
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.2655151515151515
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.0303030303030303
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.503362190558858,
+							"absError": 0.20621966666666672
+						},
+						"2-ahead": {
+							"logScore": -2.740092937676255,
+							"absError": 0.2838872424242425
+						},
+						"3-ahead": {
+							"logScore": -2.8282643467314785,
+							"absError": 0.33505627272727273
+						},
+						"4-ahead": {
+							"logScore": -2.8979745794564122,
+							"absError": 0.36715448484848484
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.3103830303030301
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2121212121212122
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.5151515151515151
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs2",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.00288727701236,
+							"absError": 0.8754836363636364
+						},
+						"2-ahead": {
+							"logScore": -4.553553899347128,
+							"absError": 0.8397803030303032
+						},
+						"3-ahead": {
+							"logScore": -4.223518975829589,
+							"absError": 0.8842869696969697
+						},
+						"4-ahead": {
+							"logScore": -4.5566140401659085,
+							"absError": 0.9275927272727275
+						},
+						"peak": {
+							"logScore": -3.743663729556165,
+							"absError": 0.5661163636363635
+						},
+						"peak-wk": {
+							"logScore": -2.519087179754005,
+							"absError": 3.303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.878787878787879
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3461109090909092
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1170281818181815
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.3271609090909084
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 3.0457472727272727
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 4.221680000000003
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.8484848484848485
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6666666666666666
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3461109090909092
+						},
+						"2-ahead": {
+							"logScore": -3.6524668524596535,
+							"absError": 1.3392839393939397
+						},
+						"3-ahead": {
+							"logScore": -4.10861478774962,
+							"absError": 2.1176560606060595
+						},
+						"4-ahead": {
+							"logScore": -4.307765387106515,
+							"absError": 2.5086387878787875
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.321680000000003
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.696969696969697
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3461109090909092
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9057900000000004
+						},
+						"3-ahead": {
+							"logScore": -3.7406300653442983,
+							"absError": 1.932131818181818
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.9436612121212122
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.9944072727272744
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.1515151515151516
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.696969696969697
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3461109090909092
+						},
+						"2-ahead": {
+							"logScore": -3.219786930005076,
+							"absError": 0.982707575757576
+						},
+						"3-ahead": {
+							"logScore": -3.4151507837626363,
+							"absError": 1.7197918181818177
+						},
+						"4-ahead": {
+							"logScore": -3.641946691804808,
+							"absError": 2.2594569696969695
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.115619393939396
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.2121212121212122
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3461109090909092
+						},
+						"2-ahead": {
+							"logScore": -3.3220804508580373,
+							"absError": 1.3695457575757572
+						},
+						"3-ahead": {
+							"logScore": -3.600978059557112,
+							"absError": 2.3979409090909094
+						},
+						"4-ahead": {
+							"logScore": -3.696500732872648,
+							"absError": 3.074281212121213
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 4.021680000000003
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0606060606060606
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.696969696969697
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.3461109090909092
+						},
+						"2-ahead": {
+							"logScore": -3.1874813337949086,
+							"absError": 1.3847136363636363
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.3302590909090912
+						},
+						"4-ahead": {
+							"logScore": -3.61971077727261,
+							"absError": 2.800655757575757
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.412589090909092
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5454545454545454
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.8484848484848485
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5544213767885258,
+							"absError": 0.5225460606060607
+						},
+						"2-ahead": {
+							"logScore": -4.009262546681683,
+							"absError": 0.6651239393939393
+						},
+						"3-ahead": {
+							"logScore": -4.309168970138621,
+							"absError": 0.7584445454545458
+						},
+						"4-ahead": {
+							"logScore": -4.556265621638081,
+							"absError": 0.809487272727273
+						},
+						"peak": {
+							"logScore": -5.115562635095878,
+							"absError": 0.6638909090909088
+						},
+						"peak-wk": {
+							"logScore": -2.283415224584088,
+							"absError": 1.5454545454545454
+						},
+						"onset-wk": {
+							"logScore": -1.6171326667733696,
+							"absError": 0.696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.797363046009512,
+							"absError": 0.5453933333333331
+						},
+						"2-ahead": {
+							"logScore": -3.457418624325029,
+							"absError": 0.5765154545454548
+						},
+						"3-ahead": {
+							"logScore": -3.384676506584014,
+							"absError": 0.5612148484848485
+						},
+						"4-ahead": {
+							"logScore": -3.500187731200017,
+							"absError": 0.646741212121212
+						},
+						"peak": {
+							"logScore": -3.9030160628465933,
+							"absError": 0.3881333333333333
+						},
+						"peak-wk": {
+							"logScore": -3.0110406807940473,
+							"absError": 3.3333333333333335
+						},
+						"onset-wk": {
+							"logScore": -2.279234030968295,
+							"absError": 1.3636363636363635
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.850654766406428,
+							"absError": 0.6123751515151505
+						},
+						"2-ahead": {
+							"logScore": -4.453864666404095,
+							"absError": 0.6745160606060612
+						},
+						"3-ahead": {
+							"logScore": -4.163423009582134,
+							"absError": 0.680940909090909
+						},
+						"4-ahead": {
+							"logScore": -4.359030257034633,
+							"absError": 0.8019315151515174
+						},
+						"peak": {
+							"logScore": -3.6165740311497756,
+							"absError": 0.5941939393939394
+						},
+						"peak-wk": {
+							"logScore": -2.8066152094944745,
+							"absError": 3.515151515151515
+						},
+						"onset-wk": {
+							"logScore": -2.1349133809087237,
+							"absError": 1.3333333333333333
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.6270470031291606,
+							"absError": 0.5159145454545454
+						},
+						"2-ahead": {
+							"logScore": -3.7339357124567507,
+							"absError": 0.5880785803989882
+						},
+						"3-ahead": {
+							"logScore": -3.823879991112768,
+							"absError": 0.6458512121212122
+						},
+						"4-ahead": {
+							"logScore": -3.959790511511484,
+							"absError": 0.6936054545454546
+						},
+						"peak": {
+							"logScore": -3.912570938686203,
+							"absError": 0.242678787878788
+						},
+						"peak-wk": {
+							"logScore": -3.476781086330483,
+							"absError": 3.393939393939394
+						},
+						"onset-wk": {
+							"logScore": -3.2559069521885156,
+							"absError": 1.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5491637965743794,
+							"absError": 0.45976254137704403
+						},
+						"2-ahead": {
+							"logScore": -3.5249498399655734,
+							"absError": 0.4687469696969696
+						},
+						"3-ahead": {
+							"logScore": -3.5952710618666828,
+							"absError": 0.49134515151515146
+						},
+						"4-ahead": {
+							"logScore": -3.7270851509224427,
+							"absError": 0.5556388464478113
+						},
+						"peak": {
+							"logScore": -3.4986032336704564,
+							"absError": 0.23187151515151522
+						},
+						"peak-wk": {
+							"logScore": -3.2728367398839366,
+							"absError": 4.181818181818182
+						},
+						"onset-wk": {
+							"logScore": -2.5804858241002586,
+							"absError": 1.5151515151515151
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.005755993960599,
+							"absError": 0.8963212121212121
+						},
+						"2-ahead": {
+							"logScore": -4.015021231778998,
+							"absError": 0.9085960606060607
+						},
+						"3-ahead": {
+							"logScore": -4.012318260004071,
+							"absError": 0.9055330303030303
+						},
+						"4-ahead": {
+							"logScore": -4.0063155292717765,
+							"absError": 0.9101933333333334
+						},
+						"peak": {
+							"logScore": -3.517233848694631,
+							"absError": 0.2214666666666667
+						},
+						"peak-wk": {
+							"logScore": -2.740554171565359,
+							"absError": 0.8484848484848485
+						},
+						"onset-wk": {
+							"logScore": -2.726849098262245,
+							"absError": 0.8787878787878788
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.005755993960599,
+							"absError": 0.8963212121212121
+						},
+						"2-ahead": {
+							"logScore": -4.015021231778998,
+							"absError": 0.9085960606060607
+						},
+						"3-ahead": {
+							"logScore": -4.012318260004071,
+							"absError": 0.9055330303030303
+						},
+						"4-ahead": {
+							"logScore": -4.0063155292717765,
+							"absError": 0.9101933333333334
+						},
+						"peak": {
+							"logScore": -4.273782813190224,
+							"absError": 0.17832000000000026
+						},
+						"peak-wk": {
+							"logScore": -3.1477070344101894,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -3.3421538878000137,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.377148628297447,
+							"absError": 0.5415922342923661
+						},
+						"2-ahead": {
+							"logScore": -3.4211739162080104,
+							"absError": 0.5782407188557405
+						},
+						"3-ahead": {
+							"logScore": -3.4579969378342623,
+							"absError": 0.5612816353360183
+						},
+						"4-ahead": {
+							"logScore": -3.5639342553867883,
+							"absError": 0.67273585019247
+						},
+						"peak": {
+							"logScore": -3.03636273590009,
+							"absError": 0.21333819869973378
+						},
+						"peak-wk": {
+							"logScore": -2.3233518417512924,
+							"absError": 3.393939393939394
+						},
+						"onset-wk": {
+							"logScore": -1.850141170227302,
+							"absError": 1.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.8866333333333345
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.871328181818183
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.8694457575757575
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.8708460606060617
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.0716800000000006
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 7
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.346028599111284,
+							"absError": 0.45517636363636366
+						},
+						"2-ahead": {
+							"logScore": -3.4549530218487035,
+							"absError": 0.4812530303030303
+						},
+						"3-ahead": {
+							"logScore": -3.5188788206482537,
+							"absError": 0.5039857575757575
+						},
+						"4-ahead": {
+							"logScore": -3.6166276156966917,
+							"absError": 0.5963618181818182
+						},
+						"peak": {
+							"logScore": -3.2436872151839826,
+							"absError": 0.4725793939393939
+						},
+						"peak-wk": {
+							"logScore": -1.339255593004812,
+							"absError": 3.303030303030303
+						},
+						"onset-wk": {
+							"logScore": -1.6870423734883697,
+							"absError": 1.2424242424242424
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.37022941437535,
+							"absError": 0.5522533333333334
+						},
+						"2-ahead": {
+							"logScore": -3.5124405491955115,
+							"absError": 0.6432718181818183
+						},
+						"3-ahead": {
+							"logScore": -3.6225665955912345,
+							"absError": 0.6865051515151512
+						},
+						"4-ahead": {
+							"logScore": -3.7258866430994573,
+							"absError": 0.8248812121212121
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.1328896969696969
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.0606060606060606
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.83009121185466,
+							"absError": 0.8930696969696971
+						},
+						"2-ahead": {
+							"logScore": -3.8564970708760304,
+							"absError": 0.9083748484848486
+						},
+						"3-ahead": {
+							"logScore": -3.8673261147593254,
+							"absError": 0.9144681818181819
+						},
+						"4-ahead": {
+							"logScore": -3.8350667558532576,
+							"absError": 0.9003078787878789
+						},
+						"peak": {
+							"logScore": -4.002159741753503,
+							"absError": 0.6822860606060601
+						},
+						"peak-wk": {
+							"logScore": -3.2310839779281166,
+							"absError": 4.0606060606060606
+						},
+						"onset-wk": {
+							"logScore": -3.284840479440709,
+							"absError": 3.1818181818181817
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4664538321999063,
+							"absError": 0.603172121212121
+						},
+						"2-ahead": {
+							"logScore": -3.6432321708181887,
+							"absError": 0.7437124242424243
+						},
+						"3-ahead": {
+							"logScore": -3.8294634344282006,
+							"absError": 0.8252233333333333
+						},
+						"4-ahead": {
+							"logScore": -3.917423360372608,
+							"absError": 0.943288484848485
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.3457090909090909
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 4.181818181818182
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5153395966515912,
+							"absError": 0.6320000000000001
+						},
+						"2-ahead": {
+							"logScore": -3.7038740650591295,
+							"absError": 0.7196724242424243
+						},
+						"3-ahead": {
+							"logScore": -3.8384652367698897,
+							"absError": 0.7757154545454545
+						},
+						"4-ahead": {
+							"logScore": -3.960518530071224,
+							"absError": 0.8765751515151515
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5535927272727273
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 5.151515151515151
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.3333333333333335
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs3",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.483295578033281,
+							"absError": 0.710717696969697
+						},
+						"2-ahead": {
+							"logScore": -3.4155254647368634,
+							"absError": 0.8171330303030303
+						},
+						"3-ahead": {
+							"logScore": -3.8096641568576004,
+							"absError": 0.8301912727272728
+						},
+						"4-ahead": {
+							"logScore": -3.7513815991149073,
+							"absError": 0.8050172727272727
+						},
+						"peak": {
+							"logScore": -3.5807935545532366,
+							"absError": 0.6983112121212123
+						},
+						"peak-wk": {
+							"logScore": -2.4467104063587386,
+							"absError": 1.606060606060606
+						},
+						"onset-wk": {
+							"logScore": -1.6464384192581427,
+							"absError": 1.0909090909090908
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32485242424242416
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.449550424242423
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 4.798521030303033
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 4.0625019393939406
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 5.885334242424243
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5454545454545454
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.3333333333333335
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32485242424242416
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.8526146666666654
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.902793151515151
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.930250424242422
+						},
+						"peak": {
+							"logScore": -3.0582365465723913,
+							"absError": 3.4641221212121214
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.1515151515151514
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.787878787878788
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32485242424242416
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.8481207272727271
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 4.548881030303031
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 4.6967673939393935
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 5.608605151515151
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.606060606060606
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.303030303030303
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32485242424242416
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.883769818181817
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 3.306456787878786
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 3.502827999999999
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.6985427272727276
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.242424242424242
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.757575757575758
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32485242424242416
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 5.137279515151515
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 6.122135575757577
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 5.142221939393938
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 6.536849393939395
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.606060606060606
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.32485242424242416
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 4.649400727272728
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 3.205524666666666
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.9876764848484845
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 4.585334242424242
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.8181818181818183
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.787878787878788
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1463033486759735,
+							"absError": 0.45491363636363646
+						},
+						"2-ahead": {
+							"logScore": -3.476882325276116,
+							"absError": 0.5851649696969696
+						},
+						"3-ahead": {
+							"logScore": -3.6075030505091465,
+							"absError": 0.6317876969696969
+						},
+						"4-ahead": {
+							"logScore": -3.7121669434233344,
+							"absError": 0.6720983030303027
+						},
+						"peak": {
+							"logScore": -2.1555801779721864,
+							"absError": 0.2959051515151521
+						},
+						"peak-wk": {
+							"logScore": -1.659012929181622,
+							"absError": 0.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": -2.3046551242758135,
+							"absError": 2.1818181818181817
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.5589649178214535,
+							"absError": 0.23841181818181828
+						},
+						"2-ahead": {
+							"logScore": -2.8794804291858314,
+							"absError": 0.35840375757575654
+						},
+						"3-ahead": {
+							"logScore": -3.020544741251866,
+							"absError": 0.4199349696969686
+						},
+						"4-ahead": {
+							"logScore": -3.098437279573795,
+							"absError": 0.4716401212121211
+						},
+						"peak": {
+							"logScore": -2.6395306851748104,
+							"absError": 0.19193848484848364
+						},
+						"peak-wk": {
+							"logScore": -2.0294129324885355,
+							"absError": 1.0606060606060606
+						},
+						"onset-wk": {
+							"logScore": -2.4136734478521302,
+							"absError": 1.2424242424242424
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1688534564594364,
+							"absError": 0.3171227272727262
+						},
+						"2-ahead": {
+							"logScore": -3.3365960315949565,
+							"absError": 0.49879466666666666
+						},
+						"3-ahead": {
+							"logScore": -3.207144224465555,
+							"absError": 0.5613464848484849
+						},
+						"4-ahead": {
+							"logScore": -3.2990386416216664,
+							"absError": 0.6309976969696968
+						},
+						"peak": {
+							"logScore": -3.1813355803793257,
+							"absError": 0.5027409090909104
+						},
+						"peak-wk": {
+							"logScore": -2.317695118756829,
+							"absError": 1.3636363636363635
+						},
+						"onset-wk": {
+							"logScore": -2.554914831594453,
+							"absError": 0.9090909090909091
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.430566657485925,
+							"absError": 0.21412860606060607
+						},
+						"2-ahead": {
+							"logScore": -2.703910318536356,
+							"absError": 0.2873656864890224
+						},
+						"3-ahead": {
+							"logScore": -2.7127435660280526,
+							"absError": 0.3019815151515152
+						},
+						"4-ahead": {
+							"logScore": -2.769698099829162,
+							"absError": 0.3185153155705427
+						},
+						"peak": {
+							"logScore": -2.938028968003902,
+							"absError": 0.40751822682096484
+						},
+						"peak-wk": {
+							"logScore": -2.1188427706145987,
+							"absError": 1.3333333333333333
+						},
+						"onset-wk": {
+							"logScore": -2.2548499146104772,
+							"absError": 0.7878787878787878
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.6017765660706393,
+							"absError": 0.4903355757575758
+						},
+						"2-ahead": {
+							"logScore": -4.676983124553246,
+							"absError": 0.77740303030303
+						},
+						"3-ahead": {
+							"logScore": -5.416634037841653,
+							"absError": 1.05331
+						},
+						"4-ahead": {
+							"logScore": -5.744797859591726,
+							"absError": 1.2952787878787884
+						},
+						"peak": {
+							"logScore": -4.381243365774304,
+							"absError": 1.0012969387008364
+						},
+						"peak-wk": {
+							"logScore": -3.000109832115128,
+							"absError": 1.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": -3.5796706703703416,
+							"absError": 1.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.004347758499302,
+							"absError": 0.7679390909090906
+						},
+						"2-ahead": {
+							"logScore": -3.988160965080998,
+							"absError": 0.7603116363636362
+						},
+						"3-ahead": {
+							"logScore": -3.9684046939235564,
+							"absError": 0.7441319393939392
+						},
+						"4-ahead": {
+							"logScore": -3.9492667253220723,
+							"absError": 0.716330424242424
+						},
+						"peak": {
+							"logScore": -3.899597883889303,
+							"absError": 0.5774463636363639
+						},
+						"peak-wk": {
+							"logScore": -2.7766715321779003,
+							"absError": 1.2424242424242424
+						},
+						"onset-wk": {
+							"logScore": -2.7440920476738415,
+							"absError": 1.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.004347758499302,
+							"absError": 0.7679390909090906
+						},
+						"2-ahead": {
+							"logScore": -3.988160965080998,
+							"absError": 0.7603116363636362
+						},
+						"3-ahead": {
+							"logScore": -3.9684046939235564,
+							"absError": 0.7441319393939392
+						},
+						"4-ahead": {
+							"logScore": -3.9492667253220723,
+							"absError": 0.716330424242424
+						},
+						"peak": {
+							"logScore": -4.57157306712617,
+							"absError": 1.8839699999999984
+						},
+						"peak-wk": {
+							"logScore": -3.1117227912967382,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.189007796453694,
+							"absError": 6
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6236242597921673,
+							"absError": 0.2515243149131104
+						},
+						"2-ahead": {
+							"logScore": -2.956981231934343,
+							"absError": 0.39013445694792237
+						},
+						"3-ahead": {
+							"logScore": -3.087673267649157,
+							"absError": 0.4464126960960111
+						},
+						"4-ahead": {
+							"logScore": -3.162608118813474,
+							"absError": 0.49031854498064703
+						},
+						"peak": {
+							"logScore": -2.434394283297341,
+							"absError": 0.30785056250018766
+						},
+						"peak-wk": {
+							"logScore": -1.8454584422987572,
+							"absError": 0.9393939393939394
+						},
+						"onset-wk": {
+							"logScore": -2.0161031012817285,
+							"absError": 1.6666666666666667
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.556021515151516
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.56657587878788
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.568578000000001
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.571009818181819
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.13397
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.8844281926898407,
+							"absError": 0.30875060606060595
+						},
+						"2-ahead": {
+							"logScore": -3.0286637234264138,
+							"absError": 0.43446860606060617
+						},
+						"3-ahead": {
+							"logScore": -3.138569775430011,
+							"absError": 0.5208289090909092
+						},
+						"4-ahead": {
+							"logScore": -3.1949584447454957,
+							"absError": 0.5558389090909092
+						},
+						"peak": {
+							"logScore": -2.606496187254485,
+							"absError": 0.4094609090909094
+						},
+						"peak-wk": {
+							"logScore": -1.7342470306177789,
+							"absError": 1.2727272727272727
+						},
+						"onset-wk": {
+							"logScore": -1.3612126229723605,
+							"absError": 0.696969696969697
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.73465767249945,
+							"absError": 0.28463666666666665
+						},
+						"2-ahead": {
+							"logScore": -2.9099513192204913,
+							"absError": 0.41724921212121213
+						},
+						"3-ahead": {
+							"logScore": -3.0027515552634325,
+							"absError": 0.45781375757575754
+						},
+						"4-ahead": {
+							"logScore": -3.070803527646075,
+							"absError": 0.5453170909090909
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6047190909090912
+						},
+						"peak-wk": {
+							"logScore": -1.3986944849542844,
+							"absError": 1.2727272727272727
+						},
+						"onset-wk": {
+							"logScore": -1.1853783687602497,
+							"absError": 1.0909090909090908
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.3599646358933257,
+							"absError": 0.5991251515151514
+						},
+						"2-ahead": {
+							"logScore": -3.3542560640961825,
+							"absError": 0.606649212121212
+						},
+						"3-ahead": {
+							"logScore": -3.3593272303892774,
+							"absError": 0.5995604242424242
+						},
+						"4-ahead": {
+							"logScore": -3.3190900207190355,
+							"absError": 0.5705831515151515
+						},
+						"peak": {
+							"logScore": -4.316345932094672,
+							"absError": 2.102151818181818
+						},
+						"peak-wk": {
+							"logScore": -2.776006541214527,
+							"absError": 0.8181818181818182
+						},
+						"onset-wk": {
+							"logScore": -2.961191117863367,
+							"absError": 3.515151515151515
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.8155754662313908,
+							"absError": 0.3116063636363636
+						},
+						"2-ahead": {
+							"logScore": -3.1235535326012673,
+							"absError": 0.46021345454545454
+						},
+						"3-ahead": {
+							"logScore": -3.2902885726974773,
+							"absError": 0.5790434545454545
+						},
+						"4-ahead": {
+							"logScore": -3.39200891629524,
+							"absError": 0.6915237575757577
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.3374736363636367
+						},
+						"peak-wk": {
+							"logScore": -1.8009396435798362,
+							"absError": 2.272727272727273
+						},
+						"onset-wk": {
+							"logScore": -1.5436506303221897,
+							"absError": 0.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1299581128609,
+							"absError": 0.4199821212121212
+						},
+						"2-ahead": {
+							"logScore": -3.4309211923421783,
+							"absError": 0.6555770909090909
+						},
+						"3-ahead": {
+							"logScore": -3.5288267358420535,
+							"absError": 0.751446484848485
+						},
+						"4-ahead": {
+							"logScore": -3.533354740189353,
+							"absError": 0.7468855757575756
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.35056636363636395
+						},
+						"peak-wk": {
+							"logScore": -1.5362962005635101,
+							"absError": 1.0909090909090908
+						},
+						"onset-wk": {
+							"logScore": -1.8137269440266133,
+							"absError": 1.6363636363636365
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs4",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.458907469187047,
+							"absError": 0.7276039696969695
+						},
+						"2-ahead": {
+							"logScore": -3.9546187145273106,
+							"absError": 0.9334683333333333
+						},
+						"3-ahead": {
+							"logScore": -4.149888283587702,
+							"absError": 1.0328737878787881
+						},
+						"4-ahead": {
+							"logScore": -3.9950969450894926,
+							"absError": 1.0246244545454546
+						},
+						"peak": {
+							"logScore": -3.641949931404989,
+							"absError": 1.0145087878787875
+						},
+						"peak-wk": {
+							"logScore": -3.5061658290299005,
+							"absError": 1.606060606060606
+						},
+						"onset-wk": {
+							"logScore": -1.0157991054786932,
+							"absError": 0.6363636363636364
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.4254009393939394
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6580865151515152
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.242706090909091
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8523846363636358
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.0655645454545453
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.4545454545454546
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.4254009393939394
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7573295454545454
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.990907303030303
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.146467060606061
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.9551572727272721
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.8484848484848484
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.4254009393939394
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6916180303030303
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.3940836666666665
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.1030185757575763
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.1534433333333327
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.3636363636363635
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.7272727272727273
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.4254009393939394
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7076295454545456
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9408606363636361
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.0705137272727272
+						},
+						"peak": {
+							"logScore": -2.597499119076867,
+							"absError": 0.7534124242424236
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.696969696969697
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.4254009393939394
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.36016590909091
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.815275181818182
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 3.3201149393939393
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.5010712121212118
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.242424242424242
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1515151515151516
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.4254009393939394
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 4.0416198484848485
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.5196485151515153
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.170513727272727
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.5815730303030295
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.8181818181818183
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.1818181818181819
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.260557325521005,
+							"absError": 0.43630439393939413
+						},
+						"2-ahead": {
+							"logScore": -3.5891188341266966,
+							"absError": 0.5438510606060606
+						},
+						"3-ahead": {
+							"logScore": -3.7215755726133466,
+							"absError": 0.6028702727272729
+						},
+						"4-ahead": {
+							"logScore": -4.009221927611558,
+							"absError": 0.666211242424242
+						},
+						"peak": {
+							"logScore": -4.962187236311726,
+							"absError": 1.054759696969698
+						},
+						"peak-wk": {
+							"logScore": -2.4843577601706714,
+							"absError": 1.303030303030303
+						},
+						"onset-wk": {
+							"logScore": -5.68724164608708,
+							"absError": 1.2121212121212122
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.749687920269745,
+							"absError": 0.3213809393939394
+						},
+						"2-ahead": {
+							"logScore": -2.9771211304755103,
+							"absError": 0.4995382121212122
+						},
+						"3-ahead": {
+							"logScore": -3.2689476082423004,
+							"absError": 0.5441442727272727
+						},
+						"4-ahead": {
+							"logScore": -3.377069572284896,
+							"absError": 0.6196632424242436
+						},
+						"peak": {
+							"logScore": -3.6595342542710663,
+							"absError": 0.8486990909090902
+						},
+						"peak-wk": {
+							"logScore": -2.435386558549704,
+							"absError": 1.6666666666666667
+						},
+						"onset-wk": {
+							"logScore": -7.228285053303444,
+							"absError": 0.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.403390492863161,
+							"absError": 0.3940645757575758
+						},
+						"2-ahead": {
+							"logScore": -4.195592529099326,
+							"absError": 0.6441838484848486
+						},
+						"3-ahead": {
+							"logScore": -4.519117716359238,
+							"absError": 0.842861000000001
+						},
+						"4-ahead": {
+							"logScore": -4.943809189869159,
+							"absError": 1.0242563939393938
+						},
+						"peak": {
+							"logScore": -4.264524175731824,
+							"absError": 0.8920112121212118
+						},
+						"peak-wk": {
+							"logScore": -1.7368330927378244,
+							"absError": 1.2424242424242424
+						},
+						"onset-wk": {
+							"logScore": -7.240794053914229,
+							"absError": 1.5151515151515151
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.3219540032018955,
+							"absError": 0.4902142727272727
+						},
+						"2-ahead": {
+							"logScore": -4.956021592489615,
+							"absError": 0.6864608181818183
+						},
+						"3-ahead": {
+							"logScore": -5.290369097459856,
+							"absError": 0.8547304173855192
+						},
+						"4-ahead": {
+							"logScore": -5.191595108737581,
+							"absError": 0.8492868181818184
+						},
+						"peak": {
+							"logScore": -4.859890277784423,
+							"absError": 0.6547906060606056
+						},
+						"peak-wk": {
+							"logScore": -4.383842151025543,
+							"absError": 2.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": -8.784253058395054,
+							"absError": 1.393939393939394
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.9525689276578,
+							"absError": 0.5978778484848484
+						},
+						"2-ahead": {
+							"logScore": -5.095702119495055,
+							"absError": 0.7322759090909091
+						},
+						"3-ahead": {
+							"logScore": -5.314089113986009,
+							"absError": 0.8177157272727271
+						},
+						"4-ahead": {
+							"logScore": -5.810842388232736,
+							"absError": 0.9015529393939392
+						},
+						"peak": {
+							"logScore": -5.6720253500353,
+							"absError": 0.7617081818181813
+						},
+						"peak-wk": {
+							"logScore": -5.462754813285958,
+							"absError": 1.121212121212121
+						},
+						"onset-wk": {
+							"logScore": -8.071685965594964,
+							"absError": 1.2727272727272727
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.031112744688731,
+							"absError": 0.8342178484848485
+						},
+						"2-ahead": {
+							"logScore": -4.017990702885696,
+							"absError": 0.8378389393939393
+						},
+						"3-ahead": {
+							"logScore": -4.006159469868678,
+							"absError": 0.841433909090909
+						},
+						"4-ahead": {
+							"logScore": -3.993508518609497,
+							"absError": 0.8407408181818181
+						},
+						"peak": {
+							"logScore": -3.723439592931139,
+							"absError": 0.7486990909090903
+						},
+						"peak-wk": {
+							"logScore": -2.7201736979217883,
+							"absError": 1.1515151515151516
+						},
+						"onset-wk": {
+							"logScore": -2.6368467869266627,
+							"absError": 2.6666666666666665
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.031112744688731,
+							"absError": 0.8342178484848485
+						},
+						"2-ahead": {
+							"logScore": -4.017990702885696,
+							"absError": 0.8378389393939393
+						},
+						"3-ahead": {
+							"logScore": -4.006159469868678,
+							"absError": 0.841433909090909
+						},
+						"4-ahead": {
+							"logScore": -3.993508518609497,
+							"absError": 0.8407408181818181
+						},
+						"peak": {
+							"logScore": -4.264295916111179,
+							"absError": 1.3070699999999986
+						},
+						"peak-wk": {
+							"logScore": -2.9884476357339493,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.1343940294812582,
+							"absError": 6
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.552292694709109,
+							"absError": 0.28697895019354636
+						},
+						"2-ahead": {
+							"logScore": -2.986369711634794,
+							"absError": 0.42173864864746374
+						},
+						"3-ahead": {
+							"logScore": -3.0872289592654525,
+							"absError": 0.5025691377404812
+						},
+						"4-ahead": {
+							"logScore": -3.303042111215801,
+							"absError": 0.608250766588989
+						},
+						"peak": {
+							"logScore": -3.0724170633580283,
+							"absError": 0.5466607065324118
+						},
+						"peak-wk": {
+							"logScore": -1.9025224790473376,
+							"absError": 2.121212121212121
+						},
+						"onset-wk": {
+							"logScore": -5.148579428995749,
+							"absError": 1.4242424242424243
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.111531848484851
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.113971363636366
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.119467303030304
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.132281606060606
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 1.0429300000000015
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 6
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.817070148541057,
+							"absError": 0.3125639090909091
+						},
+						"2-ahead": {
+							"logScore": -3.0396916889882717,
+							"absError": 0.46576196969696965
+						},
+						"3-ahead": {
+							"logScore": -3.197981987600994,
+							"absError": 0.5619993636363635
+						},
+						"4-ahead": {
+							"logScore": -3.318151151704533,
+							"absError": 0.650259
+						},
+						"peak": {
+							"logScore": -2.895451056179704,
+							"absError": 0.7145087878787871
+						},
+						"peak-wk": {
+							"logScore": -1.5343820601638507,
+							"absError": 0.7272727272727273
+						},
+						"onset-wk": {
+							"logScore": -2.827668621766967,
+							"absError": 0.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.680681934833019,
+							"absError": 0.24041730303030306
+						},
+						"2-ahead": {
+							"logScore": -2.940499085264834,
+							"absError": 0.43330566666666676
+						},
+						"3-ahead": {
+							"logScore": -3.259024968195474,
+							"absError": 0.5460212424242425
+						},
+						"4-ahead": {
+							"logScore": -3.161256353988243,
+							"absError": 0.6674363333333334
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6668809090909086
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.8181818181818181
+						},
+						"onset-wk": {
+							"logScore": -0.7570877205457971,
+							"absError": 0.21212121212121213
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.580983977282992,
+							"absError": 0.8718014848484846
+						},
+						"2-ahead": {
+							"logScore": -3.573358100382929,
+							"absError": 0.8845134848484848
+						},
+						"3-ahead": {
+							"logScore": -3.607945237725784,
+							"absError": 0.8911387575757576
+						},
+						"4-ahead": {
+							"logScore": -3.584402257547007,
+							"absError": 0.8874153636363636
+						},
+						"peak": {
+							"logScore": -4.300512925349177,
+							"absError": 1.2070700000000008
+						},
+						"peak-wk": {
+							"logScore": -2.363890170348723,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -2.823443614907509,
+							"absError": 3.272727272727273
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6805304658122493,
+							"absError": 0.31051548484848485
+						},
+						"2-ahead": {
+							"logScore": -3.1157629660971957,
+							"absError": 0.5575259090909093
+						},
+						"3-ahead": {
+							"logScore": -3.3857375411814092,
+							"absError": 0.7672945757575761
+						},
+						"4-ahead": {
+							"logScore": -3.5556482502753344,
+							"absError": 0.9406476666666665
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.1513009090909099
+						},
+						"peak-wk": {
+							"logScore": -1.7239480089310535,
+							"absError": 1.9090909090909092
+						},
+						"onset-wk": {
+							"logScore": -1.0854801352530588,
+							"absError": 0.9090909090909091
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.6971977831083995,
+							"absError": 0.24567045454545455
+						},
+						"2-ahead": {
+							"logScore": -3.007140324180045,
+							"absError": 0.43110851515151516
+						},
+						"3-ahead": {
+							"logScore": -3.193998837327434,
+							"absError": 0.5652627575757576
+						},
+						"4-ahead": {
+							"logScore": -3.3320122016339178,
+							"absError": 0.6935658484848484
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.809534848484848
+						},
+						"peak-wk": {
+							"logScore": -1.2238742191434975,
+							"absError": 0.6666666666666666
+						},
+						"onset-wk": {
+							"logScore": -0.9741694534054024,
+							"absError": 1.4545454545454546
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs5",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1792060718683106,
+							"absError": 0.6440088787878788
+						},
+						"2-ahead": {
+							"logScore": -3.7040705643693848,
+							"absError": 0.6925956666666667
+						},
+						"3-ahead": {
+							"logScore": -3.3628460002917464,
+							"absError": 0.7002470606060607
+						},
+						"4-ahead": {
+							"logScore": -3.2189916049780347,
+							"absError": 0.6997778787878789
+						},
+						"peak": {
+							"logScore": -5.484793741859317,
+							"absError": 0.565940606060606
+						},
+						"peak-wk": {
+							"logScore": -2.464966118639876,
+							"absError": 1.5757575757575757
+						},
+						"onset-wk": {
+							"logScore": -1.1597814400614448,
+							"absError": 0.7878787878787878
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.19585948484848484
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1080932424242425
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.2898371818181817
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.9210371515151516
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 4.095317575757582
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.606060606060606
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.3636363636363638
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.19585948484848484
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.0436974848484841
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.8374674848484844
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.408915939393939
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.3347115151515148
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.696969696969697
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.19585948484848484
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9500611212121212
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.105628696969698
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.913232909090909
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.9013781818181874
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.5151515151515151
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.3333333333333335
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.19585948484848484
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9738065757575755
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.614719606060606
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.1647480606060614
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.174105454545454
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.6363636363636362
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.19585948484848484
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.207597484848485
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 3.575070515151516
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 4.104264424242425
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 4.831681212121218
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.19585948484848484
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.3385029393939387
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.226840818181818
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.928384424242424
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.471075151515151
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.6363636363636362
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.5401503526996656,
+							"absError": 0.3030429393939395
+						},
+						"2-ahead": {
+							"logScore": -2.7251376821418343,
+							"absError": 0.366921848484848
+						},
+						"3-ahead": {
+							"logScore": -2.844787775727053,
+							"absError": 0.41627972727272766
+						},
+						"4-ahead": {
+							"logScore": -2.889011090941479,
+							"absError": 0.43713969696969684
+						},
+						"peak": {
+							"logScore": -2.8263711785677654,
+							"absError": 0.36910424242424267
+						},
+						"peak-wk": {
+							"logScore": -1.5833143166815844,
+							"absError": 0.696969696969697
+						},
+						"onset-wk": {
+							"logScore": -2.989241366106961,
+							"absError": 2.5757575757575757
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.2912722406186745,
+							"absError": 0.26430451515151526
+						},
+						"2-ahead": {
+							"logScore": -2.483068078083405,
+							"absError": 0.31791693939393945
+						},
+						"3-ahead": {
+							"logScore": -2.663270825299152,
+							"absError": 0.33803809090909204
+						},
+						"4-ahead": {
+							"logScore": -2.742296715116481,
+							"absError": 0.3454106060606061
+						},
+						"peak": {
+							"logScore": -3.6718881248418525,
+							"absError": 0.16897090909091128
+						},
+						"peak-wk": {
+							"logScore": -2.0388443004974337,
+							"absError": 1.121212121212121
+						},
+						"onset-wk": {
+							"logScore": -3.0677474687540425,
+							"absError": 1.696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.537385201256764,
+							"absError": 0.2618102727272728
+						},
+						"2-ahead": {
+							"logScore": -2.713670864466951,
+							"absError": 0.32538245454545467
+						},
+						"3-ahead": {
+							"logScore": -2.5887258820459196,
+							"absError": 0.3528522121212122
+						},
+						"4-ahead": {
+							"logScore": -2.668264455799797,
+							"absError": 0.4024303030303042
+						},
+						"peak": {
+							"logScore": -4.193981819224632,
+							"absError": 0.5548084848484877
+						},
+						"peak-wk": {
+							"logScore": -2.2701968798371297,
+							"absError": 1.0909090909090908
+						},
+						"onset-wk": {
+							"logScore": -3.0996357167614526,
+							"absError": 1.2727272727272727
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4319800302917414,
+							"absError": 0.278476090909091
+						},
+						"2-ahead": {
+							"logScore": -4.504289376668332,
+							"absError": 0.4544955026682245
+						},
+						"3-ahead": {
+							"logScore": -5.140190584784152,
+							"absError": 0.6225502727272727
+						},
+						"4-ahead": {
+							"logScore": -4.9210744926843635,
+							"absError": 0.6536779393939395
+						},
+						"peak": {
+							"logScore": -5.859958605564938,
+							"absError": 0.8997999999999993
+						},
+						"peak-wk": {
+							"logScore": -3.0743413651687943,
+							"absError": 1.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": -3.6864820786470904,
+							"absError": 0.7272727272727273
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.509528154754848,
+							"absError": 0.48551712121212126
+						},
+						"2-ahead": {
+							"logScore": -5.111981398033344,
+							"absError": 0.6631631212121212
+						},
+						"3-ahead": {
+							"logScore": -5.613249361013808,
+							"absError": 0.7775712424242425
+						},
+						"4-ahead": {
+							"logScore": -5.772006672994361,
+							"absError": 0.8016815757575759
+						},
+						"peak": {
+							"logScore": -6.427007974562954,
+							"absError": 0.8127839357130993
+						},
+						"peak-wk": {
+							"logScore": -4.2706322623186805,
+							"absError": 2.606060606060606
+						},
+						"onset-wk": {
+							"logScore": -4.33655807176222,
+							"absError": 0.6060606060606061
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.866138606626129,
+							"absError": 0.37950960606060613
+						},
+						"2-ahead": {
+							"logScore": -3.8510460638908706,
+							"absError": 0.37141942424242425
+						},
+						"3-ahead": {
+							"logScore": -3.8324018495488597,
+							"absError": 0.367747
+						},
+						"4-ahead": {
+							"logScore": -3.8142585040346173,
+							"absError": 0.36032212121212126
+						},
+						"peak": {
+							"logScore": -3.8446660323229565,
+							"absError": 0.4356375757575758
+						},
+						"peak-wk": {
+							"logScore": -2.7130335819578644,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -2.6909542862037226,
+							"absError": 1.696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.866138606626129,
+							"absError": 0.37950960606060613
+						},
+						"2-ahead": {
+							"logScore": -3.8510460638908706,
+							"absError": 0.37141942424242425
+						},
+						"3-ahead": {
+							"logScore": -3.8324018495488597,
+							"absError": 0.367747
+						},
+						"4-ahead": {
+							"logScore": -3.8142585040346173,
+							"absError": 0.36032212121212126
+						},
+						"peak": {
+							"logScore": -4.546526349155623,
+							"absError": 1.7195600000000009
+						},
+						"peak-wk": {
+							"logScore": -3.0308332904821533,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.083009582095845,
+							"absError": 4
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.229009177939316,
+							"absError": 0.2334096044972847
+						},
+						"2-ahead": {
+							"logScore": -2.44121939444466,
+							"absError": 0.31119762076512064
+						},
+						"3-ahead": {
+							"logScore": -2.6439892466882435,
+							"absError": 0.32386134307512904
+						},
+						"4-ahead": {
+							"logScore": -2.7038931874588856,
+							"absError": 0.34698668930777365
+						},
+						"peak": {
+							"logScore": -2.9214292577856456,
+							"absError": 0.26525504145621387
+						},
+						"peak-wk": {
+							"logScore": -1.8237744032721863,
+							"absError": 0.9393939393939394
+						},
+						"onset-wk": {
+							"logScore": -2.475033390910579,
+							"absError": 1.9090909090909092
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.952117363636364
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.950087787878789
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.958536575757577
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.9692935151515165
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.76956
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.5963381706687447,
+							"absError": 0.27574675757575756
+						},
+						"2-ahead": {
+							"logScore": -2.7126929251343346,
+							"absError": 0.339678393939394
+						},
+						"3-ahead": {
+							"logScore": -2.7564167801816795,
+							"absError": 0.3714321515151515
+						},
+						"4-ahead": {
+							"logScore": -2.799182820356755,
+							"absError": 0.4184307272727273
+						},
+						"peak": {
+							"logScore": -3.2697635933254716,
+							"absError": 0.4953175757575752
+						},
+						"peak-wk": {
+							"logScore": -1.7310918430714914,
+							"absError": 1.4242424242424243
+						},
+						"onset-wk": {
+							"logScore": -1.3974818955699255,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.5815968043445636,
+							"absError": 0.26234209090909105
+						},
+						"2-ahead": {
+							"logScore": -2.554419110273133,
+							"absError": 0.25766366666666674
+						},
+						"3-ahead": {
+							"logScore": -2.6933511792923577,
+							"absError": 0.2513488181818181
+						},
+						"4-ahead": {
+							"logScore": -2.7989942548725466,
+							"absError": 0.26007448484848494
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5345151515151509
+						},
+						"peak-wk": {
+							"logScore": -1.3332130848391133,
+							"absError": 0.7878787878787878
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.3333333333333333
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0069962500009435,
+							"absError": 0.3029447575757576
+						},
+						"2-ahead": {
+							"logScore": -3.0406651166451226,
+							"absError": 0.302235303030303
+						},
+						"3-ahead": {
+							"logScore": -3.0124134226549906,
+							"absError": 0.2947322121212121
+						},
+						"4-ahead": {
+							"logScore": -3.005520757693958,
+							"absError": 0.28759927272727276
+						},
+						"peak": {
+							"logScore": -3.9311749514349437,
+							"absError": 1.0801660606060601
+						},
+						"peak-wk": {
+							"logScore": -2.5154188080994024,
+							"absError": 1.3636363636363635
+						},
+						"onset-wk": {
+							"logScore": -2.5320296823586608,
+							"absError": 2.272727272727273
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.3393131918555827,
+							"absError": 0.20849372727272725
+						},
+						"2-ahead": {
+							"logScore": -2.6373833780046425,
+							"absError": 0.2843408181818183
+						},
+						"3-ahead": {
+							"logScore": -2.880883254303127,
+							"absError": 0.34260869696969704
+						},
+						"4-ahead": {
+							"logScore": -3.04662289604682,
+							"absError": 0.45688424242424236
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.8096836363636358
+						},
+						"peak-wk": {
+							"logScore": -1.6573263526785278,
+							"absError": 0.6060606060606061
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.6060606060606061
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.405655901319882,
+							"absError": 0.19742815151515147
+						},
+						"2-ahead": {
+							"logScore": -2.6750332825330965,
+							"absError": 0.2740998484848485
+						},
+						"3-ahead": {
+							"logScore": -2.8169485382339072,
+							"absError": 0.3154808787878789
+						},
+						"4-ahead": {
+							"logScore": -2.9399709305177573,
+							"absError": 0.39496066666666674
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.615744242424242
+						},
+						"peak-wk": {
+							"logScore": -1.326703281955332,
+							"absError": 0.9090909090909091
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.5151515151515151
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs6",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.18683930143695,
+							"absError": 1.0609657575757576
+						},
+						"2-ahead": {
+							"logScore": -4.160965810210955,
+							"absError": 1.1546936363636362
+						},
+						"3-ahead": {
+							"logScore": -4.289576596688249,
+							"absError": 1.2212099393939395
+						},
+						"4-ahead": {
+							"logScore": -4.353711588246046,
+							"absError": 1.3544193333333332
+						},
+						"peak": {
+							"logScore": -5.446776462254618,
+							"absError": 1.8827606060606061
+						},
+						"peak-wk": {
+							"logScore": -2.4027233328474566,
+							"absError": 2.515151515151515
+						},
+						"onset-wk": {
+							"logScore": -3.1017906513463185,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.47263969696969693
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.0829990909090907
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.5786578181818178
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.0828350909090916
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.7709448484848493
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.787878787878788
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.393939393939394
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.47263969696969693
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.0011160606060607
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.286536606060606
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.4422338787878788
+						},
+						"peak": {
+							"logScore": -2.983655411077124,
+							"absError": 0.5826842424242418
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.9393939393939394
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.47263969696969693
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9436324242424242
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.443456606060606
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.9000629696969698
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3831424242424255
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.909090909090909
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.47263969696969693
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7969051515151516
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0143905454545454
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.1324108484848485
+						},
+						"peak": {
+							"logScore": -2.797031112796341,
+							"absError": 0.534046666666666
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.0606060606060606
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.0606060606060606
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.47263969696969693
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.0789693939393934
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.766619636363636
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.596302363636363
+						},
+						"peak": {
+							"logScore": -3.017727035050637,
+							"absError": 1.6676090909090922
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.4545454545454546
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.606060606060606
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.47263969696969693
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.872962727272728
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 4.967434181818178
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 4.770092666666665
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.064807878787878
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 4.2727272727272725
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.8484848484848486
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.3843851521204753,
+							"absError": 0.5782578787878787
+						},
+						"2-ahead": {
+							"logScore": -3.485817210189915,
+							"absError": 0.6506415151515149
+						},
+						"3-ahead": {
+							"logScore": -3.5885831636995955,
+							"absError": 0.717167515151515
+						},
+						"4-ahead": {
+							"logScore": -3.61707449451495,
+							"absError": 0.6952520606060603
+						},
+						"peak": {
+							"logScore": -4.607005911661591,
+							"absError": 1.2660175757575762
+						},
+						"peak-wk": {
+							"logScore": -2.6726853273867186,
+							"absError": 1.3636363636363635
+						},
+						"onset-wk": {
+							"logScore": -1.3823706602148045,
+							"absError": 0.21212121212121213
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.028199779141689,
+							"absError": 0.44308454545454545
+						},
+						"2-ahead": {
+							"logScore": -3.2770849844291168,
+							"absError": 0.5563615151515162
+						},
+						"3-ahead": {
+							"logScore": -3.4431132489235203,
+							"absError": 0.66385296969697
+						},
+						"4-ahead": {
+							"logScore": -3.502548533380734,
+							"absError": 0.7429308484848474
+						},
+						"peak": {
+							"logScore": -3.3543091520529864,
+							"absError": 0.7645024242424259
+						},
+						"peak-wk": {
+							"logScore": -2.4045914770203907,
+							"absError": 0.9090909090909091
+						},
+						"onset-wk": {
+							"logScore": -2.055375191330388,
+							"absError": 0.7878787878787878
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0333485897121726,
+							"absError": 0.3344263636363637
+						},
+						"2-ahead": {
+							"logScore": -3.2006458983819788,
+							"absError": 0.4301203030303019
+						},
+						"3-ahead": {
+							"logScore": -3.3985850720030206,
+							"absError": 0.6040711515151524
+						},
+						"4-ahead": {
+							"logScore": -3.4633908224001972,
+							"absError": 0.6483588484848486
+						},
+						"peak": {
+							"logScore": -3.465247469888649,
+							"absError": 0.8010187878787897
+						},
+						"peak-wk": {
+							"logScore": -2.4305036186555116,
+							"absError": 0.6363636363636364
+						},
+						"onset-wk": {
+							"logScore": -1.740127767557029,
+							"absError": 0.42424242424242425
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.063444035939939,
+							"absError": 0.4008469696969698
+						},
+						"2-ahead": {
+							"logScore": -3.5349259023465143,
+							"absError": 0.6537551174877524
+						},
+						"3-ahead": {
+							"logScore": -3.929790061533857,
+							"absError": 0.8517432727272728
+						},
+						"4-ahead": {
+							"logScore": -4.2078124366139305,
+							"absError": 0.9913835757575757
+						},
+						"peak": {
+							"logScore": -3.559775861815406,
+							"absError": 0.6557933333333329
+						},
+						"peak-wk": {
+							"logScore": -4.4748965062954795,
+							"absError": 2.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": -2.4316792341661935,
+							"absError": 1.5454545454545454
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9103384467201723,
+							"absError": 0.6039706060606062
+						},
+						"2-ahead": {
+							"logScore": -4.544313412787177,
+							"absError": 0.8728869696969697
+						},
+						"3-ahead": {
+							"logScore": -5.202317659076452,
+							"absError": 1.0978826666666668
+						},
+						"4-ahead": {
+							"logScore": -5.686192556473016,
+							"absError": 1.1859781212121212
+						},
+						"peak": {
+							"logScore": -4.53726571278995,
+							"absError": 0.6832187878787876
+						},
+						"peak-wk": {
+							"logScore": -5.834713886027502,
+							"absError": 2.757575757575758
+						},
+						"onset-wk": {
+							"logScore": -3.123547846288646,
+							"absError": 1.121212121212121
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.1470525292238785,
+							"absError": 0.6776093939393938
+						},
+						"2-ahead": {
+							"logScore": -4.129364736134077,
+							"absError": 0.6901372727272727
+						},
+						"3-ahead": {
+							"logScore": -4.111822844226724,
+							"absError": 0.6978117575757576
+						},
+						"4-ahead": {
+							"logScore": -4.090776067572425,
+							"absError": 0.7095611515151514
+						},
+						"peak": {
+							"logScore": -3.9562638369414365,
+							"absError": 0.4283678787878785
+						},
+						"peak-wk": {
+							"logScore": -2.751116891857767,
+							"absError": 0.7575757575757576
+						},
+						"onset-wk": {
+							"logScore": -2.65869995331865,
+							"absError": 0.6363636363636364
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.1470525292238785,
+							"absError": 0.6776093939393938
+						},
+						"2-ahead": {
+							"logScore": -4.129364736134077,
+							"absError": 0.6901372727272727
+						},
+						"3-ahead": {
+							"logScore": -4.111822844226724,
+							"absError": 0.6978117575757576
+						},
+						"4-ahead": {
+							"logScore": -4.090776067572425,
+							"absError": 0.7095611515151514
+						},
+						"peak": {
+							"logScore": -4.519158643789704,
+							"absError": 0.6512600000000003
+						},
+						"peak-wk": {
+							"logScore": -3.105933732360539,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -2.93315962974529,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0111749455462853,
+							"absError": 0.38398022151116484
+						},
+						"2-ahead": {
+							"logScore": -3.2733905054743233,
+							"absError": 0.4913034015451998
+						},
+						"3-ahead": {
+							"logScore": -3.442911778325608,
+							"absError": 0.6158598691561589
+						},
+						"4-ahead": {
+							"logScore": -3.5160359033536333,
+							"absError": 0.6953636746489554
+						},
+						"peak": {
+							"logScore": -3.1456261750153605,
+							"absError": 0.7206537709525858
+						},
+						"peak-wk": {
+							"logScore": -2.0007810006520885,
+							"absError": 1.1515151515151516
+						},
+						"onset-wk": {
+							"logScore": -1.7280913441683312,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.513106363636364
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.532459696969698
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.5643766060606072
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.5912775151515164
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 1.3987399999999988
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.469865916456393,
+							"absError": 0.4434930303030303
+						},
+						"2-ahead": {
+							"logScore": -3.5932923871515907,
+							"absError": 0.6191772727272725
+						},
+						"3-ahead": {
+							"logScore": -3.703413149082549,
+							"absError": 0.8281275151515153
+						},
+						"4-ahead": {
+							"logScore": -3.765372959902932,
+							"absError": 1.0108781212121214
+						},
+						"peak": {
+							"logScore": -3.2834086470497446,
+							"absError": 0.8982175757575755
+						},
+						"peak-wk": {
+							"logScore": -1.2977751138061688,
+							"absError": 1.5151515151515151
+						},
+						"onset-wk": {
+							"logScore": -1.4347493086489287,
+							"absError": 0.9696969696969697
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.2373196999277405,
+							"absError": 0.43679303030303024
+						},
+						"2-ahead": {
+							"logScore": -3.5140238703719966,
+							"absError": 0.6543160606060604
+						},
+						"3-ahead": {
+							"logScore": -3.6538978911611264,
+							"absError": 0.7899396363636363
+						},
+						"4-ahead": {
+							"logScore": -3.7540881255746275,
+							"absError": 0.8483175151515152
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5228418181818179
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": -1.218065351580179,
+							"absError": 1.121212121212121
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.106181466908867,
+							"absError": 0.9239651515151515
+						},
+						"2-ahead": {
+							"logScore": -4.101321388825983,
+							"absError": 0.9106724242424243
+						},
+						"3-ahead": {
+							"logScore": -4.095889590977506,
+							"absError": 0.8976620606060606
+						},
+						"4-ahead": {
+							"logScore": -4.054447747837543,
+							"absError": 0.8677308484848486
+						},
+						"peak": {
+							"logScore": -4.462202731977229,
+							"absError": 0.7664115151515142
+						},
+						"peak-wk": {
+							"logScore": -2.608566564184913,
+							"absError": 4.303030303030303
+						},
+						"onset-wk": {
+							"logScore": -2.7803810045407378,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4823280461035093,
+							"absError": 0.5336112121212121
+						},
+						"2-ahead": {
+							"logScore": -3.753647895532617,
+							"absError": 0.7629651515151518
+						},
+						"3-ahead": {
+							"logScore": -3.91325007563502,
+							"absError": 0.9861129696969697
+						},
+						"4-ahead": {
+							"logScore": -4.0333891973824585,
+							"absError": 1.154921757575758
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.837535151515151
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.696969696969697
+						},
+						"onset-wk": {
+							"logScore": -1.6495081106326186,
+							"absError": 0.42424242424242425
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.518186037935846,
+							"absError": 0.4763227272727271
+						},
+						"2-ahead": {
+							"logScore": -3.6981499924357903,
+							"absError": 0.5687033333333334
+						},
+						"3-ahead": {
+							"logScore": -3.79600025453965,
+							"absError": 0.6817287272727274
+						},
+						"4-ahead": {
+							"logScore": -3.8771000490998655,
+							"absError": 0.7446720606060605
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.093226060606061
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 0.5151515151515151
+						},
+						"onset-wk": {
+							"logScore": -1.2321011507206674,
+							"absError": 0.42424242424242425
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs7",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.211396408284578,
+							"absError": 0.8214335151515152
+						},
+						"2-ahead": {
+							"logScore": -4.265912891918389,
+							"absError": 0.8488155454545457
+						},
+						"3-ahead": {
+							"logScore": -3.9747510358237323,
+							"absError": 0.9190960303030302
+						},
+						"4-ahead": {
+							"logScore": -4.316400281096434,
+							"absError": 0.9072704727272727
+						},
+						"peak": {
+							"logScore": -3.7988694567846366,
+							"absError": 0.7743878787878786
+						},
+						"peak-wk": {
+							"logScore": -1.976619716321559,
+							"absError": 2.212121212121212
+						},
+						"onset-wk": {
+							"logScore": -1.1365146146629432,
+							"absError": 1.2424242424242424
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31230963636363623
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6170364545454544
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1304273636363635
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.7812335030303033
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.149757575757576
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.090909090909091
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.484848484848485
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31230963636363623
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7996503939393941
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.3665467575757577
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.9185153212121213
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.7055345454545445
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.787878787878788
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.878787878787879
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31230963636363623
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5820837272727272
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0533152424242425
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.7740850181818177
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.346727272727272
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.9090909090909092
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.484848484848485
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31230963636363623
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.8483376666666667
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.31707403030303
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8764044121212122
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.5260824242424238
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.6363636363636362
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.8484848484848486
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31230963636363623
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.0301558484848488
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.2402667575757578
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.3630516848484846
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.867939393939394
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.515151515151515
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.484848484848485
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.31230963636363623
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.013533424242424
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.6161788787878795
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.011476533333333
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3722012121212117
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.8181818181818183
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.909090909090909
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.36976444983847,
+							"absError": 0.4494286060606062
+						},
+						"2-ahead": {
+							"logScore": -3.4508261110345355,
+							"absError": 0.518822272727273
+						},
+						"3-ahead": {
+							"logScore": -3.5095114394145472,
+							"absError": 0.5684725757575761
+						},
+						"4-ahead": {
+							"logScore": -3.5234713854802533,
+							"absError": 0.5691223515151517
+						},
+						"peak": {
+							"logScore": -4.355433900941065,
+							"absError": 1.053175757575758
+						},
+						"peak-wk": {
+							"logScore": -2.3428392600081267,
+							"absError": 1.6666666666666667
+						},
+						"onset-wk": {
+							"logScore": -1.8176324404437927,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.77198827944244,
+							"absError": 0.38139945454545454
+						},
+						"2-ahead": {
+							"logScore": -3.006668647348346,
+							"absError": 0.43013754545454547
+						},
+						"3-ahead": {
+							"logScore": -3.175083626392052,
+							"absError": 0.5380073636363637
+						},
+						"4-ahead": {
+							"logScore": -3.21832547504972,
+							"absError": 0.5823824727272716
+						},
+						"peak": {
+							"logScore": -3.281598240327299,
+							"absError": 0.8110351515151525
+						},
+						"peak-wk": {
+							"logScore": -2.348703660900956,
+							"absError": 1.9393939393939394
+						},
+						"onset-wk": {
+							"logScore": -2.163818287700402,
+							"absError": 1.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5387288548028613,
+							"absError": 0.37774327272727154
+						},
+						"2-ahead": {
+							"logScore": -2.786630771301316,
+							"absError": 0.38829318181818184
+						},
+						"3-ahead": {
+							"logScore": -3.0185284547641476,
+							"absError": 0.4659160303030303
+						},
+						"4-ahead": {
+							"logScore": -3.163880562680192,
+							"absError": 0.5114216848484849
+						},
+						"peak": {
+							"logScore": -3.5366402520225404,
+							"absError": 1.1603709090909093
+						},
+						"peak-wk": {
+							"logScore": -2.033504152252049,
+							"absError": 1.7878787878787878
+						},
+						"onset-wk": {
+							"logScore": -1.7767802403356392,
+							"absError": 0.7878787878787878
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.251296650279642,
+							"absError": 0.7463749696969696
+						},
+						"2-ahead": {
+							"logScore": -4.492215693924166,
+							"absError": 0.7977428181818181
+						},
+						"3-ahead": {
+							"logScore": -4.781184063801348,
+							"absError": 1.0314218481379065
+						},
+						"4-ahead": {
+							"logScore": -5.045602510679695,
+							"absError": 1.3864106929010764
+						},
+						"peak": {
+							"logScore": -6.207917865803591,
+							"absError": 2.049607657646685
+						},
+						"peak-wk": {
+							"logScore": -5.275012920136255,
+							"absError": 3.1515151515151514
+						},
+						"onset-wk": {
+							"logScore": -4.984941603721354,
+							"absError": 2.606060606060606
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.8846736321876216,
+							"absError": 0.6964509696969697
+						},
+						"2-ahead": {
+							"logScore": -4.691743473101274,
+							"absError": 1.155919181818182
+						},
+						"3-ahead": {
+							"logScore": -4.844023115248592,
+							"absError": 1.5385601516617735
+						},
+						"4-ahead": {
+							"logScore": -4.798502379253602,
+							"absError": 1.6899823734195862
+						},
+						"peak": {
+							"logScore": -4.969858823165474,
+							"absError": 2.0600799999999997
+						},
+						"peak-wk": {
+							"logScore": -5.493998778681742,
+							"absError": 2.787878787878788
+						},
+						"onset-wk": {
+							"logScore": -5.235773738649784,
+							"absError": 2.515151515151515
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9148205369661806,
+							"absError": 0.6474602424242423
+						},
+						"2-ahead": {
+							"logScore": -3.894921982062135,
+							"absError": 0.6364890606060605
+						},
+						"3-ahead": {
+							"logScore": -3.872549517870393,
+							"absError": 0.6289945151515152
+						},
+						"4-ahead": {
+							"logScore": -3.8587905425165006,
+							"absError": 0.6348722909090908
+						},
+						"peak": {
+							"logScore": -3.9130073272696015,
+							"absError": 0.777321212121212
+						},
+						"peak-wk": {
+							"logScore": -2.738997973155089,
+							"absError": 0.9393939393939394
+						},
+						"onset-wk": {
+							"logScore": -2.7970933341185837,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9148205369661806,
+							"absError": 0.6474602424242423
+						},
+						"2-ahead": {
+							"logScore": -3.894921982062135,
+							"absError": 0.6364890606060605
+						},
+						"3-ahead": {
+							"logScore": -3.872549517870393,
+							"absError": 0.6289945151515152
+						},
+						"4-ahead": {
+							"logScore": -3.8587905425165006,
+							"absError": 0.6348722909090908
+						},
+						"peak": {
+							"logScore": -4.688266659625744,
+							"absError": 0.2296800000000001
+						},
+						"peak-wk": {
+							"logScore": -3.078990431407719,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.1023287821019245,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7654585290326232,
+							"absError": 0.3743217520276491
+						},
+						"2-ahead": {
+							"logScore": -2.899910423951921,
+							"absError": 0.35040245701015765
+						},
+						"3-ahead": {
+							"logScore": -3.1262481259304646,
+							"absError": 0.42768698280469514
+						},
+						"4-ahead": {
+							"logScore": -3.180051432065721,
+							"absError": 0.4849370352839837
+						},
+						"peak": {
+							"logScore": -3.3133681772534387,
+							"absError": 0.6204961739050576
+						},
+						"peak-wk": {
+							"logScore": -2.1147762015743807,
+							"absError": 2.4545454545454546
+						},
+						"onset-wk": {
+							"logScore": -1.823794042205462,
+							"absError": 2.1818181818181817
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.7374118787878805
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.7646388787878795
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.791194030303031
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.814994109090909
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 1.8796800000000005
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 0
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1443707170381137,
+							"absError": 0.3240197575757577
+						},
+						"2-ahead": {
+							"logScore": -3.2065813008196073,
+							"absError": 0.3570837272727273
+						},
+						"3-ahead": {
+							"logScore": -3.2613070755166027,
+							"absError": 0.47062615151515136
+						},
+						"4-ahead": {
+							"logScore": -3.2845113200820033,
+							"absError": 0.566572896969697
+						},
+						"peak": {
+							"logScore": -2.9163308809385553,
+							"absError": 0.7286424242424243
+						},
+						"peak-wk": {
+							"logScore": -1.5847433830668574,
+							"absError": 1.7272727272727273
+						},
+						"onset-wk": {
+							"logScore": -1.2438913374679286,
+							"absError": 1.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7463753200608867,
+							"absError": 0.35630581818181817
+						},
+						"2-ahead": {
+							"logScore": -3.147045347112407,
+							"absError": 0.44478160606060607
+						},
+						"3-ahead": {
+							"logScore": -3.2348491206173073,
+							"absError": 0.5529728181818184
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.5669577454545456
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.517752727272727
+						},
+						"peak-wk": {
+							"logScore": -1.7578044890285827,
+							"absError": 2.090909090909091
+						},
+						"onset-wk": {
+							"logScore": -1.450032184370496,
+							"absError": 1.5757575757575757
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.3004458199744406,
+							"absError": 0.5097280606060608
+						},
+						"2-ahead": {
+							"logScore": -3.280316269454365,
+							"absError": 0.4954670606060606
+						},
+						"3-ahead": {
+							"logScore": -3.294345660970618,
+							"absError": 0.5003532424242424
+						},
+						"4-ahead": {
+							"logScore": -3.438430628484498,
+							"absError": 0.5150624121212122
+						},
+						"peak": {
+							"logScore": -4.363645800753362,
+							"absError": 0.6721042424242426
+						},
+						"peak-wk": {
+							"logScore": -2.4444583256343613,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -2.2144816356051984,
+							"absError": 2
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.8668085547144213,
+							"absError": 0.41710933333333333
+						},
+						"2-ahead": {
+							"logScore": -3.257912675381562,
+							"absError": 0.5746340303030301
+						},
+						"3-ahead": {
+							"logScore": -3.5651338084386706,
+							"absError": 0.7639206969696968
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 0.8999813818181818
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.1282690909090907
+						},
+						"peak-wk": {
+							"logScore": -2.100890214901362,
+							"absError": 1.2727272727272727
+						},
+						"onset-wk": {
+							"logScore": -1.8922055714077406,
+							"absError": 0.8787878787878788
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.835400548819516,
+							"absError": 0.40681042424242414
+						},
+						"2-ahead": {
+							"logScore": -3.0756194524351246,
+							"absError": 0.3519291212121211
+						},
+						"3-ahead": {
+							"logScore": -3.1787622674227975,
+							"absError": 0.39236790909090896
+						},
+						"4-ahead": {
+							"logScore": -3.378504351539344,
+							"absError": 0.466912290909091
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.2711636363636361
+						},
+						"peak-wk": {
+							"logScore": -1.297659088097912,
+							"absError": 0.42424242424242425
+						},
+						"onset-wk": {
+							"logScore": -0.896370412081773,
+							"absError": 0.09090909090909091
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs8",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.299853461042986,
+							"absError": 0.6692413939393937
+						},
+						"2-ahead": {
+							"logScore": -4.456857336793578,
+							"absError": 0.7297206363636363
+						},
+						"3-ahead": {
+							"logScore": -4.414991545888844,
+							"absError": 0.7747991212121211
+						},
+						"4-ahead": {
+							"logScore": -4.52819973669253,
+							"absError": 0.8158770606060606
+						},
+						"peak": {
+							"logScore": -6.248026435418053,
+							"absError": 0.6592306060606064
+						},
+						"peak-wk": {
+							"logScore": -3.0618725646104785,
+							"absError": 1.696969696969697
+						},
+						"onset-wk": {
+							"logScore": -2.6837748579391922,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.1769627878787879
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9627624545454545
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.9861046363636365
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.2241708181818183
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.030517878787878
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.1515151515151514
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.303030303030303
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.1769627878787879
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.0134248787878788
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4184216060606063
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.6756859696969695
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.845389999999999
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.212121212121212
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 3.0303030303030303
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.1769627878787879
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.9897303333333336
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.8406500909090908
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8665950606060604
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.9517299999999995
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.1818181818181817
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.1515151515151514
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.1769627878787879
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7090515454545454
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.0164076666666666
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.2787162727272727
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.3335481818181811
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.5757575757575757
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.1769627878787879
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.4954903333333336
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.967922818181818
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8665950606060604
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.6699118181818173
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.242424242424242
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.4242424242424243
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.1769627878787879
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.4237956060606058
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4110729393939392
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.6726556666666668
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.0211475757575745
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.212121212121212
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 3
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.5610514334944243,
+							"absError": 0.2687983030303029
+						},
+						"2-ahead": {
+							"logScore": -2.682267163727683,
+							"absError": 0.3188890606060606
+						},
+						"3-ahead": {
+							"logScore": -2.831167783002481,
+							"absError": 0.3595015454545452
+						},
+						"4-ahead": {
+							"logScore": -2.921511538493847,
+							"absError": 0.3921145757575757
+						},
+						"peak": {
+							"logScore": -2.8110642693294565,
+							"absError": 0.37314636363636394
+						},
+						"peak-wk": {
+							"logScore": -1.7753901294672756,
+							"absError": 1.2727272727272727
+						},
+						"onset-wk": {
+							"logScore": -1.9059230601804347,
+							"absError": 2.242424242424242
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.494222179520943,
+							"absError": 0.2449398181818182
+						},
+						"2-ahead": {
+							"logScore": -2.4884614982796625,
+							"absError": 0.2025746969696981
+						},
+						"3-ahead": {
+							"logScore": -2.4951324215395343,
+							"absError": 0.21831124242424244
+						},
+						"4-ahead": {
+							"logScore": -2.576605384144362,
+							"absError": 0.25317142424242417
+						},
+						"peak": {
+							"logScore": -2.5546329296728327,
+							"absError": 0.3038469696969701
+						},
+						"peak-wk": {
+							"logScore": -1.6980749151189973,
+							"absError": 0.696969696969697
+						},
+						"onset-wk": {
+							"logScore": -2.0562248082898935,
+							"absError": 1.2727272727272727
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.851909257683518,
+							"absError": 0.30705836363636363
+						},
+						"2-ahead": {
+							"logScore": -3.272468310892596,
+							"absError": 0.3648928787878787
+						},
+						"3-ahead": {
+							"logScore": -2.8779744918721617,
+							"absError": 0.36171584848484845
+						},
+						"4-ahead": {
+							"logScore": -2.91595618992966,
+							"absError": 0.38653439393939293
+						},
+						"peak": {
+							"logScore": -4.014799299680529,
+							"absError": 0.6562003030303034
+						},
+						"peak-wk": {
+							"logScore": -1.6446070307632328,
+							"absError": 0.3333333333333333
+						},
+						"onset-wk": {
+							"logScore": -2.3165039294808105,
+							"absError": 0.5757575757575758
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.685631580926419,
+							"absError": 0.30505363710401573
+						},
+						"2-ahead": {
+							"logScore": -3.817350003548793,
+							"absError": 0.376077
+						},
+						"3-ahead": {
+							"logScore": -4.130568461756183,
+							"absError": 0.41005639393939397
+						},
+						"4-ahead": {
+							"logScore": -4.042536788120781,
+							"absError": 0.44573422994127304
+						},
+						"peak": {
+							"logScore": -5.884044152104708,
+							"absError": 0.6743821212121216
+						},
+						"peak-wk": {
+							"logScore": -2.3406177866053417,
+							"absError": 1.606060606060606
+						},
+						"onset-wk": {
+							"logScore": -5.110480253905956,
+							"absError": 2.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.554341296436688,
+							"absError": 0.3323828484848485
+						},
+						"2-ahead": {
+							"logScore": -4.605832610956732,
+							"absError": 0.3813767575757574
+						},
+						"3-ahead": {
+							"logScore": -4.945544129610265,
+							"absError": 0.4621000303030303
+						},
+						"4-ahead": {
+							"logScore": -4.947828990468054,
+							"absError": 0.504946393939394
+						},
+						"peak": {
+							"logScore": -6.326073602233427,
+							"absError": 0.7895336363636366
+						},
+						"peak-wk": {
+							"logScore": -3.2730499765057304,
+							"absError": 1.2121212121212122
+						},
+						"onset-wk": {
+							"logScore": -5.41988219075591,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.741164979123085,
+							"absError": 0.3105260606060606
+						},
+						"2-ahead": {
+							"logScore": -3.7228973131677936,
+							"absError": 0.3066788181818181
+						},
+						"3-ahead": {
+							"logScore": -3.705207751867259,
+							"absError": 0.3005034242424242
+						},
+						"4-ahead": {
+							"logScore": -3.68816648624665,
+							"absError": 0.2983473636363636
+						},
+						"peak": {
+							"logScore": -3.787549941499425,
+							"absError": 0.3197936363636367
+						},
+						"peak-wk": {
+							"logScore": -2.734161508508444,
+							"absError": 0.09090909090909091
+						},
+						"onset-wk": {
+							"logScore": -3.052185139254,
+							"absError": 2.212121212121212
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.741164979123085,
+							"absError": 0.3105260606060606
+						},
+						"2-ahead": {
+							"logScore": -3.7228973131677936,
+							"absError": 0.3066788181818181
+						},
+						"3-ahead": {
+							"logScore": -3.705207751867259,
+							"absError": 0.3005034242424242
+						},
+						"4-ahead": {
+							"logScore": -3.68816648624665,
+							"absError": 0.2983473636363636
+						},
+						"peak": {
+							"logScore": -4.414385140609967,
+							"absError": 0.9453899999999998
+						},
+						"peak-wk": {
+							"logScore": -3.303284631796597,
+							"absError": 7
+						},
+						"onset-wk": {
+							"logScore": -3.5516045950050166,
+							"absError": 7
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.520744265987456,
+							"absError": 0.24369310299997624
+						},
+						"2-ahead": {
+							"logScore": -2.5687030112601605,
+							"absError": 0.22627588157719733
+						},
+						"3-ahead": {
+							"logScore": -2.613982456582142,
+							"absError": 0.2248920580158711
+						},
+						"4-ahead": {
+							"logScore": -2.6982748335348226,
+							"absError": 0.24517849713541162
+						},
+						"peak": {
+							"logScore": -2.771858011447442,
+							"absError": 0.3766918829431207
+						},
+						"peak-wk": {
+							"logScore": -1.4593103015077133,
+							"absError": 0.7272727272727273
+						},
+						"onset-wk": {
+							"logScore": -1.8624754815679974,
+							"absError": 2.3636363636363638
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.422792545454545
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.428036212121211
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.437012333333333
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 5.449928393939394
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 3.895390000000002
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.7549945487237655,
+							"absError": 0.22291654545454548
+						},
+						"2-ahead": {
+							"logScore": -2.7782485279404967,
+							"absError": 0.23704378787878785
+						},
+						"3-ahead": {
+							"logScore": -2.808028794720353,
+							"absError": 0.24218639393939395
+						},
+						"4-ahead": {
+							"logScore": -2.8623988639546973,
+							"absError": 0.24754360606060596
+						},
+						"peak": {
+							"logScore": -2.887538100168924,
+							"absError": 0.3382548484848488
+						},
+						"peak-wk": {
+							"logScore": -1.419199603946375,
+							"absError": 0.7272727272727273
+						},
+						"onset-wk": {
+							"logScore": -1.4246437296051253,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.726059171782133,
+							"absError": 0.23848466666666662
+						},
+						"2-ahead": {
+							"logScore": -2.676737582932771,
+							"absError": 0.24582936363636357
+						},
+						"3-ahead": {
+							"logScore": -2.7545338580687577,
+							"absError": 0.27605639393939385
+						},
+						"4-ahead": {
+							"logScore": -2.782147200553225,
+							"absError": 0.2708013030303029
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.25643666666666703
+						},
+						"peak-wk": {
+							"logScore": -1.473577088094309,
+							"absError": 1.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": -1.562262061657557,
+							"absError": 1.5757575757575757
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9946760179782834,
+							"absError": 0.2687470909090909
+						},
+						"2-ahead": {
+							"logScore": -2.975288870101482,
+							"absError": 0.26047312121212113
+						},
+						"3-ahead": {
+							"logScore": -2.9622288628403743,
+							"absError": 0.257557606060606
+						},
+						"4-ahead": {
+							"logScore": -2.910933342960477,
+							"absError": 0.25676275757575756
+						},
+						"peak": {
+							"logScore": -3.9881232037522816,
+							"absError": 1.2453900000000002
+						},
+						"peak-wk": {
+							"logScore": -2.6706906952778198,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -3.012887991394359,
+							"absError": 5
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.866751733951153,
+							"absError": 0.3018432727272726
+						},
+						"2-ahead": {
+							"logScore": -2.950959535762561,
+							"absError": 0.35946306060606054
+						},
+						"3-ahead": {
+							"logScore": -3.0514396809296502,
+							"absError": 0.42777833333333326
+						},
+						"4-ahead": {
+							"logScore": -3.14033263141386,
+							"absError": 0.5087222727272727
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.5031700000000003
+						},
+						"peak-wk": {
+							"logScore": -1.9333690983117349,
+							"absError": 1.303030303030303
+						},
+						"onset-wk": {
+							"logScore": -2.070356609424886,
+							"absError": 1.0303030303030303
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.883711066879179,
+							"absError": 0.30494666666666653
+						},
+						"2-ahead": {
+							"logScore": -2.9658448485959035,
+							"absError": 0.34044342424242413
+						},
+						"3-ahead": {
+							"logScore": -3.0163546473962977,
+							"absError": 0.3845195454545454
+						},
+						"4-ahead": {
+							"logScore": -3.0623407652041683,
+							"absError": 0.441774818181818
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.294756060606061
+						},
+						"peak-wk": {
+							"logScore": -1.8649430513616057,
+							"absError": 1.1818181818181819
+						},
+						"onset-wk": {
+							"logScore": -1.679547213727492,
+							"absError": 0.7272727272727273
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs9",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.293882608702798,
+							"absError": 0.9183833333333332
+						},
+						"2-ahead": {
+							"logScore": -4.437166286840608,
+							"absError": 0.78454
+						},
+						"3-ahead": {
+							"logScore": -4.618836962851047,
+							"absError": 0.8730706060606062
+						},
+						"4-ahead": {
+							"logScore": -4.285488340101449,
+							"absError": 0.9565084848484847
+						},
+						"peak": {
+							"logScore": -4.141874476164567,
+							"absError": 0.7612612121212117
+						},
+						"peak-wk": {
+							"logScore": -5.339043546498355,
+							"absError": 3.8484848484848486
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.45062333333333343
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5234884848484846
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.8252706060606061
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.1045242424242427
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.2764939393939387
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.8181818181818183
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.45062333333333343
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.8501666666666668
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.2005548484848485
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.2204842424242421
+						},
+						"peak": {
+							"logScore": -2.7400375702690507,
+							"absError": 0.8916454545454537
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.9696969696969697
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.45062333333333343
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.5321224242424243
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.7687348484848487
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.1128660606060603
+						},
+						"peak": {
+							"logScore": -2.7640330225275136,
+							"absError": 1.295085454545454
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.3333333333333335
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.45062333333333343
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6392030303030304
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.8362796969696968
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.0732151515151513
+						},
+						"peak": {
+							"logScore": -2.6395448612261068,
+							"absError": 0.7859945454545448
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.121212121212121
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.45062333333333343
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.1518896969696966
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.9222403030303024
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.3927315151515156
+						},
+						"peak": {
+							"logScore": -2.8409607315961996,
+							"absError": 2.079933939393939
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.4545454545454546
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.45062333333333343
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 1.6513242424242423
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.4762603030303032
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.3535200000000003
+						},
+						"peak": {
+							"logScore": -2.713092829516099,
+							"absError": 1.4738733333333331
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 3.6666666666666665
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.4336199756743855,
+							"absError": 0.4796390909090906
+						},
+						"2-ahead": {
+							"logScore": -3.6060039732980402,
+							"absError": 0.5627769696969702
+						},
+						"3-ahead": {
+							"logScore": -3.7722952563279466,
+							"absError": 0.6329706060606064
+						},
+						"4-ahead": {
+							"logScore": -3.918892188859066,
+							"absError": 0.6939533333333338
+						},
+						"peak": {
+							"logScore": -3.2877275959783154,
+							"absError": 0.36457757575757554
+						},
+						"peak-wk": {
+							"logScore": -4.8752849060667796,
+							"absError": 6.151515151515151
+						},
+						"onset-wk": {
+							"logScore": -6.656203201597068,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.976115587907419,
+							"absError": 0.881337878787879
+						},
+						"2-ahead": {
+							"logScore": -4.350317065078742,
+							"absError": 0.9265624242424244
+						},
+						"3-ahead": {
+							"logScore": -3.995924964460241,
+							"absError": 0.9235548484848517
+						},
+						"4-ahead": {
+							"logScore": -3.931257819041329,
+							"absError": 0.9193921212121213
+						},
+						"peak": {
+							"logScore": -4.582797596818058,
+							"absError": 0.3180175757575754
+						},
+						"peak-wk": {
+							"logScore": -4.347160596596156,
+							"absError": 4.666666666666667
+						},
+						"onset-wk": {
+							"logScore": -6.770925817812414,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -6.476995106855745,
+							"absError": 0.8312584848484849
+						},
+						"2-ahead": {
+							"logScore": -5.0320476351869345,
+							"absError": 0.9143787878787877
+						},
+						"3-ahead": {
+							"logScore": -4.326245482135505,
+							"absError": 0.9415681818181816
+						},
+						"4-ahead": {
+							"logScore": -4.103657565606513,
+							"absError": 0.9732490909090918
+						},
+						"peak": {
+							"logScore": -4.370515358576279,
+							"absError": 0.3677315151515148
+						},
+						"peak-wk": {
+							"logScore": -4.431038901771429,
+							"absError": 4.696969696969697
+						},
+						"onset-wk": {
+							"logScore": -6.772488280398242,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.008823091485679,
+							"absError": 0.5626463636363634
+						},
+						"2-ahead": {
+							"logScore": -4.696257224547464,
+							"absError": 0.7035503030303029
+						},
+						"3-ahead": {
+							"logScore": -4.712428717807133,
+							"absError": 0.7875342424242424
+						},
+						"4-ahead": {
+							"logScore": -4.683795344826091,
+							"absError": 0.7973169696969697
+						},
+						"peak": {
+							"logScore": -4.84319762208842,
+							"absError": 0.3772321212121209
+						},
+						"peak-wk": {
+							"logScore": -7.21164484383412,
+							"absError": 5.03030303030303
+						},
+						"onset-wk": {
+							"logScore": -9.59542388367792,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -5.893402083702308,
+							"absError": 0.8816021212121209
+						},
+						"2-ahead": {
+							"logScore": -6.385833784436188,
+							"absError": 1.0984975757575755
+						},
+						"3-ahead": {
+							"logScore": -6.284998514076855,
+							"absError": 1.1632316158325806
+						},
+						"4-ahead": {
+							"logScore": -5.850232601639755,
+							"absError": 1.0809478787878788
+						},
+						"peak": {
+							"logScore": -6.959401536568339,
+							"absError": 0.9018842424242423
+						},
+						"peak-wk": {
+							"logScore": -7.559646232719397,
+							"absError": 7.090909090909091
+						},
+						"onset-wk": {
+							"logScore": -9.287441268402787,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.070130784330499,
+							"absError": 0.8349221212121212
+						},
+						"2-ahead": {
+							"logScore": -4.0632904336459745,
+							"absError": 0.8481054545454547
+						},
+						"3-ahead": {
+							"logScore": -4.054173786054615,
+							"absError": 0.8431524242424244
+						},
+						"4-ahead": {
+							"logScore": -4.042001691674127,
+							"absError": 0.8396436363636364
+						},
+						"peak": {
+							"logScore": -3.793603126596169,
+							"absError": 0.4746115151515148
+						},
+						"peak-wk": {
+							"logScore": -3.1853131383293047,
+							"absError": 3.242424242424242
+						},
+						"onset-wk": {
+							"logScore": -3.2639265184976227,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.070130784330499,
+							"absError": 0.8349221212121212
+						},
+						"2-ahead": {
+							"logScore": -4.0632904336459745,
+							"absError": 0.8481054545454547
+						},
+						"3-ahead": {
+							"logScore": -4.054173786054615,
+							"absError": 0.8431524242424244
+						},
+						"4-ahead": {
+							"logScore": -4.042001691674127,
+							"absError": 0.8396436363636364
+						},
+						"peak": {
+							"logScore": -4.410162405947593,
+							"absError": 1.678380000000002
+						},
+						"peak-wk": {
+							"logScore": -3.280023024105503,
+							"absError": 2
+						},
+						"onset-wk": {
+							"logScore": -3.550409144772527,
+							"absError": 8
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9619079958167713,
+							"absError": 0.8128694938988379
+						},
+						"2-ahead": {
+							"logScore": -4.001185636582317,
+							"absError": 0.8414230168986409
+						},
+						"3-ahead": {
+							"logScore": -3.8072414156599095,
+							"absError": 0.8247200005634441
+						},
+						"4-ahead": {
+							"logScore": -3.813958739454593,
+							"absError": 0.834578489356689
+						},
+						"peak": {
+							"logScore": -2.9977256830048784,
+							"absError": 0.30471567507286473
+						},
+						"peak-wk": {
+							"logScore": -3.8432249967378604,
+							"absError": 5.454545454545454
+						},
+						"onset-wk": {
+							"logScore": -5.364944026992729,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.510987575757577
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.50386484848485
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.5057875757575765
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 3.512326666666667
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 1.8283800000000023
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 4
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 2
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.5474593223796513,
+							"absError": 0.4133712121212121
+						},
+						"2-ahead": {
+							"logScore": -3.620978503298764,
+							"absError": 0.42662424242424246
+						},
+						"3-ahead": {
+							"logScore": -3.6927549165629476,
+							"absError": 0.48531121212121214
+						},
+						"4-ahead": {
+							"logScore": -3.7274302676041677,
+							"absError": 0.5305836363636361
+						},
+						"peak": {
+							"logScore": -2.669126970816811,
+							"absError": 0.787552121212121
+						},
+						"peak-wk": {
+							"logScore": -3.878353998920987,
+							"absError": 3.484848484848485
+						},
+						"onset-wk": {
+							"logScore": -3.420133859531361,
+							"absError": 2.787878787878788
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.7677779294298954,
+							"absError": 0.7027530303030305
+						},
+						"2-ahead": {
+							"logScore": -4.030842432208468,
+							"absError": 0.7600587878787877
+						},
+						"3-ahead": {
+							"logScore": -4.034861901345566,
+							"absError": 0.7083893939393938
+						},
+						"4-ahead": {
+							"logScore": -3.8844428472900003,
+							"absError": 0.7171345454545456
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.8975436363636361
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 4.242424242424242
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 5.636363636363637
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.8372583969846086,
+							"absError": 0.5938009090909092
+						},
+						"2-ahead": {
+							"logScore": -3.8661842899367165,
+							"absError": 0.6039539393939397
+						},
+						"3-ahead": {
+							"logScore": -3.8943496521296135,
+							"absError": 0.6219742424242426
+						},
+						"4-ahead": {
+							"logScore": -3.8823449815348843,
+							"absError": 0.6409466666666669
+						},
+						"peak": {
+							"logScore": -4.247888505302853,
+							"absError": 2.1874709090909112
+						},
+						"peak-wk": {
+							"logScore": -3.1142688325695884,
+							"absError": 5.03030303030303
+						},
+						"onset-wk": {
+							"logScore": -3.240543317193246,
+							"absError": 6.03030303030303
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.069439441898081,
+							"absError": 0.8921487878787879
+						},
+						"2-ahead": {
+							"logScore": -3.9714317339121323,
+							"absError": 0.9272369696969697
+						},
+						"3-ahead": {
+							"logScore": -4.008219279903781,
+							"absError": 0.9502869696969696
+						},
+						"4-ahead": {
+							"logScore": -4.037849333942087,
+							"absError": 0.9791224242424242
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.31883696969696934
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.787878787878788
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 4.151515151515151
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.545011088996405,
+							"absError": 0.5405827272727272
+						},
+						"2-ahead": {
+							"logScore": -3.770465386499992,
+							"absError": 0.7038890909090908
+						},
+						"3-ahead": {
+							"logScore": -3.6821750172779955,
+							"absError": 0.6662342424242423
+						},
+						"4-ahead": {
+							"logScore": -3.708941714412307,
+							"absError": 0.6771151515151514
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.7776418181818179
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 2.3636363636363638
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 4.696969696969697
+						}
+					}
+				}
+			]
+		},
+		{
+			"id": "hhs10",
+			"models": [
+				{
+					"id": "CU-BMA",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.6185593331864516,
+							"absError": 0.9015781515151515
+						},
+						"2-ahead": {
+							"logScore": -4.065730849818372,
+							"absError": 0.870157
+						},
+						"3-ahead": {
+							"logScore": -3.780924297967914,
+							"absError": 0.8365799696969697
+						},
+						"4-ahead": {
+							"logScore": -3.7072037949991223,
+							"absError": 0.859978515151515
+						},
+						"peak": {
+							"logScore": -3.5054522367710814,
+							"absError": 0.6687269696969699
+						},
+						"peak-wk": {
+							"logScore": -1.5712390199244581,
+							"absError": 1.8181818181818181
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.1818181818181817
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2657903333333333
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6366385151515155
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9809667575757577
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5098777272727268
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.1784645454545473
+						},
+						"peak-wk": {
+							"logScore": -2.198978169149333,
+							"absError": 1.8484848484848484
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EAKFC_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2657903333333333
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.8314900303030307
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.1680085757575758
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5553322727272727
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 1.372403939393938
+						},
+						"peak-wk": {
+							"logScore": -2.310967341564292,
+							"absError": 2.4545454545454546
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2657903333333333
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.6336082121212121
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 0.9896916060606059
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5492716666666664
+						},
+						"peak": {
+							"logScore": -3.1277836475118415,
+							"absError": 2.1784645454545473
+						},
+						"peak-wk": {
+							"logScore": -2.1742753553352063,
+							"absError": 1.8484848484848484
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-EKF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2657903333333333
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7760324545454544
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.170592090909091
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.5583233636363638
+						},
+						"peak": {
+							"logScore": -2.8394047016677817,
+							"absError": 1.2438378787878774
+						},
+						"peak-wk": {
+							"logScore": -2.3570825462782947,
+							"absError": 2.393939393939394
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 3.6363636363636362
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SEIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2657903333333333
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 0.7602342727272728
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 1.2317806969696967
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 1.8068474242424242
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 2.529333030303032
+						},
+						"peak-wk": {
+							"logScore": -2.2019214239477742,
+							"absError": 2.0303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": null
+						}
+					}
+				},
+				{
+					"id": "CU-RHF_SIRS",
+					"scores": {
+						"1-ahead": {
+							"logScore": null,
+							"absError": 0.2657903333333333
+						},
+						"2-ahead": {
+							"logScore": null,
+							"absError": 2.8396688181818193
+						},
+						"3-ahead": {
+							"logScore": null,
+							"absError": 2.874204939393939
+						},
+						"4-ahead": {
+							"logScore": null,
+							"absError": 2.985635303030302
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 3.3451312121212147
+						},
+						"peak-wk": {
+							"logScore": -2.3380501972667505,
+							"absError": 2.8484848484848486
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 3.696969696969697
+						}
+					}
+				},
+				{
+					"id": "Delphi-BasisRegression",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.355034903064241,
+							"absError": 0.49232227272727275
+						},
+						"2-ahead": {
+							"logScore": -3.3795054496502157,
+							"absError": 0.5523603333333332
+						},
+						"3-ahead": {
+							"logScore": -3.390841591865346,
+							"absError": 0.5817114848484848
+						},
+						"4-ahead": {
+							"logScore": -3.4000262770840024,
+							"absError": 0.6148139696969696
+						},
+						"peak": {
+							"logScore": -2.6601899396347335,
+							"absError": 0.34489060606060656
+						},
+						"peak-wk": {
+							"logScore": -1.9277369015684787,
+							"absError": 0.6666666666666666
+						},
+						"onset-wk": {
+							"logScore": -2.7073547078103473,
+							"absError": 2.9393939393939394
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.178248175980159,
+							"absError": 0.4711996060606072
+						},
+						"2-ahead": {
+							"logScore": -3.1876505593510744,
+							"absError": 0.4762430606060607
+						},
+						"3-ahead": {
+							"logScore": -3.21936183294136,
+							"absError": 0.5153166363636352
+						},
+						"4-ahead": {
+							"logScore": -3.300035375217397,
+							"absError": 0.554218515151515
+						},
+						"peak": {
+							"logScore": -3.8119980688124593,
+							"absError": 0.5951500000000001
+						},
+						"peak-wk": {
+							"logScore": -2.5773014531153295,
+							"absError": 1.4848484848484849
+						},
+						"onset-wk": {
+							"logScore": -2.5742527420689436,
+							"absError": 2.121212121212121
+						}
+					}
+				},
+				{
+					"id": "Delphi-DeltaDensity2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.546766298832596,
+							"absError": 0.4802196666666656
+						},
+						"2-ahead": {
+							"logScore": -3.2803016900160062,
+							"absError": 0.565715787878788
+						},
+						"3-ahead": {
+							"logScore": -3.3712232133692126,
+							"absError": 0.5331063333333321
+						},
+						"4-ahead": {
+							"logScore": -3.34568967872229,
+							"absError": 0.49968215151515144
+						},
+						"peak": {
+							"logScore": -3.867890755156536,
+							"absError": 0.4921196969696972
+						},
+						"peak-wk": {
+							"logScore": -2.4876706645744755,
+							"absError": 0.6060606060606061
+						},
+						"onset-wk": {
+							"logScore": -2.6597907631270763,
+							"absError": 1.4545454545454546
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.16718544328966,
+							"absError": 0.423127303030303
+						},
+						"2-ahead": {
+							"logScore": -3.4991501915775878,
+							"absError": 0.4932973636363635
+						},
+						"3-ahead": {
+							"logScore": -3.350267376883899,
+							"absError": 0.5649728181818182
+						},
+						"4-ahead": {
+							"logScore": -3.513940336833489,
+							"absError": 0.6254495454545456
+						},
+						"peak": {
+							"logScore": -4.247336874663648,
+							"absError": 0.9191518181818185
+						},
+						"peak-wk": {
+							"logScore": -3.30399031789339,
+							"absError": 3.393939393939394
+						},
+						"onset-wk": {
+							"logScore": -3.3572852495945873,
+							"absError": 1.7575757575757576
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalBayes2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1767664725087954,
+							"absError": 0.4435481515151514
+						},
+						"2-ahead": {
+							"logScore": -3.2144398347429743,
+							"absError": 0.4172186363636365
+						},
+						"3-ahead": {
+							"logScore": -3.070669851654874,
+							"absError": 0.41468978787878796
+						},
+						"4-ahead": {
+							"logScore": -3.218580797630832,
+							"absError": 0.45084457575757586
+						},
+						"peak": {
+							"logScore": -4.397481476373356,
+							"absError": 0.7330100000000003
+						},
+						"peak-wk": {
+							"logScore": -3.026501932537915,
+							"absError": 2.727272727272727
+						},
+						"onset-wk": {
+							"logScore": -3.0282000742554946,
+							"absError": 2.3333333333333335
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalFuture",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9918559601246395,
+							"absError": 0.4446933030303031
+						},
+						"2-ahead": {
+							"logScore": -3.979589720658065,
+							"absError": 0.4557494242424244
+						},
+						"3-ahead": {
+							"logScore": -3.9687782257807833,
+							"absError": 0.4568145151515153
+						},
+						"4-ahead": {
+							"logScore": -3.954606809371656,
+							"absError": 0.44646760606060615
+						},
+						"peak": {
+							"logScore": -4.020751388881533,
+							"absError": 0.7295736363636364
+						},
+						"peak-wk": {
+							"logScore": -2.8628882394396933,
+							"absError": 0.15151515151515152
+						},
+						"onset-wk": {
+							"logScore": -2.8691699551844208,
+							"absError": 2.090909090909091
+						}
+					}
+				},
+				{
+					"id": "Delphi-EmpiricalTraj",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.9918559601246395,
+							"absError": 0.4446933030303031
+						},
+						"2-ahead": {
+							"logScore": -3.979589720658065,
+							"absError": 0.4557494242424244
+						},
+						"3-ahead": {
+							"logScore": -3.9687782257807833,
+							"absError": 0.4568145151515153
+						},
+						"4-ahead": {
+							"logScore": -3.954606809371656,
+							"absError": 0.44646760606060615
+						},
+						"peak": {
+							"logScore": -4.706037859410469,
+							"absError": 3.0893300000000004
+						},
+						"peak-wk": {
+							"logScore": -3.180142155871356,
+							"absError": 0
+						},
+						"onset-wk": {
+							"logScore": -3.27328971970709,
+							"absError": 6
+						}
+					}
+				},
+				{
+					"id": "Delphi-Stat",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1199579161013715,
+							"absError": 0.4518288917500758
+						},
+						"2-ahead": {
+							"logScore": -3.220193853167446,
+							"absError": 0.44326769791334397
+						},
+						"3-ahead": {
+							"logScore": -3.2412167024096448,
+							"absError": 0.4656279647621808
+						},
+						"4-ahead": {
+							"logScore": -3.2782783791650765,
+							"absError": 0.4579645242675509
+						},
+						"peak": {
+							"logScore": -2.9417325403878634,
+							"absError": 0.5700129141233422
+						},
+						"peak-wk": {
+							"logScore": -2.0849640868734127,
+							"absError": 0.9090909090909091
+						},
+						"onset-wk": {
+							"logScore": -2.194764483937309,
+							"absError": 2.121212121212121
+						}
+					}
+				},
+				{
+					"id": "Delphi-Uniform",
+					"scores": {
+						"1-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.888367242424243
+						},
+						"2-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.89639306060606
+						},
+						"3-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.903518757575759
+						},
+						"4-ahead": {
+							"logScore": -4.87519732320115,
+							"absError": 4.911353666666668
+						},
+						"peak": {
+							"logScore": -4.87519732320115,
+							"absError": 2.6393300000000006
+						},
+						"peak-wk": {
+							"logScore": -3.496507561466483,
+							"absError": 3
+						},
+						"onset-wk": {
+							"logScore": -3.526360524616163,
+							"absError": 1
+						}
+					}
+				},
+				{
+					"id": "LANL-DBM",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.1626681635362113,
+							"absError": 0.3809481515151516
+						},
+						"2-ahead": {
+							"logScore": -3.2069862610097126,
+							"absError": 0.4141097272727274
+						},
+						"3-ahead": {
+							"logScore": -3.2393764236848317,
+							"absError": 0.48393178787878777
+						},
+						"4-ahead": {
+							"logScore": -3.268559651943508,
+							"absError": 0.5201197272727274
+						},
+						"peak": {
+							"logScore": -2.9133185278998255,
+							"absError": 0.8113918181818184
+						},
+						"peak-wk": {
+							"logScore": -1.3167420728349755,
+							"absError": 1.393939393939394
+						},
+						"onset-wk": {
+							"logScore": -1.7707135488036447,
+							"absError": 1.8484848484848484
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KCDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.0398546217595896,
+							"absError": 0.4015280909090909
+						},
+						"2-ahead": {
+							"logScore": -3.1584349890971053,
+							"absError": 0.45939693939393944
+						},
+						"3-ahead": {
+							"logScore": -3.2074379114027507,
+							"absError": 0.49003481818181815
+						},
+						"4-ahead": {
+							"logScore": -3.2132955783740407,
+							"absError": 0.5264565151515151
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.6830287878787878
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.7272727272727273
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 2.121212121212121
+						}
+					}
+				},
+				{
+					"id": "ReichLab-KDE",
+					"scores": {
+						"1-ahead": {
+							"logScore": -3.3328756578558703,
+							"absError": 0.4791439090909091
+						},
+						"2-ahead": {
+							"logScore": -3.342405863919834,
+							"absError": 0.47237045454545457
+						},
+						"3-ahead": {
+							"logScore": -3.3144807510417404,
+							"absError": 0.4734355454545454
+						},
+						"4-ahead": {
+							"logScore": -3.311156761255736,
+							"absError": 0.4616104545454546
+						},
+						"peak": {
+							"logScore": -4.459710215362604,
+							"absError": 3.065087575757577
+						},
+						"peak-wk": {
+							"logScore": -2.484892583141212,
+							"absError": 1
+						},
+						"onset-wk": {
+							"logScore": -3.0240125742399693,
+							"absError": 4
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA1",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.9979218768651563,
+							"absError": 0.36473475757575763
+						},
+						"2-ahead": {
+							"logScore": -3.1798878529236623,
+							"absError": 0.43672099999999997
+						},
+						"3-ahead": {
+							"logScore": -3.3255992809325075,
+							"absError": 0.5525752424242425
+						},
+						"4-ahead": {
+							"logScore": -3.371586870793852,
+							"absError": 0.6264765151515151
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.32412212121212153
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.0606060606060606
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 1.4848484848484849
+						}
+					}
+				},
+				{
+					"id": "ReichLab-SARIMA2",
+					"scores": {
+						"1-ahead": {
+							"logScore": -2.98781292285176,
+							"absError": 0.3027583939393939
+						},
+						"2-ahead": {
+							"logScore": -3.0968440985040764,
+							"absError": 0.3379124545454545
+						},
+						"3-ahead": {
+							"logScore": -3.1564583431224666,
+							"absError": 0.37353112121212123
+						},
+						"4-ahead": {
+							"logScore": -3.2034556638689597,
+							"absError": 0.4100472424242425
+						},
+						"peak": {
+							"logScore": null,
+							"absError": 0.38779606060606076
+						},
+						"peak-wk": {
+							"logScore": null,
+							"absError": 1.303030303030303
+						},
+						"onset-wk": {
+							"logScore": null,
+							"absError": 0.2727272727272727
+						}
+					}
+				}
+			]
+		}
+	]
+};
